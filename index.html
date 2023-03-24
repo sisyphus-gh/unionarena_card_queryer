@@ -88,7 +88,7 @@
                 }
 
                 var imgFileName = data.cardNumData.replace("/", "_") + ".png";
-                cardDivHtml = cardDivHtml + '<img onclick="clickCard(this);" cardNumData2="' + data.cardNumData2 + '" src="/card/' + imgFileName + '" class="cardImage"/>';
+                cardDivHtml = cardDivHtml + '<img onclick="clickCard(this);" cardNumData2="' + data.cardNumData2 + '" src="./card/' + imgFileName + '" class="cardImage"/>';
             }
             cardDiv.innerHTML = cardDivHtml;
         }
