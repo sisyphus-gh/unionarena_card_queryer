@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <!-- <script src='main.js'></script> -->
+
+
+    <script>
+        var datas;
+        var datasMap = {};
+
+        function deckInfoChanged(e) {
+            var deckInfo = e.value;
+            var cardList = deckInfo.split("\n");
+            var deckMap = new Map();
+
+            for (var i = 0; i < cardList.length; i++) {
+                var card = cardList[i].split(" ")[0];
+                var data = datasMap[card];
+
+                if (data != null) {
+                    var num = deckMap.get(data);
+                    if (num == null) {
+                        deckMap.set(data, 1);
+                    } else {
+                        deckMap.set(data, num + 1);
+                    }
+                }
+            }
+
+            console.log(typeof deckMap);
+
+            var count = 0;
+
+            var cardDiv = document.getElementById("cardListArea");
+            var cardDivHtml = "";
+
+            deckMap.forEach((num, data) => {
+                console.log('', data);
+                console.log('', num);
+                var imgFileName = data.cardNumData.replace("/", "_") + ".png";
+                cardDivHtml = cardDivHtml + `<div class="cardImageBox">
+                    <img src="./card/${imgFileName}" class="cardImage"/>
+                    <p style="font-size: 16px;font-weight: bolder;">${data.cardNumData}</p>
+                    <p style="font-size: 16px;">${data.cardCnName}</p>
+                    <p style="font-size: 16px;font-weight: bolder;">x ${num}</p>
+                    </div>`;
+                count += num;
+            });
+
+            cardDiv.innerHTML = cardDivHtml;
+
+            document.getElementById("deckCount").innerHTML = count;
+        }
+
+
+        window.onload = function () {
+            var url = "./data_cn.json"
+            var request = new XMLHttpRequest();
+            request.open("get", url); /*设置请求方法与路径*/
+            request.send(null); /*不发送数据到服务器*/
+            request.onload = function () { /*XHR对象获取到返回信息后执行*/
+                if (request.status == 200) { /*返回状态为200，即为数据获取成功*/
+                    datas = JSON.parse(request.responseText);
+                    for (var i = 0; i < datas.length; i++) {
+                        var data = datas[i];
+                        datasMap[data.cardNumData] = data;
+                    }
+
+                    var queryString = window.location.search;
+                    var urlParams = new URLSearchParams(queryString);
+                    var deck = urlParams.get('deck');
+                    document.getElementById("deckInfo").value = deck;
+                    deckInfoChanged(document.getElementById("deckInfo"))
+                }
+            }
+        };
+    </script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+        #deckArea {
+            width: 20%;
+            text-align: center;
+        }
+
+        #deckInfo {
+            width: 80%;
+            margin: 10px auto;
+            display: block;
+            height: 80vh;
+        }
+
+
+
+        #cardListArea {
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .cardImageBox {
+            width: 14.28%;
+        }
+
+        .cardImageBox p {
+            text-align: center;
+        }
+
+        .cardImage {
+            /* width: 19.5% */
+            width: 167px;
+            margin: 3px 3px 3px 3px;
+            height: 233px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <div id="deckArea">
+            <textarea id="deckInfo" oninput="deckInfoChanged(this);"></textarea>
+            <h1 style=" text-align: center;">卡组总数:<span id="deckCount">0</span></h1>
+            <button style=""
+                onclick='alert("https://sisyphus2016.gitee.io/unionarena_card_queryer/deck_edit.html?deck="+document.getElementById("deckInfo").value.replaceAll("\n","%0A"))'>导出</button>
+        </div>
+
+
+        <div id="cardListArea">
+            <!-- <img src="./card/UA01BT_CGH-1-001.png" class="cardImage"> -->
+        </div>
+
+    </div>
+</body>
+
+</html>

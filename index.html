@@ -70,7 +70,7 @@
             var cardDivHtml = "";
             for (var i = 0; i < datas.length; i++) {
                 var data = datas[i];
-            
+
                 if (cardCnName != "" && !data.cardCnName.includes(cardCnName)) {
                     continue;
                 }
@@ -99,13 +99,20 @@
             margin: 0px;
         }
 
-        .main {
+        .searchBox {
             display: flex;
             flex-wrap: wrap;
+            padding-left: 13px;
+            padding-bottom: 10px;
+        }
+
+        .main {
+            width: calc(100vw - 490px);
         }
 
         #cardListArea {
-            width: 70%;
+            display: flex;
+            flex-wrap: wrap;
             display: flex;
             flex-wrap: wrap;
             padding: 0 0 0 10px;
@@ -117,7 +124,7 @@
             right: 10px;
             border-width: 4px;
             border-style: double;
-            width: calc(30% - 10px);
+            width: 440px;
             height: calc(100vh - 30px);
             overflow: hidden;
             overflow-y: auto;
@@ -133,58 +140,60 @@
 </head>
 
 <body>
-    <div style="margin-left: 13px;margin-bottom: 10px;">
-        <form id="search">
-            中文卡名: <input type="text" name="cardCnName" />
-            日文卡名: <input type="text" name="cardName" />
-            出场作品：<select name="ipData">
-                <option value="">全部</option>
-                <option value="CGH">《CODE GEASS 反叛的鲁路修》</option>
-                <option value="JJK">《咒术回战》</option>
-                <option value="HTR">《全职猎人》</option>
-                <option value="IMS">《偶像大师 闪耀色彩》</option>
-                <option value="KMY">《鬼灭之刃》</option>
-            </select>
-            所属商品：<select name="cardPackData">
-                <option value="">全部</option>
-                <option value="UA01BT">反叛的鲁路修 UA01BT</option>
-                <option value="UA01ST">反叛的鲁路修 UA01ST</option>
-                <option value="UA01PB">反叛的鲁路修 UA01PB</option>
-                <option value="UA02BT">咒术回战 UA02BT</option>
-                <option value="UA02ST">咒术回战 UA02ST</option>
-                <option value="UA02PB">咒术回战 UA02PB</option>
-                <option value="UA03BT">全职猎人 UA03BT</option>
-                <option value="UA03ST">全职猎人 UA03ST</option>
-                <option value="UA03PB">全职猎人 UA03PB</option>
-                <option value="UAPR">PR</option>
-            </select>
-            颜色：<select name="colorData">
-                <option value="">全部</option>
-                <option value="紫">紫</option>
-                <option value="緑">绿</option>
-                <option value="赤">红</option>
-                <option value="青">蓝</option>
-                <option value="黄">黄</option>
-            </select>
-            <input type="button" value="搜索" onclick="search(this.parentNode)" />
-        </form>
-
-    </div>
-
+   
     <div class="main">
+        <div class="searchBox">
+            <form id="search">
+                中文卡名: <input type="text" name="cardCnName" />
+                日文卡名: <input type="text" name="cardName" />
+                出场作品：<select name="ipData">
+                    <option value="">全部</option>
+                    <option value="CGH">《CODE GEASS 反叛的鲁路修》</option>
+                    <option value="JJK">《咒术回战》</option>
+                    <option value="HTR">《全职猎人》</option>
+                    <option value="IMS">《偶像大师 闪耀色彩》</option>
+                    <option value="KMY">《鬼灭之刃》</option>
+                </select>
+                所属商品：<select name="cardPackData">
+                    <option value="">全部</option>
+                    <option value="UA01BT">反叛的鲁路修 UA01BT</option>
+                    <option value="UA01ST">反叛的鲁路修 UA01ST</option>
+                    <option value="UA01PB">反叛的鲁路修 UA01PB</option>
+                    <option value="UA02BT">咒术回战 UA02BT</option>
+                    <option value="UA02ST">咒术回战 UA02ST</option>
+                    <option value="UA02PB">咒术回战 UA02PB</option>
+                    <option value="UA03BT">全职猎人 UA03BT</option>
+                    <option value="UA03ST">全职猎人 UA03ST</option>
+                    <option value="UA03PB">全职猎人 UA03PB</option>
+                    <option value="UAPR">PR</option>
+                </select>
+                颜色：<select name="colorData">
+                    <option value="">全部</option>
+                    <option value="紫">紫</option>
+                    <option value="緑">绿</option>
+                    <option value="赤">红</option>
+                    <option value="青">蓝</option>
+                    <option value="黄">黄</option>
+                </select>
+                <input type="button" value="搜索" onclick="search(this.parentNode)" />
+            </form>
+        </div>
+
+        
         <div id="cardListArea">
             <!-- <img src="./card/UA01BT_CGH-1-001.png" class="cardImage"> -->
 
         </div>
-        <div id="cardInfoArea">
-
-
-
-
-        </div>
+      
 
     </div>
 
+    <div id="cardInfoArea">
+
+
+
+
+    </div>
 
 
 </body>
