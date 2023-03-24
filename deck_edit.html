@@ -107,12 +107,8 @@
             height: 80vh;
         }
 
-
-
         #cardListArea {
             width: 80%;
-            display: flex;
-            flex-wrap: wrap;
             display: flex;
             flex-wrap: wrap;
         }
@@ -128,7 +124,8 @@
         .cardImage {
             /* width: 19.5% */
             width: 167px;
-            margin: 3px 3px 3px 3px;
+            margin: 3px auto;
+            display: block;
             height: 233px;
         }
     </style>
@@ -140,8 +137,8 @@
         <div id="deckArea">
             <textarea id="deckInfo" oninput="deckInfoChanged(this);"></textarea>
             <h1 style=" text-align: center;">卡组总数:<span id="deckCount">0</span></h1>
-            <button style=""
-                onclick='alert("https://sisyphus2016.gitee.io/unionarena_card_queryer/deck_edit.html?deck="+document.getElementById("deckInfo").value.replaceAll("\n","%0A"))'>导出</button>
+            <button style="margin-top: 5px;"
+                onclick='alert("https://sisyphus2016.gitee.io/unionarena_card_queryer/deck_edit.html?deck="+document.getElementById("deckInfo").value.replaceAll("\n","%0A"))'>分享</button>
         </div>
 
 
