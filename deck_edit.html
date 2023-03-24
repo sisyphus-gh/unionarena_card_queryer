@@ -41,14 +41,15 @@
             var cardDivHtml = "";
 
             deckMap.forEach((num, data) => {
-                console.log('', data);
-                console.log('', num);
                 var imgFileName = data.cardNumData.replace("/", "_") + ".png";
                 cardDivHtml = cardDivHtml + `<div class="cardImageBox">
+                    
                     <img src="./card/${imgFileName}" class="cardImage"/>
-                    <p style="font-size: 16px;font-weight: bolder;">${data.cardNumData}</p>
+                    <a target="_blank" href="./info.html?cardNumData=${data.cardNumData}" >
+                   <p style="font-size: 16px;font-weight: bolder;">${data.cardNumData}</p>
                     <p style="font-size: 16px;">${data.cardCnName}</p>
                     <p style="font-size: 16px;font-weight: bolder;">x ${num}</p>
+                    </a>
                     </div>`;
                 count += num;
             });

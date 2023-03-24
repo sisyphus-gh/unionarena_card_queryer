@@ -38,8 +38,7 @@
 
         function clickCard(e) {
             var cardNumData2 = e.getAttribute("cardNumData2");
-            console.log(cardNumData2)
-
+        
             var data;
             for (var i = 0; i < datas.length; i++) {
                 data = datas[i];
@@ -48,7 +47,7 @@
                     break;
                 }
             }
-            aaa = data;
+            
             var cardInfoDiv = document.getElementById("cardInfoArea");
             cardInfoDiv.innerHTML = `
             <h1>${data.cardNumData}&nbsp;&nbsp;&nbsp;&nbsp;${data.rareData}</h1>
