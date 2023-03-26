@@ -21,7 +21,9 @@
         "cardNumData2": "CGH-1-001",
         "id": "1",
         "bpData": "2500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -46,7 +48,9 @@
         "cardNumData2": "CGH-1-002",
         "id": "2",
         "bpData": "1500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -71,7 +75,9 @@
         "cardNumData2": "CGH-1-003",
         "id": "3",
         "bpData": "2000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -96,7 +102,9 @@
         "cardNumData2": "CGH-1-004",
         "id": "4",
         "bpData": "2000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -121,7 +129,9 @@
         "cardNumData2": "CGH-1-004",
         "id": "5",
         "bpData": "2000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -146,7 +156,9 @@
         "cardNumData2": "CGH-1-005",
         "id": "6",
         "bpData": "1000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -171,7 +183,9 @@
         "cardNumData2": "CGH-1-005",
         "id": "7",
         "bpData": "1000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -196,7 +210,9 @@
         "cardNumData2": "CGH-1-006",
         "id": "8",
         "bpData": "1500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -221,7 +237,9 @@
         "cardNumData2": "CGH-1-007",
         "id": "9",
         "bpData": "1500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -246,7 +264,9 @@
         "cardNumData2": "CGH-1-007",
         "id": "10",
         "bpData": "1500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -271,7 +291,9 @@
         "cardNumData2": "CGH-1-008",
         "id": "11",
         "bpData": "1500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -296,7 +318,9 @@
         "cardNumData2": "CGH-1-009",
         "id": "12",
         "bpData": "1500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -321,7 +345,9 @@
         "cardNumData2": "CGH-1-010",
         "id": "13",
         "bpData": "3000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -346,7 +372,9 @@
         "cardNumData2": "CGH-1-011",
         "id": "14",
         "bpData": "2000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -371,7 +399,9 @@
         "cardNumData2": "CGH-1-012",
         "id": "15",
         "bpData": "1500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -396,7 +426,9 @@
         "cardNumData2": "CGH-1-013",
         "id": "16",
         "bpData": "3000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -421,7 +453,9 @@
         "cardNumData2": "CGH-1-014",
         "id": "17",
         "bpData": "1000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -446,7 +480,9 @@
         "cardNumData2": "CGH-1-015",
         "id": "18",
         "bpData": "3000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -471,7 +507,9 @@
         "cardNumData2": "CGH-1-016",
         "id": "19",
         "bpData": "2500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -496,7 +534,9 @@
         "cardNumData2": "CGH-1-017",
         "id": "20",
         "bpData": "3500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -521,7 +561,9 @@
         "cardNumData2": "CGH-1-017",
         "id": "21",
         "bpData": "3500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -546,7 +588,9 @@
         "cardNumData2": "CGH-1-017",
         "id": "22",
         "bpData": "3500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -571,7 +615,10 @@
         "cardNumData2": "CGH-1-018",
         "id": "23",
         "bpData": "2500",
-        "attributeCnData": "黑色骑士团/四圣剑",
+        "attributeCnData": [
+            "黑色骑士团",
+            "四圣剑"
+        ],
         "attributeData": "黒の騎士団／四聖剣"
     },
     {
@@ -596,7 +643,10 @@
         "cardNumData2": "CGH-1-019",
         "id": "24",
         "bpData": "2000",
-        "attributeCnData": "黑色骑士团/四圣剑",
+        "attributeCnData": [
+            "黑色骑士团",
+            "四圣剑"
+        ],
         "attributeData": "黒の騎士団／四聖剣"
     },
     {
@@ -621,7 +671,10 @@
         "cardNumData2": "CGH-1-020",
         "id": "25",
         "bpData": "1500",
-        "attributeCnData": "黑色骑士团/四圣剑",
+        "attributeCnData": [
+            "黑色骑士团",
+            "四圣剑"
+        ],
         "attributeData": "黒の騎士団／四聖剣"
     },
     {
@@ -646,7 +699,10 @@
         "cardNumData2": "CGH-1-021",
         "id": "26",
         "bpData": "2500",
-        "attributeCnData": "黑色骑士团/四圣剑",
+        "attributeCnData": [
+            "黑色骑士团",
+            "四圣剑"
+        ],
         "attributeData": "黒の騎士団／四聖剣"
     },
     {
@@ -671,7 +727,10 @@
         "cardNumData2": "CGH-1-022",
         "id": "27",
         "bpData": "4000",
-        "attributeCnData": "黑色骑士团/KMF",
+        "attributeCnData": [
+            "黑色骑士团",
+            "KMF"
+        ],
         "attributeData": "黒の騎士団／KMF"
     },
     {
@@ -696,7 +755,10 @@
         "cardNumData2": "CGH-1-022",
         "id": "28",
         "bpData": "4000",
-        "attributeCnData": "黑色骑士团/KMF",
+        "attributeCnData": [
+            "黑色骑士团",
+            "KMF"
+        ],
         "attributeData": "黒の騎士団／KMF"
     },
     {
@@ -721,7 +783,10 @@
         "cardNumData2": "CGH-1-023",
         "id": "29",
         "bpData": "4000",
-        "attributeCnData": "黑色骑士团/KMF",
+        "attributeCnData": [
+            "黑色骑士团",
+            "KMF"
+        ],
         "attributeData": "黒の騎士団／KMF"
     },
     {
@@ -746,7 +811,10 @@
         "cardNumData2": "CGH-1-023",
         "id": "30",
         "bpData": "4000",
-        "attributeCnData": "黑色骑士团/KMF",
+        "attributeCnData": [
+            "黑色骑士团",
+            "KMF"
+        ],
         "attributeData": "黒の騎士団／KMF"
     },
     {
@@ -771,7 +839,10 @@
         "cardNumData2": "CGH-1-024",
         "id": "31",
         "bpData": "4000",
-        "attributeCnData": "黑色骑士团/KMF",
+        "attributeCnData": [
+            "黑色骑士团",
+            "KMF"
+        ],
         "attributeData": "黒の騎士団／KMF"
     },
     {
@@ -796,7 +867,11 @@
         "cardNumData2": "CGH-1-025",
         "id": "32",
         "bpData": "3500",
-        "attributeCnData": "黑色骑士团/KMF/四圣剑",
+        "attributeCnData": [
+            "黑色骑士团",
+            "KMF",
+            "四圣剑"
+        ],
         "attributeData": "黒の騎士団／KMF／四聖剣"
     },
     {
@@ -821,7 +896,11 @@
         "cardNumData2": "CGH-1-026",
         "id": "33",
         "bpData": "3500",
-        "attributeCnData": "黑色骑士团/KMF/四圣剑",
+        "attributeCnData": [
+            "黑色骑士团",
+            "KMF",
+            "四圣剑"
+        ],
         "attributeData": "黒の騎士団／KMF／四聖剣"
     },
     {
@@ -846,7 +925,8 @@
         "cardNumData2": "CGH-1-027",
         "id": "34",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -871,7 +951,8 @@
         "cardNumData2": "CGH-1-028",
         "id": "35",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -896,7 +977,8 @@
         "cardNumData2": "CGH-1-029",
         "id": "36",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -921,7 +1003,8 @@
         "cardNumData2": "CGH-1-029",
         "id": "37",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -946,7 +1029,8 @@
         "cardNumData2": "CGH-1-030",
         "id": "38",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -971,7 +1055,8 @@
         "cardNumData2": "CGH-1-030",
         "id": "39",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -996,7 +1081,8 @@
         "cardNumData2": "CGH-1-031",
         "id": "40",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -1021,7 +1107,8 @@
         "cardNumData2": "CGH-1-031",
         "id": "41",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -1046,7 +1133,8 @@
         "cardNumData2": "CGH-1-032",
         "id": "42",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -1071,7 +1159,8 @@
         "cardNumData2": "CGH-1-033",
         "id": "43",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -1096,7 +1185,9 @@
         "cardNumData2": "CGH-1-034",
         "id": "44",
         "bpData": "1500",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1121,7 +1212,9 @@
         "cardNumData2": "CGH-1-035",
         "id": "45",
         "bpData": "2000",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1146,7 +1239,9 @@
         "cardNumData2": "CGH-1-036",
         "id": "46",
         "bpData": "3500",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1171,7 +1266,9 @@
         "cardNumData2": "CGH-1-036",
         "id": "47",
         "bpData": "3500",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1196,7 +1293,9 @@
         "cardNumData2": "CGH-1-037",
         "id": "48",
         "bpData": "2500",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1221,7 +1320,9 @@
         "cardNumData2": "CGH-1-038",
         "id": "49",
         "bpData": "1500",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1246,7 +1347,9 @@
         "cardNumData2": "CGH-1-039",
         "id": "50",
         "bpData": "2500",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1271,7 +1374,9 @@
         "cardNumData2": "CGH-1-040",
         "id": "51",
         "bpData": "3000",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1296,7 +1401,9 @@
         "cardNumData2": "CGH-1-041",
         "id": "52",
         "bpData": "1000",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1321,7 +1428,9 @@
         "cardNumData2": "CGH-1-042",
         "id": "53",
         "bpData": "2500",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1346,7 +1455,9 @@
         "cardNumData2": "CGH-1-043",
         "id": "54",
         "bpData": "1500",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1371,7 +1482,9 @@
         "cardNumData2": "CGH-1-044",
         "id": "55",
         "bpData": "2000",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1396,7 +1509,9 @@
         "cardNumData2": "CGH-1-045",
         "id": "56",
         "bpData": "1000",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1421,7 +1536,9 @@
         "cardNumData2": "CGH-1-046",
         "id": "57",
         "bpData": "1000",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1446,7 +1563,9 @@
         "cardNumData2": "CGH-1-046",
         "id": "58",
         "bpData": "1000",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1471,7 +1590,9 @@
         "cardNumData2": "CGH-1-047",
         "id": "59",
         "bpData": "2000",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1496,7 +1617,9 @@
         "cardNumData2": "CGH-1-047",
         "id": "60",
         "bpData": "2000",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1521,7 +1644,9 @@
         "cardNumData2": "CGH-1-048",
         "id": "61",
         "bpData": "2000",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -1546,7 +1671,10 @@
         "cardNumData2": "CGH-1-049",
         "id": "62",
         "bpData": "3000",
-        "attributeCnData": "神圣布里塔尼亚帝国/纯血派",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国",
+            "纯血派"
+        ],
         "attributeData": "神聖ブリタニア帝国／純血派"
     },
     {
@@ -1571,7 +1699,10 @@
         "cardNumData2": "CGH-1-050",
         "id": "63",
         "bpData": "2000",
-        "attributeCnData": "神圣布里塔尼亚帝国/纯血派",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国",
+            "纯血派"
+        ],
         "attributeData": "神聖ブリタニア帝国／純血派"
     },
     {
@@ -1596,7 +1727,10 @@
         "cardNumData2": "CGH-1-051",
         "id": "64",
         "bpData": "2000",
-        "attributeCnData": "神圣布里塔尼亚帝国/纯血派",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国",
+            "纯血派"
+        ],
         "attributeData": "神聖ブリタニア帝国／純血派"
     },
     {
@@ -1621,7 +1755,10 @@
         "cardNumData2": "CGH-1-052",
         "id": "65",
         "bpData": "3000",
-        "attributeCnData": "神圣布里塔尼亚帝国/纯血派",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国",
+            "纯血派"
+        ],
         "attributeData": "神聖ブリタニア帝国／純血派"
     },
     {
@@ -1646,7 +1783,10 @@
         "cardNumData2": "CGH-1-052",
         "id": "66",
         "bpData": "3000",
-        "attributeCnData": "神圣布里塔尼亚帝国/纯血派",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国",
+            "纯血派"
+        ],
         "attributeData": "神聖ブリタニア帝国／純血派"
     },
     {
@@ -1671,7 +1811,10 @@
         "cardNumData2": "CGH-1-053",
         "id": "67",
         "bpData": "1500",
-        "attributeCnData": "神圣布里塔尼亚帝国/亲卫队",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国",
+            "亲卫队"
+        ],
         "attributeData": "神聖ブリタニア帝国／親衛隊"
     },
     {
@@ -1696,7 +1839,10 @@
         "cardNumData2": "CGH-1-054",
         "id": "68",
         "bpData": "2500",
-        "attributeCnData": "神圣布里塔尼亚帝国/亲卫队",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国",
+            "亲卫队"
+        ],
         "attributeData": "神聖ブリタニア帝国／親衛隊"
     },
     {
@@ -1721,7 +1867,10 @@
         "cardNumData2": "CGH-1-055",
         "id": "69",
         "bpData": "4000",
-        "attributeCnData": "神圣布里塔尼亚帝国/KMF",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国",
+            "KMF"
+        ],
         "attributeData": "神聖ブリタニア帝国／KMF"
     },
     {
@@ -1746,7 +1895,10 @@
         "cardNumData2": "CGH-1-056",
         "id": "70",
         "bpData": "2500",
-        "attributeCnData": "神圣布里塔尼亚帝国/KMF",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国",
+            "KMF"
+        ],
         "attributeData": "神聖ブリタニア帝国／KMF"
     },
     {
@@ -1771,7 +1923,10 @@
         "cardNumData2": "CGH-1-057",
         "id": "71",
         "bpData": "3000",
-        "attributeCnData": "神圣布里塔尼亚帝国/KMF",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国",
+            "KMF"
+        ],
         "attributeData": "神聖ブリタニア帝国／KMF"
     },
     {
@@ -1796,7 +1951,10 @@
         "cardNumData2": "CGH-1-058",
         "id": "72",
         "bpData": "4000",
-        "attributeCnData": "神圣布里塔尼亚帝国/KGF",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国",
+            "KGF"
+        ],
         "attributeData": "神聖ブリタニア帝国／KGF"
     },
     {
@@ -1821,7 +1979,10 @@
         "cardNumData2": "CGH-1-059",
         "id": "73",
         "bpData": "4000",
-        "attributeCnData": "神圣布里塔尼亚帝国/KMF",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国",
+            "KMF"
+        ],
         "attributeData": "神聖ブリタニア帝国／KMF"
     },
     {
@@ -1846,7 +2007,10 @@
         "cardNumData2": "CGH-1-059",
         "id": "74",
         "bpData": "4000",
-        "attributeCnData": "神圣布里塔尼亚帝国/KMF",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国",
+            "KMF"
+        ],
         "attributeData": "神聖ブリタニア帝国／KMF"
     },
     {
@@ -1871,7 +2035,10 @@
         "cardNumData2": "CGH-1-060",
         "id": "75",
         "bpData": "5000",
-        "attributeCnData": "神圣布里塔尼亚帝国/KMF",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国",
+            "KMF"
+        ],
         "attributeData": "神聖ブリタニア帝国／KMF"
     },
     {
@@ -1896,7 +2063,10 @@
         "cardNumData2": "CGH-1-060",
         "id": "76",
         "bpData": "5000",
-        "attributeCnData": "神圣布里塔尼亚帝国/KMF",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国",
+            "KMF"
+        ],
         "attributeData": "神聖ブリタニア帝国／KMF"
     },
     {
@@ -1921,7 +2091,8 @@
         "cardNumData2": "CGH-1-061",
         "id": "77",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -1946,7 +2117,8 @@
         "cardNumData2": "CGH-1-062",
         "id": "78",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -1971,7 +2143,8 @@
         "cardNumData2": "CGH-1-062",
         "id": "79",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -1996,7 +2169,8 @@
         "cardNumData2": "CGH-1-063",
         "id": "80",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -2021,7 +2195,8 @@
         "cardNumData2": "CGH-1-063",
         "id": "81",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -2046,7 +2221,8 @@
         "cardNumData2": "CGH-1-064",
         "id": "82",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -2071,7 +2247,8 @@
         "cardNumData2": "CGH-1-064",
         "id": "83",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -2096,7 +2273,8 @@
         "cardNumData2": "CGH-1-065",
         "id": "84",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -2121,7 +2299,8 @@
         "cardNumData2": "CGH-1-066",
         "id": "85",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -2146,7 +2325,8 @@
         "cardNumData2": "CGH-1-067",
         "id": "86",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -2171,7 +2351,9 @@
         "cardNumData2": "CGH-1-068",
         "id": "87",
         "bpData": "2000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2196,7 +2378,9 @@
         "cardNumData2": "CGH-1-069",
         "id": "88",
         "bpData": "2000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2221,7 +2405,9 @@
         "cardNumData2": "CGH-1-070",
         "id": "89",
         "bpData": "4000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2246,7 +2432,9 @@
         "cardNumData2": "CGH-1-071",
         "id": "90",
         "bpData": "3000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2271,7 +2459,9 @@
         "cardNumData2": "CGH-1-072",
         "id": "91",
         "bpData": "1500",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2296,7 +2486,9 @@
         "cardNumData2": "CGH-1-073",
         "id": "92",
         "bpData": "2500",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2321,7 +2513,9 @@
         "cardNumData2": "CGH-1-074",
         "id": "93",
         "bpData": "4000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2346,7 +2540,9 @@
         "cardNumData2": "CGH-1-074",
         "id": "94",
         "bpData": "4000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2371,7 +2567,9 @@
         "cardNumData2": "CGH-1-075",
         "id": "95",
         "bpData": "1500",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2396,7 +2594,9 @@
         "cardNumData2": "CGH-1-076",
         "id": "96",
         "bpData": "3000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2421,7 +2621,9 @@
         "cardNumData2": "CGH-1-077",
         "id": "97",
         "bpData": "4000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2446,7 +2648,9 @@
         "cardNumData2": "CGH-1-077",
         "id": "98",
         "bpData": "4000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2471,7 +2675,9 @@
         "cardNumData2": "CGH-1-078",
         "id": "99",
         "bpData": "3000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2496,7 +2702,9 @@
         "cardNumData2": "CGH-1-079",
         "id": "100",
         "bpData": "1000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2521,7 +2729,9 @@
         "cardNumData2": "CGH-1-080",
         "id": "101",
         "bpData": "2000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2546,7 +2756,9 @@
         "cardNumData2": "CGH-1-081",
         "id": "102",
         "bpData": "3000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2571,7 +2783,9 @@
         "cardNumData2": "CGH-1-081",
         "id": "103",
         "bpData": "3000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2596,7 +2810,9 @@
         "cardNumData2": "CGH-1-082",
         "id": "104",
         "bpData": "2500",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2621,7 +2837,9 @@
         "cardNumData2": "CGH-1-083",
         "id": "105",
         "bpData": "2000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2646,7 +2864,9 @@
         "cardNumData2": "CGH-1-084",
         "id": "106",
         "bpData": "2000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2671,7 +2891,9 @@
         "cardNumData2": "CGH-1-084",
         "id": "107",
         "bpData": "2000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2696,7 +2918,9 @@
         "cardNumData2": "CGH-1-085",
         "id": "108",
         "bpData": "3000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2721,7 +2945,9 @@
         "cardNumData2": "CGH-1-086",
         "id": "109",
         "bpData": "2000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2746,7 +2972,9 @@
         "cardNumData2": "CGH-1-087",
         "id": "110",
         "bpData": "2000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2771,7 +2999,9 @@
         "cardNumData2": "CGH-1-088",
         "id": "111",
         "bpData": "2500",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2796,7 +3026,9 @@
         "cardNumData2": "CGH-1-089",
         "id": "112",
         "bpData": "1500",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2821,7 +3053,9 @@
         "cardNumData2": "CGH-1-090",
         "id": "113",
         "bpData": "1500",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2846,7 +3080,9 @@
         "cardNumData2": "CGH-1-091",
         "id": "114",
         "bpData": "3000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2871,7 +3107,9 @@
         "cardNumData2": "CGH-1-092",
         "id": "115",
         "bpData": "4000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2896,7 +3134,9 @@
         "cardNumData2": "CGH-1-092",
         "id": "116",
         "bpData": "4000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -2921,7 +3161,10 @@
         "cardNumData2": "CGH-1-093",
         "id": "117",
         "bpData": "3000",
-        "attributeCnData": "阿什福德学园/KMF",
+        "attributeCnData": [
+            "阿什福德学园",
+            "KMF"
+        ],
         "attributeData": "アッシュフォード学園／KMF"
     },
     {
@@ -2946,7 +3189,8 @@
         "cardNumData2": "CGH-1-094",
         "id": "118",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -2971,7 +3215,8 @@
         "cardNumData2": "CGH-1-095",
         "id": "119",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -2996,7 +3241,8 @@
         "cardNumData2": "CGH-1-095",
         "id": "120",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3021,7 +3267,8 @@
         "cardNumData2": "CGH-1-096",
         "id": "121",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3046,7 +3293,8 @@
         "cardNumData2": "CGH-1-097",
         "id": "122",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3071,7 +3319,8 @@
         "cardNumData2": "CGH-1-097",
         "id": "123",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3096,7 +3345,8 @@
         "cardNumData2": "CGH-1-098",
         "id": "124",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3121,7 +3371,9 @@
         "cardNumData2": "CGH-1-099",
         "id": "125",
         "bpData": "-",
-        "attributeCnData": "披萨",
+        "attributeCnData": [
+            "披萨"
+        ],
         "attributeData": "ピザ"
     },
     {
@@ -3146,7 +3398,9 @@
         "cardNumData2": "CGH-1-099",
         "id": "126",
         "bpData": "-",
-        "attributeCnData": "披萨",
+        "attributeCnData": [
+            "披萨"
+        ],
         "attributeData": "ピザ"
     },
     {
@@ -3171,7 +3425,9 @@
         "cardNumData2": "CGH-1-100",
         "id": "127",
         "bpData": "-",
-        "attributeCnData": "披萨",
+        "attributeCnData": [
+            "披萨"
+        ],
         "attributeData": "ピザ"
     },
     {
@@ -3196,7 +3452,9 @@
         "cardNumData2": "CGH-1-100",
         "id": "128",
         "bpData": "-",
-        "attributeCnData": "披萨",
+        "attributeCnData": [
+            "披萨"
+        ],
         "attributeData": "ピザ"
     },
     {
@@ -3221,7 +3479,9 @@
         "cardNumData2": "CGH-1-016",
         "id": "129",
         "bpData": "2500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -3246,7 +3506,9 @@
         "cardNumData2": "CGH-1-001",
         "id": "130",
         "bpData": "2500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -3271,7 +3533,9 @@
         "cardNumData2": "CGH-1-002",
         "id": "131",
         "bpData": "1500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -3296,7 +3560,9 @@
         "cardNumData2": "CGH-1-005",
         "id": "132",
         "bpData": "1000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -3321,7 +3587,9 @@
         "cardNumData2": "CGH-1-008",
         "id": "133",
         "bpData": "1500",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -3346,7 +3614,9 @@
         "cardNumData2": "CGH-1-011",
         "id": "134",
         "bpData": "2000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -3371,7 +3641,9 @@
         "cardNumData2": "CGH-1-015",
         "id": "135",
         "bpData": "3000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -3396,7 +3668,8 @@
         "cardNumData2": "CGH-1-029",
         "id": "136",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3421,7 +3694,8 @@
         "cardNumData2": "CGH-1-030",
         "id": "137",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3446,7 +3720,8 @@
         "cardNumData2": "CGH-1-033",
         "id": "138",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3471,7 +3746,9 @@
         "cardNumData2": "CGH-1-101",
         "id": "139",
         "bpData": "3000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -3496,7 +3773,9 @@
         "cardNumData2": "CGH-1-102",
         "id": "140",
         "bpData": "4000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -3521,7 +3800,9 @@
         "cardNumData2": "CGH-1-103",
         "id": "141",
         "bpData": "3000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -3546,7 +3827,9 @@
         "cardNumData2": "CGH-1-104",
         "id": "142",
         "bpData": "2000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -3571,7 +3854,9 @@
         "cardNumData2": "CGH-1-105",
         "id": "143",
         "bpData": "2000",
-        "attributeCnData": "黑色骑士团",
+        "attributeCnData": [
+            "黑色骑士团"
+        ],
         "attributeData": "黒の騎士団"
     },
     {
@@ -3596,7 +3881,10 @@
         "cardNumData2": "CGH-1-106",
         "id": "144",
         "bpData": "3500",
-        "attributeCnData": "黑色骑士团/KMF",
+        "attributeCnData": [
+            "黑色骑士团",
+            "KMF"
+        ],
         "attributeData": "黒の騎士団／KMF"
     },
     {
@@ -3621,7 +3909,10 @@
         "cardNumData2": "CGH-1-107",
         "id": "145",
         "bpData": "4000",
-        "attributeCnData": "黑色骑士团/KMF",
+        "attributeCnData": [
+            "黑色骑士团",
+            "KMF"
+        ],
         "attributeData": "黒の騎士団／KMF"
     },
     {
@@ -3646,7 +3937,8 @@
         "cardNumData2": "CGH-1-108",
         "id": "146",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3671,7 +3963,8 @@
         "cardNumData2": "CGH-1-109",
         "id": "147",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3696,7 +3989,8 @@
         "cardNumData2": "JJK-1-001",
         "id": "148",
         "bpData": "1000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3721,7 +4015,8 @@
         "cardNumData2": "JJK-1-002",
         "id": "149",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3746,7 +4041,8 @@
         "cardNumData2": "JJK-1-003",
         "id": "150",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3771,7 +4067,8 @@
         "cardNumData2": "JJK-1-004",
         "id": "151",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3796,7 +4093,8 @@
         "cardNumData2": "JJK-1-005",
         "id": "152",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3821,7 +4119,8 @@
         "cardNumData2": "JJK-1-005",
         "id": "153",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3846,7 +4145,8 @@
         "cardNumData2": "JJK-1-006",
         "id": "154",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3871,7 +4171,8 @@
         "cardNumData2": "JJK-1-007",
         "id": "155",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3896,7 +4197,8 @@
         "cardNumData2": "JJK-1-008",
         "id": "156",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3921,7 +4223,8 @@
         "cardNumData2": "JJK-1-008",
         "id": "157",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3946,7 +4249,8 @@
         "cardNumData2": "JJK-1-009",
         "id": "158",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3971,7 +4275,8 @@
         "cardNumData2": "JJK-1-010",
         "id": "159",
         "bpData": "3500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -3996,7 +4301,8 @@
         "cardNumData2": "JJK-1-011",
         "id": "160",
         "bpData": "3500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4021,7 +4327,8 @@
         "cardNumData2": "JJK-1-011",
         "id": "161",
         "bpData": "3500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4046,7 +4353,8 @@
         "cardNumData2": "JJK-1-012",
         "id": "162",
         "bpData": "5000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4071,7 +4379,8 @@
         "cardNumData2": "JJK-1-012",
         "id": "163",
         "bpData": "5000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4096,7 +4405,8 @@
         "cardNumData2": "JJK-1-013",
         "id": "164",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4121,7 +4431,8 @@
         "cardNumData2": "JJK-1-014",
         "id": "165",
         "bpData": "2500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4146,7 +4457,8 @@
         "cardNumData2": "JJK-1-015",
         "id": "166",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4171,7 +4483,8 @@
         "cardNumData2": "JJK-1-016",
         "id": "167",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4196,7 +4509,8 @@
         "cardNumData2": "JJK-1-017",
         "id": "168",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4221,7 +4535,8 @@
         "cardNumData2": "JJK-1-017",
         "id": "169",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4246,7 +4561,8 @@
         "cardNumData2": "JJK-1-018",
         "id": "170",
         "bpData": "500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4271,7 +4587,8 @@
         "cardNumData2": "JJK-1-019",
         "id": "171",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4296,7 +4613,8 @@
         "cardNumData2": "JJK-1-020",
         "id": "172",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4321,7 +4639,8 @@
         "cardNumData2": "JJK-1-021",
         "id": "173",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4346,7 +4665,8 @@
         "cardNumData2": "JJK-1-022",
         "id": "174",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4371,7 +4691,8 @@
         "cardNumData2": "JJK-1-022",
         "id": "175",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4396,7 +4717,9 @@
         "cardNumData2": "JJK-1-023",
         "id": "176",
         "bpData": "3000",
-        "attributeCnData": "式神",
+        "attributeCnData": [
+            "式神"
+        ],
         "attributeData": "式神"
     },
     {
@@ -4421,7 +4744,9 @@
         "cardNumData2": "JJK-1-024",
         "id": "177",
         "bpData": "2000",
-        "attributeCnData": "式神",
+        "attributeCnData": [
+            "式神"
+        ],
         "attributeData": "式神"
     },
     {
@@ -4446,7 +4771,9 @@
         "cardNumData2": "JJK-1-025",
         "id": "178",
         "bpData": "3500",
-        "attributeCnData": "式神",
+        "attributeCnData": [
+            "式神"
+        ],
         "attributeData": "式神"
     },
     {
@@ -4471,7 +4798,9 @@
         "cardNumData2": "JJK-1-026",
         "id": "179",
         "bpData": "2000",
-        "attributeCnData": "式神",
+        "attributeCnData": [
+            "式神"
+        ],
         "attributeData": "式神"
     },
     {
@@ -4496,7 +4825,8 @@
         "cardNumData2": "JJK-1-027",
         "id": "180",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4521,7 +4851,8 @@
         "cardNumData2": "JJK-1-027",
         "id": "181",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4546,7 +4877,8 @@
         "cardNumData2": "JJK-1-028",
         "id": "182",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4571,7 +4903,8 @@
         "cardNumData2": "JJK-1-028",
         "id": "183",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4596,7 +4929,8 @@
         "cardNumData2": "JJK-1-029",
         "id": "184",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4621,7 +4955,8 @@
         "cardNumData2": "JJK-1-029",
         "id": "185",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4646,7 +4981,8 @@
         "cardNumData2": "JJK-1-030",
         "id": "186",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4671,7 +5007,8 @@
         "cardNumData2": "JJK-1-031",
         "id": "187",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4696,7 +5033,8 @@
         "cardNumData2": "JJK-1-032",
         "id": "188",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4721,7 +5059,8 @@
         "cardNumData2": "JJK-1-033",
         "id": "189",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4746,7 +5085,8 @@
         "cardNumData2": "JJK-1-034",
         "id": "190",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4771,7 +5111,8 @@
         "cardNumData2": "JJK-1-034",
         "id": "191",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4796,7 +5137,8 @@
         "cardNumData2": "JJK-1-035",
         "id": "192",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4821,7 +5163,8 @@
         "cardNumData2": "JJK-1-036",
         "id": "193",
         "bpData": "1000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4846,7 +5189,8 @@
         "cardNumData2": "JJK-1-037",
         "id": "194",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4871,7 +5215,8 @@
         "cardNumData2": "JJK-1-038",
         "id": "195",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4896,7 +5241,8 @@
         "cardNumData2": "JJK-1-038",
         "id": "196",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4921,7 +5267,8 @@
         "cardNumData2": "JJK-1-039",
         "id": "197",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4946,7 +5293,8 @@
         "cardNumData2": "JJK-1-040",
         "id": "198",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4971,7 +5319,8 @@
         "cardNumData2": "JJK-1-040",
         "id": "199",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -4996,7 +5345,8 @@
         "cardNumData2": "JJK-1-040",
         "id": "200",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5021,7 +5371,8 @@
         "cardNumData2": "JJK-1-041",
         "id": "201",
         "bpData": "3500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5046,7 +5397,8 @@
         "cardNumData2": "JJK-1-042",
         "id": "202",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5071,7 +5423,8 @@
         "cardNumData2": "JJK-1-043",
         "id": "203",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5096,7 +5449,8 @@
         "cardNumData2": "JJK-1-044",
         "id": "204",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5121,7 +5475,8 @@
         "cardNumData2": "JJK-1-045",
         "id": "205",
         "bpData": "2500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5146,7 +5501,8 @@
         "cardNumData2": "JJK-1-046",
         "id": "206",
         "bpData": "3500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5171,7 +5527,8 @@
         "cardNumData2": "JJK-1-047",
         "id": "207",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5196,7 +5553,8 @@
         "cardNumData2": "JJK-1-047",
         "id": "208",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5221,7 +5579,8 @@
         "cardNumData2": "JJK-1-048",
         "id": "209",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5246,7 +5605,8 @@
         "cardNumData2": "JJK-1-048",
         "id": "210",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5271,7 +5631,8 @@
         "cardNumData2": "JJK-1-049",
         "id": "211",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5296,7 +5657,8 @@
         "cardNumData2": "JJK-1-050",
         "id": "212",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5321,7 +5683,8 @@
         "cardNumData2": "JJK-1-050",
         "id": "213",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5346,7 +5709,8 @@
         "cardNumData2": "JJK-1-051",
         "id": "214",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5371,7 +5735,8 @@
         "cardNumData2": "JJK-1-052",
         "id": "215",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5396,7 +5761,8 @@
         "cardNumData2": "JJK-1-053",
         "id": "216",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5421,7 +5787,8 @@
         "cardNumData2": "JJK-1-054",
         "id": "217",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5446,7 +5813,8 @@
         "cardNumData2": "JJK-1-054",
         "id": "218",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5471,7 +5839,8 @@
         "cardNumData2": "JJK-1-055",
         "id": "219",
         "bpData": "2500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5496,7 +5865,8 @@
         "cardNumData2": "JJK-1-056",
         "id": "220",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5521,7 +5891,8 @@
         "cardNumData2": "JJK-1-057",
         "id": "221",
         "bpData": "3500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5546,7 +5917,8 @@
         "cardNumData2": "JJK-1-058",
         "id": "222",
         "bpData": "2500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5571,7 +5943,8 @@
         "cardNumData2": "JJK-1-059",
         "id": "223",
         "bpData": "1000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5596,7 +5969,9 @@
         "cardNumData2": "JJK-1-060",
         "id": "224",
         "bpData": "4000",
-        "attributeCnData": "京都校",
+        "attributeCnData": [
+            "京都校"
+        ],
         "attributeData": "京都校"
     },
     {
@@ -5621,7 +5996,8 @@
         "cardNumData2": "JJK-1-061",
         "id": "225",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5646,7 +6022,8 @@
         "cardNumData2": "JJK-1-061",
         "id": "226",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5671,7 +6048,8 @@
         "cardNumData2": "JJK-1-062",
         "id": "227",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5696,7 +6074,8 @@
         "cardNumData2": "JJK-1-063",
         "id": "228",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5721,7 +6100,8 @@
         "cardNumData2": "JJK-1-063",
         "id": "229",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5746,7 +6126,8 @@
         "cardNumData2": "JJK-1-064",
         "id": "230",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5771,7 +6152,9 @@
         "cardNumData2": "JJK-1-065",
         "id": "231",
         "bpData": "-",
-        "attributeCnData": "咒具",
+        "attributeCnData": [
+            "咒具"
+        ],
         "attributeData": "呪具"
     },
     {
@@ -5796,7 +6179,9 @@
         "cardNumData2": "JJK-1-066",
         "id": "232",
         "bpData": "-",
-        "attributeCnData": "咒具",
+        "attributeCnData": [
+            "咒具"
+        ],
         "attributeData": "呪具"
     },
     {
@@ -5821,7 +6206,8 @@
         "cardNumData2": "JJK-1-067",
         "id": "233",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5846,7 +6232,8 @@
         "cardNumData2": "JJK-1-067",
         "id": "234",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5871,7 +6258,8 @@
         "cardNumData2": "JJK-1-068",
         "id": "235",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5896,7 +6284,8 @@
         "cardNumData2": "JJK-1-068",
         "id": "236",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5921,7 +6310,8 @@
         "cardNumData2": "JJK-1-069",
         "id": "237",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5946,7 +6336,8 @@
         "cardNumData2": "JJK-1-069",
         "id": "238",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5971,7 +6362,8 @@
         "cardNumData2": "JJK-1-070",
         "id": "239",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -5996,7 +6388,8 @@
         "cardNumData2": "JJK-1-071",
         "id": "240",
         "bpData": "1000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -6021,7 +6414,9 @@
         "cardNumData2": "JJK-1-072",
         "id": "241",
         "bpData": "1000",
-        "attributeCnData": "改造人间",
+        "attributeCnData": [
+            "改造人间"
+        ],
         "attributeData": "改造人間"
     },
     {
@@ -6046,7 +6441,9 @@
         "cardNumData2": "JJK-1-073",
         "id": "242",
         "bpData": "2500",
-        "attributeCnData": "改造人间",
+        "attributeCnData": [
+            "改造人间"
+        ],
         "attributeData": "改造人間"
     },
     {
@@ -6071,7 +6468,9 @@
         "cardNumData2": "JJK-1-074",
         "id": "243",
         "bpData": "2500",
-        "attributeCnData": "京都校",
+        "attributeCnData": [
+            "京都校"
+        ],
         "attributeData": "京都校"
     },
     {
@@ -6096,7 +6495,9 @@
         "cardNumData2": "JJK-1-075",
         "id": "244",
         "bpData": "2000",
-        "attributeCnData": "京都校",
+        "attributeCnData": [
+            "京都校"
+        ],
         "attributeData": "京都校"
     },
     {
@@ -6121,7 +6522,9 @@
         "cardNumData2": "JJK-1-076",
         "id": "245",
         "bpData": "2000",
-        "attributeCnData": "京都校",
+        "attributeCnData": [
+            "京都校"
+        ],
         "attributeData": "京都校"
     },
     {
@@ -6146,7 +6549,9 @@
         "cardNumData2": "JJK-1-077",
         "id": "246",
         "bpData": "3000",
-        "attributeCnData": "京都校",
+        "attributeCnData": [
+            "京都校"
+        ],
         "attributeData": "京都校"
     },
     {
@@ -6171,7 +6576,9 @@
         "cardNumData2": "JJK-1-078",
         "id": "247",
         "bpData": "1000",
-        "attributeCnData": "京都校",
+        "attributeCnData": [
+            "京都校"
+        ],
         "attributeData": "京都校"
     },
     {
@@ -6196,7 +6603,9 @@
         "cardNumData2": "JJK-1-079",
         "id": "248",
         "bpData": "1500",
-        "attributeCnData": "京都校",
+        "attributeCnData": [
+            "京都校"
+        ],
         "attributeData": "京都校"
     },
     {
@@ -6221,7 +6630,9 @@
         "cardNumData2": "JJK-1-080",
         "id": "249",
         "bpData": "3500",
-        "attributeCnData": "京都校",
+        "attributeCnData": [
+            "京都校"
+        ],
         "attributeData": "京都校"
     },
     {
@@ -6246,7 +6657,9 @@
         "cardNumData2": "JJK-1-081",
         "id": "250",
         "bpData": "4000",
-        "attributeCnData": "京都校",
+        "attributeCnData": [
+            "京都校"
+        ],
         "attributeData": "京都校"
     },
     {
@@ -6271,7 +6684,9 @@
         "cardNumData2": "JJK-1-081",
         "id": "251",
         "bpData": "4000",
-        "attributeCnData": "京都校",
+        "attributeCnData": [
+            "京都校"
+        ],
         "attributeData": "京都校"
     },
     {
@@ -6296,7 +6711,9 @@
         "cardNumData2": "JJK-1-082",
         "id": "252",
         "bpData": "2500",
-        "attributeCnData": "京都校",
+        "attributeCnData": [
+            "京都校"
+        ],
         "attributeData": "京都校"
     },
     {
@@ -6321,7 +6738,9 @@
         "cardNumData2": "JJK-1-083",
         "id": "253",
         "bpData": "2000",
-        "attributeCnData": "京都校",
+        "attributeCnData": [
+            "京都校"
+        ],
         "attributeData": "京都校"
     },
     {
@@ -6346,7 +6765,9 @@
         "cardNumData2": "JJK-1-084",
         "id": "254",
         "bpData": "2000",
-        "attributeCnData": "京都校",
+        "attributeCnData": [
+            "京都校"
+        ],
         "attributeData": "京都校"
     },
     {
@@ -6371,7 +6792,9 @@
         "cardNumData2": "JJK-1-084",
         "id": "255",
         "bpData": "2000",
-        "attributeCnData": "京都校",
+        "attributeCnData": [
+            "京都校"
+        ],
         "attributeData": "京都校"
     },
     {
@@ -6396,7 +6819,9 @@
         "cardNumData2": "JJK-1-085",
         "id": "256",
         "bpData": "1500",
-        "attributeCnData": "式神",
+        "attributeCnData": [
+            "式神"
+        ],
         "attributeData": "式神"
     },
     {
@@ -6421,7 +6846,9 @@
         "cardNumData2": "JJK-1-086",
         "id": "257",
         "bpData": "3000",
-        "attributeCnData": "咒灵",
+        "attributeCnData": [
+            "咒灵"
+        ],
         "attributeData": "呪霊"
     },
     {
@@ -6446,7 +6873,9 @@
         "cardNumData2": "JJK-1-087",
         "id": "258",
         "bpData": "4000",
-        "attributeCnData": "咒灵",
+        "attributeCnData": [
+            "咒灵"
+        ],
         "attributeData": "呪霊"
     },
     {
@@ -6471,7 +6900,9 @@
         "cardNumData2": "JJK-1-088",
         "id": "259",
         "bpData": "2000",
-        "attributeCnData": "咒灵",
+        "attributeCnData": [
+            "咒灵"
+        ],
         "attributeData": "呪霊"
     },
     {
@@ -6496,7 +6927,9 @@
         "cardNumData2": "JJK-1-089",
         "id": "260",
         "bpData": "3000",
-        "attributeCnData": "咒灵",
+        "attributeCnData": [
+            "咒灵"
+        ],
         "attributeData": "呪霊"
     },
     {
@@ -6521,7 +6954,9 @@
         "cardNumData2": "JJK-1-090",
         "id": "261",
         "bpData": "2000",
-        "attributeCnData": "咒灵",
+        "attributeCnData": [
+            "咒灵"
+        ],
         "attributeData": "呪霊"
     },
     {
@@ -6546,7 +6981,9 @@
         "cardNumData2": "JJK-1-091",
         "id": "262",
         "bpData": "1500",
-        "attributeCnData": "咒灵",
+        "attributeCnData": [
+            "咒灵"
+        ],
         "attributeData": "呪霊"
     },
     {
@@ -6571,7 +7008,9 @@
         "cardNumData2": "JJK-1-092",
         "id": "263",
         "bpData": "3000",
-        "attributeCnData": "咒灵",
+        "attributeCnData": [
+            "咒灵"
+        ],
         "attributeData": "呪霊"
     },
     {
@@ -6596,7 +7035,9 @@
         "cardNumData2": "JJK-1-092",
         "id": "264",
         "bpData": "3000",
-        "attributeCnData": "咒灵",
+        "attributeCnData": [
+            "咒灵"
+        ],
         "attributeData": "呪霊"
     },
     {
@@ -6621,7 +7062,9 @@
         "cardNumData2": "JJK-1-093",
         "id": "265",
         "bpData": "4000",
-        "attributeCnData": "咒灵",
+        "attributeCnData": [
+            "咒灵"
+        ],
         "attributeData": "呪霊"
     },
     {
@@ -6646,7 +7089,9 @@
         "cardNumData2": "JJK-1-093",
         "id": "266",
         "bpData": "4000",
-        "attributeCnData": "咒灵",
+        "attributeCnData": [
+            "咒灵"
+        ],
         "attributeData": "呪霊"
     },
     {
@@ -6671,7 +7116,8 @@
         "cardNumData2": "JJK-1-094",
         "id": "267",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -6696,7 +7142,8 @@
         "cardNumData2": "JJK-1-094",
         "id": "268",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -6721,7 +7168,8 @@
         "cardNumData2": "JJK-1-095",
         "id": "269",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -6746,7 +7194,8 @@
         "cardNumData2": "JJK-1-096",
         "id": "270",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -6771,7 +7220,8 @@
         "cardNumData2": "JJK-1-097",
         "id": "271",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -6796,7 +7246,8 @@
         "cardNumData2": "JJK-1-098",
         "id": "272",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -6821,7 +7272,8 @@
         "cardNumData2": "JJK-1-099",
         "id": "273",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -6846,7 +7298,8 @@
         "cardNumData2": "JJK-1-100",
         "id": "274",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -6871,7 +7324,8 @@
         "cardNumData2": "JJK-1-100",
         "id": "275",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -6896,7 +7350,8 @@
         "cardNumData2": "JJK-1-039",
         "id": "276",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -6921,7 +7376,8 @@
         "cardNumData2": "JJK-1-036",
         "id": "277",
         "bpData": "1000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -6946,7 +7402,8 @@
         "cardNumData2": "JJK-1-037",
         "id": "278",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -6971,7 +7428,8 @@
         "cardNumData2": "JJK-1-044",
         "id": "279",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -6996,7 +7454,8 @@
         "cardNumData2": "JJK-1-045",
         "id": "280",
         "bpData": "2500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7021,7 +7480,8 @@
         "cardNumData2": "JJK-1-056",
         "id": "281",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7046,7 +7506,8 @@
         "cardNumData2": "JJK-1-058",
         "id": "282",
         "bpData": "2500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7071,7 +7532,8 @@
         "cardNumData2": "JJK-1-062",
         "id": "283",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7096,7 +7558,8 @@
         "cardNumData2": "JJK-1-063",
         "id": "284",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7121,7 +7584,8 @@
         "cardNumData2": "JJK-1-067",
         "id": "285",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7146,7 +7610,8 @@
         "cardNumData2": "JJK-1-101",
         "id": "286",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7171,7 +7636,8 @@
         "cardNumData2": "JJK-1-102",
         "id": "287",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7196,7 +7662,8 @@
         "cardNumData2": "JJK-1-103",
         "id": "288",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7221,7 +7688,8 @@
         "cardNumData2": "JJK-1-104",
         "id": "289",
         "bpData": "1000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7246,7 +7714,8 @@
         "cardNumData2": "JJK-1-105",
         "id": "290",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7271,7 +7740,8 @@
         "cardNumData2": "JJK-1-106",
         "id": "291",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7296,7 +7766,8 @@
         "cardNumData2": "JJK-1-107",
         "id": "292",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7321,7 +7792,8 @@
         "cardNumData2": "JJK-1-108",
         "id": "293",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7346,7 +7818,8 @@
         "cardNumData2": "JJK-1-109",
         "id": "294",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7371,7 +7844,8 @@
         "cardNumData2": "HTR-1-001",
         "id": "295",
         "bpData": "3500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7396,7 +7870,8 @@
         "cardNumData2": "HTR-1-002",
         "id": "296",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7421,7 +7896,8 @@
         "cardNumData2": "HTR-1-003",
         "id": "297",
         "bpData": "2500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7446,7 +7922,8 @@
         "cardNumData2": "HTR-1-004",
         "id": "298",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7471,7 +7948,8 @@
         "cardNumData2": "HTR-1-005",
         "id": "299",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7496,7 +7974,8 @@
         "cardNumData2": "HTR-1-006",
         "id": "300",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7521,7 +8000,8 @@
         "cardNumData2": "HTR-1-006",
         "id": "301",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7546,7 +8026,8 @@
         "cardNumData2": "HTR-1-007",
         "id": "302",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7571,7 +8052,8 @@
         "cardNumData2": "HTR-1-007",
         "id": "303",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7596,7 +8078,8 @@
         "cardNumData2": "HTR-1-008",
         "id": "304",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7621,7 +8104,8 @@
         "cardNumData2": "HTR-1-009",
         "id": "305",
         "bpData": "1000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7646,7 +8130,8 @@
         "cardNumData2": "HTR-1-010",
         "id": "306",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7671,7 +8156,8 @@
         "cardNumData2": "HTR-1-011",
         "id": "307",
         "bpData": "1000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7696,7 +8182,8 @@
         "cardNumData2": "HTR-1-012",
         "id": "308",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7721,7 +8208,8 @@
         "cardNumData2": "HTR-1-012",
         "id": "309",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7746,7 +8234,8 @@
         "cardNumData2": "HTR-1-013",
         "id": "310",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7771,7 +8260,8 @@
         "cardNumData2": "HTR-1-014",
         "id": "311",
         "bpData": "1000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7796,7 +8286,8 @@
         "cardNumData2": "HTR-1-015",
         "id": "312",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -7821,7 +8312,9 @@
         "cardNumData2": "HTR-1-016",
         "id": "313",
         "bpData": "1500",
-        "attributeCnData": "指定口袋",
+        "attributeCnData": [
+            "指定口袋"
+        ],
         "attributeData": "指定ポケット"
     },
     {
@@ -7846,7 +8339,9 @@
         "cardNumData2": "HTR-1-017",
         "id": "314",
         "bpData": "1500",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -7871,7 +8366,9 @@
         "cardNumData2": "HTR-1-018",
         "id": "315",
         "bpData": "3000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -7896,7 +8393,9 @@
         "cardNumData2": "HTR-1-019",
         "id": "316",
         "bpData": "4000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -7921,7 +8420,9 @@
         "cardNumData2": "HTR-1-019",
         "id": "317",
         "bpData": "4000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -7946,7 +8447,9 @@
         "cardNumData2": "HTR-1-020",
         "id": "318",
         "bpData": "1500",
-        "attributeCnData": "爆弹魔",
+        "attributeCnData": [
+            "爆弹魔"
+        ],
         "attributeData": "爆弾魔"
     },
     {
@@ -7971,7 +8474,9 @@
         "cardNumData2": "HTR-1-021",
         "id": "319",
         "bpData": "2500",
-        "attributeCnData": "爆弹魔",
+        "attributeCnData": [
+            "爆弹魔"
+        ],
         "attributeData": "爆弾魔"
     },
     {
@@ -7996,7 +8501,9 @@
         "cardNumData2": "HTR-1-022",
         "id": "320",
         "bpData": "3500",
-        "attributeCnData": "爆弹魔",
+        "attributeCnData": [
+            "爆弹魔"
+        ],
         "attributeData": "爆弾魔"
     },
     {
@@ -8021,7 +8528,9 @@
         "cardNumData2": "HTR-1-023",
         "id": "321",
         "bpData": "4000",
-        "attributeCnData": "爆弹魔",
+        "attributeCnData": [
+            "爆弹魔"
+        ],
         "attributeData": "爆弾魔"
     },
     {
@@ -8046,7 +8555,9 @@
         "cardNumData2": "HTR-1-023",
         "id": "322",
         "bpData": "4000",
-        "attributeCnData": "爆弹魔",
+        "attributeCnData": [
+            "爆弹魔"
+        ],
         "attributeData": "爆弾魔"
     },
     {
@@ -8071,7 +8582,9 @@
         "cardNumData2": "HTR-1-024",
         "id": "323",
         "bpData": "2000",
-        "attributeCnData": "爆弹魔",
+        "attributeCnData": [
+            "爆弹魔"
+        ],
         "attributeData": "爆弾魔"
     },
     {
@@ -8096,7 +8609,9 @@
         "cardNumData2": "HTR-1-025",
         "id": "324",
         "bpData": "3000",
-        "attributeCnData": "爆弹魔",
+        "attributeCnData": [
+            "爆弹魔"
+        ],
         "attributeData": "爆弾魔"
     },
     {
@@ -8121,7 +8636,9 @@
         "cardNumData2": "HTR-1-026",
         "id": "325",
         "bpData": "-",
-        "attributeCnData": "指定口袋",
+        "attributeCnData": [
+            "指定口袋"
+        ],
         "attributeData": "指定ポケット"
     },
     {
@@ -8146,7 +8663,9 @@
         "cardNumData2": "HTR-1-027",
         "id": "326",
         "bpData": "-",
-        "attributeCnData": "指定口袋",
+        "attributeCnData": [
+            "指定口袋"
+        ],
         "attributeData": "指定ポケット"
     },
     {
@@ -8171,7 +8690,9 @@
         "cardNumData2": "HTR-1-027",
         "id": "327",
         "bpData": "-",
-        "attributeCnData": "指定口袋",
+        "attributeCnData": [
+            "指定口袋"
+        ],
         "attributeData": "指定ポケット"
     },
     {
@@ -8196,7 +8717,9 @@
         "cardNumData2": "HTR-1-028",
         "id": "328",
         "bpData": "-",
-        "attributeCnData": "指定口袋",
+        "attributeCnData": [
+            "指定口袋"
+        ],
         "attributeData": "指定ポケット"
     },
     {
@@ -8221,7 +8744,9 @@
         "cardNumData2": "HTR-1-029",
         "id": "329",
         "bpData": "-",
-        "attributeCnData": "指定口袋",
+        "attributeCnData": [
+            "指定口袋"
+        ],
         "attributeData": "指定ポケット"
     },
     {
@@ -8246,7 +8771,8 @@
         "cardNumData2": "HTR-1-030",
         "id": "330",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -8271,7 +8797,8 @@
         "cardNumData2": "HTR-1-031",
         "id": "331",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -8296,7 +8823,8 @@
         "cardNumData2": "HTR-1-031",
         "id": "332",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -8321,7 +8849,8 @@
         "cardNumData2": "HTR-1-032",
         "id": "333",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -8346,7 +8875,8 @@
         "cardNumData2": "HTR-1-032",
         "id": "334",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -8371,7 +8901,8 @@
         "cardNumData2": "HTR-1-033",
         "id": "335",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -8396,7 +8927,8 @@
         "cardNumData2": "HTR-1-033",
         "id": "336",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -8421,7 +8953,9 @@
         "cardNumData2": "HTR-1-034",
         "id": "337",
         "bpData": "3500",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8446,7 +8980,9 @@
         "cardNumData2": "HTR-1-034",
         "id": "338",
         "bpData": "3500",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8471,7 +9007,9 @@
         "cardNumData2": "HTR-1-035",
         "id": "339",
         "bpData": "1500",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8496,7 +9034,9 @@
         "cardNumData2": "HTR-1-036",
         "id": "340",
         "bpData": "2500",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8521,7 +9061,9 @@
         "cardNumData2": "HTR-1-037",
         "id": "341",
         "bpData": "4000",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8546,7 +9088,9 @@
         "cardNumData2": "HTR-1-037",
         "id": "342",
         "bpData": "4000",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8571,7 +9115,9 @@
         "cardNumData2": "HTR-1-038",
         "id": "343",
         "bpData": "2000",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8596,7 +9142,9 @@
         "cardNumData2": "HTR-1-039",
         "id": "344",
         "bpData": "3000",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8621,7 +9169,9 @@
         "cardNumData2": "HTR-1-040",
         "id": "345",
         "bpData": "3500",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8646,7 +9196,9 @@
         "cardNumData2": "HTR-1-041",
         "id": "346",
         "bpData": "1000",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8671,7 +9223,9 @@
         "cardNumData2": "HTR-1-042",
         "id": "347",
         "bpData": "2000",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8696,7 +9250,9 @@
         "cardNumData2": "HTR-1-043",
         "id": "348",
         "bpData": "4500",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8721,7 +9277,9 @@
         "cardNumData2": "HTR-1-043",
         "id": "349",
         "bpData": "4500",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8746,7 +9304,9 @@
         "cardNumData2": "HTR-1-044",
         "id": "350",
         "bpData": "1500",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8771,7 +9331,9 @@
         "cardNumData2": "HTR-1-045",
         "id": "351",
         "bpData": "3500",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8796,7 +9358,9 @@
         "cardNumData2": "HTR-1-045",
         "id": "352",
         "bpData": "3500",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8821,7 +9385,9 @@
         "cardNumData2": "HTR-1-046",
         "id": "353",
         "bpData": "2500",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8846,7 +9412,9 @@
         "cardNumData2": "HTR-1-047",
         "id": "354",
         "bpData": "2500",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8871,7 +9439,9 @@
         "cardNumData2": "HTR-1-048",
         "id": "355",
         "bpData": "1500",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -8896,7 +9466,9 @@
         "cardNumData2": "HTR-1-049",
         "id": "356",
         "bpData": "2000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -8921,7 +9493,9 @@
         "cardNumData2": "HTR-1-050",
         "id": "357",
         "bpData": "4000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -8946,7 +9520,9 @@
         "cardNumData2": "HTR-1-050",
         "id": "358",
         "bpData": "4000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -8971,7 +9547,9 @@
         "cardNumData2": "HTR-1-051",
         "id": "359",
         "bpData": "2500",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -8996,7 +9574,9 @@
         "cardNumData2": "HTR-1-052",
         "id": "360",
         "bpData": "1500",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -9021,7 +9601,9 @@
         "cardNumData2": "HTR-1-053",
         "id": "361",
         "bpData": "1500",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -9046,7 +9628,9 @@
         "cardNumData2": "HTR-1-054",
         "id": "362",
         "bpData": "3000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -9071,7 +9655,9 @@
         "cardNumData2": "HTR-1-055",
         "id": "363",
         "bpData": "4000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -9096,7 +9682,9 @@
         "cardNumData2": "HTR-1-056",
         "id": "364",
         "bpData": "4000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -9121,7 +9709,9 @@
         "cardNumData2": "HTR-1-056",
         "id": "365",
         "bpData": "4000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -9146,7 +9736,9 @@
         "cardNumData2": "HTR-1-057",
         "id": "366",
         "bpData": "3500",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -9171,7 +9763,9 @@
         "cardNumData2": "HTR-1-058",
         "id": "367",
         "bpData": "1000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -9196,7 +9790,9 @@
         "cardNumData2": "HTR-1-059",
         "id": "368",
         "bpData": "2000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -9221,7 +9817,9 @@
         "cardNumData2": "HTR-1-060",
         "id": "369",
         "bpData": "3000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -9246,7 +9844,8 @@
         "cardNumData2": "HTR-1-061",
         "id": "370",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9271,7 +9870,8 @@
         "cardNumData2": "HTR-1-062",
         "id": "371",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9296,7 +9896,8 @@
         "cardNumData2": "HTR-1-062",
         "id": "372",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9321,7 +9922,8 @@
         "cardNumData2": "HTR-1-063",
         "id": "373",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9346,7 +9948,8 @@
         "cardNumData2": "HTR-1-064",
         "id": "374",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9371,7 +9974,8 @@
         "cardNumData2": "HTR-1-065",
         "id": "375",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9396,7 +10000,8 @@
         "cardNumData2": "HTR-1-065",
         "id": "376",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9421,7 +10026,8 @@
         "cardNumData2": "HTR-1-066",
         "id": "377",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9446,7 +10052,8 @@
         "cardNumData2": "HTR-1-066",
         "id": "378",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9471,7 +10078,8 @@
         "cardNumData2": "HTR-1-067",
         "id": "379",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9496,7 +10104,8 @@
         "cardNumData2": "HTR-1-068",
         "id": "380",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9521,7 +10130,8 @@
         "cardNumData2": "HTR-1-069",
         "id": "381",
         "bpData": "2500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9546,7 +10156,8 @@
         "cardNumData2": "HTR-1-070",
         "id": "382",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9571,7 +10182,8 @@
         "cardNumData2": "HTR-1-071",
         "id": "383",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9596,7 +10208,8 @@
         "cardNumData2": "HTR-1-072",
         "id": "384",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9621,7 +10234,8 @@
         "cardNumData2": "HTR-1-073",
         "id": "385",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9646,7 +10260,8 @@
         "cardNumData2": "HTR-1-073",
         "id": "386",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9671,7 +10286,8 @@
         "cardNumData2": "HTR-1-074",
         "id": "387",
         "bpData": "5000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9696,7 +10312,8 @@
         "cardNumData2": "HTR-1-074",
         "id": "388",
         "bpData": "5000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9721,7 +10338,8 @@
         "cardNumData2": "HTR-1-075",
         "id": "389",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9746,7 +10364,8 @@
         "cardNumData2": "HTR-1-076",
         "id": "390",
         "bpData": "2500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9771,7 +10390,8 @@
         "cardNumData2": "HTR-1-077",
         "id": "391",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9796,7 +10416,8 @@
         "cardNumData2": "HTR-1-078",
         "id": "392",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9821,7 +10442,8 @@
         "cardNumData2": "HTR-1-078",
         "id": "393",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9846,7 +10468,8 @@
         "cardNumData2": "HTR-1-078",
         "id": "394",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9871,7 +10494,8 @@
         "cardNumData2": "HTR-1-079",
         "id": "395",
         "bpData": "1000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9896,7 +10520,8 @@
         "cardNumData2": "HTR-1-080",
         "id": "396",
         "bpData": "2500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9921,7 +10546,8 @@
         "cardNumData2": "HTR-1-081",
         "id": "397",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9946,7 +10572,8 @@
         "cardNumData2": "HTR-1-082",
         "id": "398",
         "bpData": "1000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9971,7 +10598,8 @@
         "cardNumData2": "HTR-1-083",
         "id": "399",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -9996,7 +10624,8 @@
         "cardNumData2": "HTR-1-084",
         "id": "400",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10021,7 +10650,8 @@
         "cardNumData2": "HTR-1-085",
         "id": "401",
         "bpData": "2500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10046,7 +10676,8 @@
         "cardNumData2": "HTR-1-086",
         "id": "402",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10071,7 +10702,8 @@
         "cardNumData2": "HTR-1-087",
         "id": "403",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10096,7 +10728,8 @@
         "cardNumData2": "HTR-1-088",
         "id": "404",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10121,7 +10754,8 @@
         "cardNumData2": "HTR-1-089",
         "id": "405",
         "bpData": "1000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10146,7 +10780,8 @@
         "cardNumData2": "HTR-1-090",
         "id": "406",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10171,7 +10806,8 @@
         "cardNumData2": "HTR-1-091",
         "id": "407",
         "bpData": "3500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10196,7 +10832,8 @@
         "cardNumData2": "HTR-1-091",
         "id": "408",
         "bpData": "3500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10221,7 +10858,8 @@
         "cardNumData2": "HTR-1-092",
         "id": "409",
         "bpData": "3500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10246,7 +10884,8 @@
         "cardNumData2": "HTR-1-092",
         "id": "410",
         "bpData": "3500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10271,7 +10910,9 @@
         "cardNumData2": "HTR-1-093",
         "id": "411",
         "bpData": "4000",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -10296,7 +10937,9 @@
         "cardNumData2": "HTR-1-093",
         "id": "412",
         "bpData": "4000",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -10321,7 +10964,9 @@
         "cardNumData2": "HTR-1-094",
         "id": "413",
         "bpData": "3000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -10346,7 +10991,9 @@
         "cardNumData2": "HTR-1-094",
         "id": "414",
         "bpData": "3000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -10371,7 +11018,8 @@
         "cardNumData2": "HTR-1-095",
         "id": "415",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10396,7 +11044,8 @@
         "cardNumData2": "HTR-1-096",
         "id": "416",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10421,7 +11070,8 @@
         "cardNumData2": "HTR-1-096",
         "id": "417",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10446,7 +11096,8 @@
         "cardNumData2": "HTR-1-097",
         "id": "418",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10471,7 +11122,8 @@
         "cardNumData2": "HTR-1-098",
         "id": "419",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10496,7 +11148,8 @@
         "cardNumData2": "HTR-1-099",
         "id": "420",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10521,7 +11174,8 @@
         "cardNumData2": "HTR-1-099",
         "id": "421",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10546,7 +11200,8 @@
         "cardNumData2": "HTR-1-100",
         "id": "422",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10571,7 +11226,8 @@
         "cardNumData2": "HTR-1-077",
         "id": "423",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10596,7 +11252,8 @@
         "cardNumData2": "HTR-1-070",
         "id": "424",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10621,7 +11278,8 @@
         "cardNumData2": "HTR-1-072",
         "id": "425",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10646,7 +11304,8 @@
         "cardNumData2": "HTR-1-075",
         "id": "426",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10671,7 +11330,8 @@
         "cardNumData2": "HTR-1-079",
         "id": "427",
         "bpData": "1000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10696,7 +11356,8 @@
         "cardNumData2": "HTR-1-083",
         "id": "428",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10721,7 +11382,8 @@
         "cardNumData2": "HTR-1-085",
         "id": "429",
         "bpData": "2500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10746,7 +11408,8 @@
         "cardNumData2": "HTR-1-090",
         "id": "430",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10771,7 +11434,8 @@
         "cardNumData2": "HTR-1-097",
         "id": "431",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10796,7 +11460,8 @@
         "cardNumData2": "HTR-1-099",
         "id": "432",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10821,7 +11486,8 @@
         "cardNumData2": "HTR-1-101",
         "id": "433",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10846,7 +11512,8 @@
         "cardNumData2": "HTR-1-102",
         "id": "434",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10871,7 +11538,8 @@
         "cardNumData2": "HTR-1-103",
         "id": "435",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10896,7 +11564,8 @@
         "cardNumData2": "HTR-1-104",
         "id": "436",
         "bpData": "500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10921,7 +11590,8 @@
         "cardNumData2": "HTR-1-105",
         "id": "437",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -10946,7 +11616,9 @@
         "cardNumData2": "HTR-1-106",
         "id": "438",
         "bpData": "4000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -10971,7 +11643,9 @@
         "cardNumData2": "HTR-1-107",
         "id": "439",
         "bpData": "5000",
-        "attributeCnData": "幻影旅团",
+        "attributeCnData": [
+            "幻影旅团"
+        ],
         "attributeData": "幻影旅団"
     },
     {
@@ -10996,7 +11670,8 @@
         "cardNumData2": "HTR-1-108",
         "id": "440",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -11021,7 +11696,8 @@
         "cardNumData2": "HTR-1-109",
         "id": "441",
         "bpData": "-",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -11046,7 +11722,9 @@
         "cardNumData2": "CGH-1-035",
         "id": "442",
         "bpData": "2000",
-        "attributeCnData": "神圣布里塔尼亚帝国",
+        "attributeCnData": [
+            "神圣布里塔尼亚帝国"
+        ],
         "attributeData": "神聖ブリタニア帝国"
     },
     {
@@ -11071,7 +11749,9 @@
         "cardNumData2": "CGH-1-077",
         "id": "443",
         "bpData": "4000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -11096,7 +11776,9 @@
         "cardNumData2": "CGH-1-091",
         "id": "444",
         "bpData": "3000",
-        "attributeCnData": "阿什福德学园",
+        "attributeCnData": [
+            "阿什福德学园"
+        ],
         "attributeData": "アッシュフォード学園"
     },
     {
@@ -11121,7 +11803,8 @@
         "cardNumData2": "HTR-1-005",
         "id": "445",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -11146,7 +11829,9 @@
         "cardNumData2": "HTR-1-018",
         "id": "446",
         "bpData": "3000",
-        "attributeCnData": "揍敌客家族",
+        "attributeCnData": [
+            "揍敌客家族"
+        ],
         "attributeData": "ゾルディック家"
     },
     {
@@ -11171,7 +11856,9 @@
         "cardNumData2": "HTR-1-026",
         "id": "447",
         "bpData": "-",
-        "attributeCnData": "指定口袋",
+        "attributeCnData": [
+            "指定口袋"
+        ],
         "attributeData": "指定ポケット"
     },
     {
@@ -11196,7 +11883,8 @@
         "cardNumData2": "HTR-1-072",
         "id": "448",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -11221,7 +11909,8 @@
         "cardNumData2": "HTR-1-076",
         "id": "449",
         "bpData": "2500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -11246,7 +11935,9 @@
         "cardNumData2": "IMS-1-073",
         "id": "450",
         "bpData": "2500",
-        "attributeCnData": "Straylight",
+        "attributeCnData": [
+            "Straylight"
+        ],
         "attributeData": "Straylight"
     },
     {
@@ -11271,7 +11962,8 @@
         "cardNumData2": "JJK-1-009",
         "id": "451",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -11296,7 +11988,8 @@
         "cardNumData2": "JJK-1-020",
         "id": "452",
         "bpData": "2000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -11321,7 +12014,8 @@
         "cardNumData2": "JJK-1-038",
         "id": "453",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -11346,7 +12040,8 @@
         "cardNumData2": "JJK-1-043",
         "id": "454",
         "bpData": "1500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -11371,7 +12066,8 @@
         "cardNumData2": "JJK-1-045",
         "id": "455",
         "bpData": "2500",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -11396,7 +12092,8 @@
         "cardNumData2": "JJK-1-053",
         "id": "456",
         "bpData": "4000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     },
     {
@@ -11421,7 +12118,8 @@
         "cardNumData2": "KMY-1-006",
         "id": "457",
         "bpData": "3000",
-        "attributeCnData": "-",
+        "attributeCnData": [
+        ],
         "attributeData": "-"
     }
 ]
