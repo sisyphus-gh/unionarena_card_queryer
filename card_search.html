@@ -97,6 +97,9 @@
                 if (triggerCnData != "" && !data.triggerCnData.startsWith(triggerCnData)) {
                     continue;
                 }
+                if (attributeCnData != "" && !data.attributeCnData.includes(attributeCnData)) {
+                    continue;
+                }
 
                 cardDivHtml = cardDivHtml +
                     `<div class="cardImageBox"><img onclick="clickCard(this);" id="${data.id}" src="./card/${data.imageFileName}" class="cardImage"/>

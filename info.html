@@ -24,7 +24,7 @@
                 var queryString = window.location.search;
                 var urlParams = new URLSearchParams(queryString);
                 var cardNumData = urlParams.get('cardNumData');
-         
+
                 var data;
                 for (var i = 0; i < datas.length; i++) {
                     data = datas[i];
@@ -34,7 +34,7 @@
                     }
                 }
 
-                var imgFileName = "./card/"+data.cardNumData.replace("/", "_") + ".png";
+                var imgFileName = "./card/" + data.cardNumData.replace("/", "_") + ".png";
                 var cardInfoDiv = document.getElementById("cardInfoArea");
                 cardInfoDiv.innerHTML = `
             <h1>${data.cardNumData}&nbsp;&nbsp;&nbsp;&nbsp;${data.rareData}</h1>
@@ -45,7 +45,7 @@
             <p>${data.effectCnData}</p>
             <h2>触发效果：</h2>
             <p>${data.triggerCnData}</p>
-            <img src="${imgFileName}" style="width: 75%">`;
+            <img src="${imgFileName}" class="cardImage">`;
 
             }
         }
@@ -60,7 +60,7 @@
         #cardInfoArea {
             border-width: 4px;
             border-style: double;
-            width: 440px;
+            width: calc(100vw-8px);
             padding: 0 8px 8px 8px;
         }
 
@@ -75,7 +75,7 @@
 
         .cardImage {
             /* width: 19.5% */
-            width: 250px;
+            width: 75%;
             margin: 3px auto;
             display: block;
         }
@@ -83,7 +83,7 @@
 </head>
 
 <body>
-   
+
     <div id="cardInfoArea">
     </div>
 </body>
