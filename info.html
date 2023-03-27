@@ -36,17 +36,45 @@
 
                 var imgFileName = "./card/" + data.cardNumData.replace("/", "_") + ".png";
                 var cardInfoDiv = document.getElementById("cardInfoArea");
-                cardInfoDiv.innerHTML = `
-            <h1>${data.cardNumData}&nbsp;&nbsp;&nbsp;&nbsp;${data.rareData}</h1>
-            <h2>中文卡名: ${data.cardCnName}</h2>
-            <h2>日文卡名: ${data.cardName}</h2>
-            <h2>特征：${data.attributeCnData}</h2>
-            <h2>效果: </h2>
-            <p>${data.effectCnData}</p>
-            <h2>触发效果：</h2>
-            <p>${data.triggerCnData}</p>
-            <img src="${imgFileName}" class="cardImage">`;
 
+                var div = document.createElement('h1');
+                div.innerHTML = data.cardNumData + "&nbsp;&nbsp;&nbsp;&nbsp;" + data.rareData;
+                cardInfoDiv.appendChild(div);
+
+                div = document.createElement('h2');
+                div.innerText = "中文卡名: " + data.cardCnName;
+                cardInfoDiv.appendChild(div);
+
+                div = document.createElement('h2');
+                div.innerText = "日文卡名:" + data.cardName;
+                cardInfoDiv.appendChild(div);
+
+
+                div = document.createElement('h2');
+                div.innerText = "特征：" + data.attributeCnData;
+                cardInfoDiv.appendChild(div);
+
+                div = document.createElement('h2');
+                div.innerText = "效果：";
+                cardInfoDiv.appendChild(div);
+
+
+                div = document.createElement('p');
+                div.innerText = data.effectCnData;
+                cardInfoDiv.appendChild(div);
+
+                div = document.createElement('h2');
+                div.innerText = "触发效果：";
+                cardInfoDiv.appendChild(div);
+
+                div = document.createElement('p');
+                div.innerText = data.triggerCnData;
+                cardInfoDiv.appendChild(div);
+
+                div = document.createElement('img');
+                div.setAttribute("src", "./card/" + data.imageFileName);
+                div.setAttribute("class", "cardImage");
+                cardInfoDiv.appendChild(div);
             }
         }
 

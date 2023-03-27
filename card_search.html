@@ -37,21 +37,54 @@
             }
 
             var cardInfoDiv = document.getElementById("cardInfoArea");
-            cardInfoDiv.innerHTML = `
-            <h1>${data.cardNumData}&nbsp;&nbsp;&nbsp;&nbsp;${data.rareData}</h1>
-            <h2>中文卡名: ${data.cardCnName}</h2>
-            <h2>日文卡名: ${data.cardName}</h2>
-            <h2>特征：${data.attributeCnData}</h2>
-            <h2>效果: </h2>
-            <p>${data.effectCnData}</p>
-            <h2>触发效果：</h2>
-            <p>${data.triggerCnData}</p>
-            <img src="${e.getAttribute("src")}" style="width: 75%">`;
+            while (cardInfoDiv.hasChildNodes()) {
+                cardInfoDiv.removeChild(cardInfoDiv.firstChild);
+            }
+
+            var div = document.createElement('h1');
+            div.innerHTML = data.cardNumData + "&nbsp;&nbsp;&nbsp;&nbsp;" + data.rareData;
+            cardInfoDiv.appendChild(div);
+
+            div = document.createElement('h2');
+            div.innerText = "中文卡名: " + data.cardCnName;
+            cardInfoDiv.appendChild(div);
+
+            div = document.createElement('h2');
+            div.innerText = "日文卡名:" + data.cardName;
+            cardInfoDiv.appendChild(div);
+
+
+            div = document.createElement('h2');
+            div.innerText = "特征：" + data.attributeCnData;
+            cardInfoDiv.appendChild(div);
+
+            div = document.createElement('h2');
+            div.innerText = "效果：";
+            cardInfoDiv.appendChild(div);
+
+
+            div = document.createElement('p');
+            div.innerText = data.effectCnData;
+            cardInfoDiv.appendChild(div);
+
+            div = document.createElement('h2');
+            div.innerText = "触发效果：";
+            cardInfoDiv.appendChild(div);
+
+            div = document.createElement('p');
+            div.innerText = data.triggerCnData;
+            cardInfoDiv.appendChild(div);
+
+            div = document.createElement('img');
+            div.setAttribute("src", "./card/" + data.imageFileName);
+            div.setAttribute("style", "width: 75%");
+            cardInfoDiv.appendChild(div);
 
         }
 
         function search() {
             form = document.getElementById("search");
+            var effectData = form.querySelector('[name="effectData"]').value;
             var ipData = form.querySelector('[name="ipData"]').value;
             var cardCnName = form.querySelector('[name="cardCnName"]').value;
             var cardName = form.querySelector('[name="cardName"]').value;
@@ -64,12 +97,18 @@
             var triggerCnData = form.querySelector('[name="triggerCnData"]').value;
             var attributeCnData = form.querySelector('[name="attributeCnData"]').value;
 
+
             var cardDiv = document.getElementById("cardListArea");
             var cardDivHtml = "";
             var count = 0;
             for (var i = 0; i < datas.length; i++) {
                 var data = datas[i];
-
+                if (effectData != "" && !data.effectCnData.includes(effectData)) {
+                    continue;
+                }
+                if (cardNumData != "" && !data.cardNumData.includes(cardNumData)) {
+                    continue;
+                }
                 if (cardCnName != "" && !data.cardCnName.includes(cardCnName)) {
                     continue;
                 }
@@ -183,12 +222,16 @@
                 <div> 卡片编号 ：<input type="text" name="cardNumData" /> </div>
                 <div> 中文卡名 ：<input type="text" name="cardCnName" /> </div>
                 <div> 日文卡名 ： <input type="text" name="cardName" /></div>
+                <div> 效果 ： <input type="text" name="effectData" /></div>
                 <div> 稀有度 ： <select name="rareData">
                         <option value="">全部</option>
                         <option value="C">C</option>
                         <option value="U">U</option>
                         <option value="R">R</option>
                         <option value="SR">SR</option>
+                        <option value="C★">C★</option>
+                        <option value="U★">U★</option>
+                        <option value="R★">R★</option>
                         <option value="SR★">SR★</option>
                         <option value="SR★★">SR★★</option>
                         <option value="SR★★★">SR★★★</option>
@@ -247,7 +290,7 @@
                         <option value="【获得】">获得</option>
                         <option value="【抽卡】">抽卡</option>
                         <option value="【激活】">激活</option>
-                        <option value="【突袭】">突袭</option>
+                        <option value="【突进】">突进</option>
                     </select>
                 </div>
                 <div>特征 ：

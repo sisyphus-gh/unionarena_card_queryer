@@ -45,6 +45,9 @@
             for (var i = 0; i < datas.length; i++) {
                 var data = datas[i];
 
+                if (cardNumData != "" && !data.cardNumData.includes(cardNumData)) {
+                    continue;
+                }
                 if (cardCnName != "" && !data.cardCnName.includes(cardCnName)) {
                     continue;
                 }
@@ -155,6 +158,9 @@
                         <option value="U">U</option>
                         <option value="R">R</option>
                         <option value="SR">SR</option>
+                        <option value="C★">C★</option>
+                        <option value="U★">U★</option>
+                        <option value="R★">R★</option>
                         <option value="SR★">SR★</option>
                         <option value="SR★★">SR★★</option>
                         <option value="SR★★★">SR★★★</option>
@@ -213,7 +219,7 @@
                         <option value="【获得】">获得</option>
                         <option value="【抽卡】">抽卡</option>
                         <option value="【激活】">激活</option>
-                        <option value="【突袭】">突袭</option>
+                        <option value="【突进】">突进</option>
                     </select>
                 </div>
                 <div>特征 ：
