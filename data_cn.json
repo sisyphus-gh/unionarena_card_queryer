@@ -74,7 +74,7 @@
         "cardCnName": "红月 卡莲",
         "cardNumData2": "CGH-1-003",
         "id": "3",
-        "bpData": "2000",
+        "bpData": "2000+",
         "attributeCnData": [
             "黑色骑士团"
         ],
@@ -1810,7 +1810,7 @@
         "cardCnName": "安德列亚斯・达尔顿",
         "cardNumData2": "CGH-1-053",
         "id": "67",
-        "bpData": "1500",
+        "bpData": "1500+",
         "attributeCnData": [
             "神圣布里塔尼亚帝国",
             "亲卫队"
@@ -1838,7 +1838,7 @@
         "cardCnName": "基尔伯特・G・P・基尔福特",
         "cardNumData2": "CGH-1-054",
         "id": "68",
-        "bpData": "2500",
+        "bpData": "2500+",
         "attributeCnData": [
             "神圣布里塔尼亚帝国",
             "亲卫队"
@@ -1894,7 +1894,7 @@
         "cardCnName": "格洛斯特（亲卫队机）",
         "cardNumData2": "CGH-1-056",
         "id": "70",
-        "bpData": "2500",
+        "bpData": "2500+",
         "attributeCnData": [
             "神圣布里塔尼亚帝国",
             "KMF"
@@ -1922,7 +1922,7 @@
         "cardCnName": "萨瑟兰（纯血派机）",
         "cardNumData2": "CGH-1-057",
         "id": "71",
-        "bpData": "3000",
+        "bpData": "3000+",
         "attributeCnData": [
             "神圣布里塔尼亚帝国",
             "KMF"
@@ -1978,7 +1978,7 @@
         "cardCnName": "兰斯洛特",
         "cardNumData2": "CGH-1-059",
         "id": "73",
-        "bpData": "4000",
+        "bpData": "4000+",
         "attributeCnData": [
             "神圣布里塔尼亚帝国",
             "KMF"
@@ -2006,7 +2006,7 @@
         "cardCnName": "兰斯洛特",
         "cardNumData2": "CGH-1-059",
         "id": "74",
-        "bpData": "4000",
+        "bpData": "4000+",
         "attributeCnData": [
             "神圣布里塔尼亚帝国",
             "KMF"
@@ -2431,7 +2431,7 @@
         "cardCnName": "卡莲・修坦费尔德",
         "cardNumData2": "CGH-1-071",
         "id": "90",
-        "bpData": "3000",
+        "bpData": "3000+",
         "attributeCnData": [
             "阿什福德学园"
         ],
@@ -2593,7 +2593,7 @@
         "cardCnName": "C.C.",
         "cardNumData2": "CGH-1-076",
         "id": "96",
-        "bpData": "3000",
+        "bpData": "3000+",
         "attributeCnData": [
             "阿什福德学园"
         ],
@@ -2620,7 +2620,7 @@
         "cardCnName": "C.C.",
         "cardNumData2": "CGH-1-077",
         "id": "97",
-        "bpData": "4000",
+        "bpData": "4000+",
         "attributeCnData": [
             "阿什福德学园"
         ],
@@ -2647,7 +2647,7 @@
         "cardCnName": "C.C.",
         "cardNumData2": "CGH-1-077",
         "id": "98",
-        "bpData": "4000",
+        "bpData": "4000+",
         "attributeCnData": [
             "阿什福德学园"
         ],
@@ -4092,7 +4092,7 @@
         "cardCnName": "狗卷 棘",
         "cardNumData2": "JJK-1-005",
         "id": "152",
-        "bpData": "2000",
+        "bpData": "2000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -4118,7 +4118,7 @@
         "cardCnName": "狗卷 棘",
         "cardNumData2": "JJK-1-005",
         "id": "153",
-        "bpData": "2000",
+        "bpData": "2000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -4508,7 +4508,7 @@
         "cardCnName": "熊猫",
         "cardNumData2": "JJK-1-017",
         "id": "168",
-        "bpData": "3000",
+        "bpData": "3000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -4534,7 +4534,7 @@
         "cardCnName": "熊猫",
         "cardNumData2": "JJK-1-017",
         "id": "169",
-        "bpData": "3000",
+        "bpData": "3000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -5630,7 +5630,7 @@
         "cardCnName": "禅院 真希",
         "cardNumData2": "JJK-1-049",
         "id": "211",
-        "bpData": "3000",
+        "bpData": "3000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -5656,7 +5656,7 @@
         "cardCnName": "禅院 真希",
         "cardNumData2": "JJK-1-050",
         "id": "212",
-        "bpData": "1500",
+        "bpData": "1500+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -5682,7 +5682,7 @@
         "cardCnName": "禅院 真希",
         "cardNumData2": "JJK-1-050",
         "id": "213",
-        "bpData": "1500",
+        "bpData": "1500+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -5786,7 +5786,7 @@
         "cardCnName": "七海 建人",
         "cardNumData2": "JJK-1-054",
         "id": "217",
-        "bpData": "4000",
+        "bpData": "4000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -5812,7 +5812,7 @@
         "cardCnName": "七海 建人",
         "cardNumData2": "JJK-1-054",
         "id": "218",
-        "bpData": "4000",
+        "bpData": "4000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -6629,7 +6629,7 @@
         "cardCnName": "东堂 葵",
         "cardNumData2": "JJK-1-080",
         "id": "249",
-        "bpData": "3500",
+        "bpData": "3500+",
         "attributeCnData": [
             "京都校"
         ],
@@ -6656,7 +6656,7 @@
         "cardCnName": "东堂 葵",
         "cardNumData2": "JJK-1-081",
         "id": "250",
-        "bpData": "4000",
+        "bpData": "4000+",
         "attributeCnData": [
             "京都校"
         ],
@@ -6683,7 +6683,7 @@
         "cardCnName": "东堂 葵",
         "cardNumData2": "JJK-1-081",
         "id": "251",
-        "bpData": "4000",
+        "bpData": "4000+",
         "attributeCnData": [
             "京都校"
         ],
@@ -7609,7 +7609,7 @@
         "cardCnName": "虎杖 悠仁",
         "cardNumData2": "JJK-1-101",
         "id": "286",
-        "bpData": "3000",
+        "bpData": "3000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -7713,7 +7713,7 @@
         "cardCnName": "宿傩",
         "cardNumData2": "JJK-1-105",
         "id": "290",
-        "bpData": "4000",
+        "bpData": "4000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -8129,7 +8129,7 @@
         "cardCnName": "比司吉",
         "cardNumData2": "HTR-1-010",
         "id": "306",
-        "bpData": "3000",
+        "bpData": "3000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -8952,7 +8952,7 @@
         "cardCnName": "窝金",
         "cardNumData2": "HTR-1-034",
         "id": "337",
-        "bpData": "3500",
+        "bpData": "3500+",
         "attributeCnData": [
             "幻影旅团"
         ],
@@ -8979,7 +8979,7 @@
         "cardCnName": "窝金",
         "cardNumData2": "HTR-1-034",
         "id": "338",
-        "bpData": "3500",
+        "bpData": "3500+",
         "attributeCnData": [
             "幻影旅团"
         ],
@@ -10207,7 +10207,7 @@
         "cardCnName": "酷拉皮卡",
         "cardNumData2": "HTR-1-072",
         "id": "384",
-        "bpData": "3000",
+        "bpData": "3000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -10415,7 +10415,7 @@
         "cardCnName": "杰・富力士",
         "cardNumData2": "HTR-1-078",
         "id": "392",
-        "bpData": "4000",
+        "bpData": "4000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -10441,7 +10441,7 @@
         "cardCnName": "杰・富力士",
         "cardNumData2": "HTR-1-078",
         "id": "393",
-        "bpData": "4000",
+        "bpData": "4000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -10467,7 +10467,7 @@
         "cardCnName": "杰・富力士",
         "cardNumData2": "HTR-1-078",
         "id": "394",
-        "bpData": "4000",
+        "bpData": "4000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -10701,7 +10701,7 @@
         "cardCnName": "半藏",
         "cardNumData2": "HTR-1-087",
         "id": "403",
-        "bpData": "4000",
+        "bpData": "4000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -10857,7 +10857,7 @@
         "cardCnName": "雷欧力",
         "cardNumData2": "HTR-1-092",
         "id": "409",
-        "bpData": "3500",
+        "bpData": "3500+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -10883,7 +10883,7 @@
         "cardCnName": "雷欧力",
         "cardNumData2": "HTR-1-092",
         "id": "410",
-        "bpData": "3500",
+        "bpData": "3500+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -11183,7 +11183,7 @@
         "cardNumData": "UA03BT/HTR-1-100",
         "cardName": "水見式",
         "ipCnData": "《全职猎人》",
-        "effectCnData": "查看我方卡组顶看张卡。从中把任意的张数按任意的顺序放在我方的卡组顶，剩下的按任意的顺序放在卡组底。抽2张卡。",
+        "effectCnData": "查看我方卡组顶看2张卡。从中把任意的张数按任意的顺序放在我方的卡组顶，剩下的按任意的顺序放在卡组底。抽2张卡。",
         "effectData": "自分の山札の上から2枚見る。その中から望む枚数を望む順で自分の山札の上に置き、残りを望む順で下に置く。カードを2枚引く。",
         "ipData": "HTR",
         "categoryData": "事件",
@@ -11277,7 +11277,7 @@
         "cardCnName": "酷拉皮卡",
         "cardNumData2": "HTR-1-072",
         "id": "425",
-        "bpData": "3000",
+        "bpData": "3000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -11511,7 +11511,7 @@
         "cardCnName": "杰・富力士",
         "cardNumData2": "HTR-1-102",
         "id": "434",
-        "bpData": "4000",
+        "bpData": "4000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -11748,7 +11748,7 @@
         "cardCnName": "C.C.",
         "cardNumData2": "CGH-1-077",
         "id": "443",
-        "bpData": "4000",
+        "bpData": "4000+",
         "attributeCnData": [
             "阿什福德学园"
         ],
@@ -11882,7 +11882,7 @@
         "cardCnName": "酷拉皮卡",
         "cardNumData2": "HTR-1-072",
         "id": "448",
-        "bpData": "3000",
+        "bpData": "3000+",
         "attributeCnData": [
         ],
         "attributeData": "-"
@@ -11915,6 +11915,60 @@
     },
     {
         "triggerData": "-",
+        "cardNumData": "UAPR/IMS-1-034",
+        "cardName": "白瀬 咲耶",
+        "ipCnData": "《偶像大师 闪耀色彩》",
+        "effectCnData": "【登场时】查看我方卡组顶3张卡。从中公开最多1张[特征：L'Antica]并加入手牌。将其余的以任意顺序放在你的卡组底部。加入手牌的场合、丢弃1张卡。",
+        "effectData": "<img src=\"/jp/images/cardlist/icon/effect/ico_appearance.png\" alt=\"登場時\">自分の山札の上から3枚見る。その中から［特徴：L'Antica］を1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+        "ipData": "IMS",
+        "categoryData": "角色",
+        "apData": "1",
+        "cardPackData": "UAPR",
+        "generatedEnergyData": "青",
+        "needEnergyData": "青1",
+        "sourceUrl": "https://unionarena-tcg.com/jp/cardlist/./detail_iframe.php?card_no=UAPR/IMS-1-034",
+        "triggerCnData": "-",
+        "rareData": "C",
+        "imageUrl": "https://unionarena-tcg.com//jp/images/cardlist/card/UAPR_IMS-1-034.png",
+        "imageFileName": "UAPR_IMS-1-034.png",
+        "cardCnName": "白濑 咲耶",
+        "cardNumData2": "IMS-1-034",
+        "id": "450",
+        "bpData": "2000",
+        "attributeCnData": [
+            "L'Antica"
+        ],
+        "attributeData": "L'Antica"
+    },
+    {
+        "triggerData": "-",
+        "cardNumData": "UAPR/IMS-1-050",
+        "cardName": "浅倉 透",
+        "ipCnData": "《偶像大师 闪耀色彩》",
+        "effectCnData": "【登场时】自分の手札の［特徴：noctchill］を1枚場外に置いてもよい。那样的场合、选择最多1张我方AP卡、转为激活状态。",
+        "effectData": "<img src=\"/jp/images/cardlist/icon/effect/ico_appearance.png\" alt=\"登場時\">自分の手札の［特徴：noctchill］を1枚場外に置いてもよい。そうした場合、自分のAPカードを1枚まで選び、アクティブにする。",
+        "ipData": "IMS",
+        "categoryData": "角色",
+        "apData": "1",
+        "cardPackData": "UAPR",
+        "generatedEnergyData": "青",
+        "needEnergyData": "青4",
+        "sourceUrl": "https://unionarena-tcg.com/jp/cardlist/./detail_iframe.php?card_no=UAPR/IMS-1-050",
+        "triggerCnData": "-",
+        "rareData": "U",
+        "imageUrl": "https://unionarena-tcg.com//jp/images/cardlist/card/UAPR_IMS-1-050.png",
+        "imageFileName": "UAPR_IMS-1-050.png",
+        "cardCnName": "浅仓 透",
+        "cardNumData2": "IMS-1-050",
+        "id": "451",
+        "bpData": "3000",
+        "attributeCnData": [
+            "noctchill"
+        ],
+        "attributeData": "noctchill"
+    },
+    {
+        "triggerData": "-",
         "cardNumData": "UAPR/IMS-1-073",
         "cardName": "芹沢 あさひ",
         "ipCnData": "《偶像大师 闪耀色彩》",
@@ -11933,8 +11987,8 @@
         "imageFileName": "UAPR_IMS-1-073.png",
         "cardCnName": "芹泽 朝日",
         "cardNumData2": "IMS-1-073",
-        "id": "450",
-        "bpData": "2500",
+        "id": "452",
+        "bpData": "2500+",
         "attributeCnData": [
             "Straylight"
         ],
@@ -11960,7 +12014,7 @@
         "imageFileName": "UAPR_JJK-1-009.png",
         "cardCnName": "五条 悟",
         "cardNumData2": "JJK-1-009",
-        "id": "451",
+        "id": "453",
         "bpData": "3000",
         "attributeCnData": [
         ],
@@ -11986,7 +12040,7 @@
         "imageFileName": "UAPR_JJK-1-020.png",
         "cardCnName": "伏黑 惠",
         "cardNumData2": "JJK-1-020",
-        "id": "452",
+        "id": "454",
         "bpData": "2000",
         "attributeCnData": [
         ],
@@ -12012,7 +12066,7 @@
         "imageFileName": "UAPR_JJK-1-038.png",
         "cardCnName": "虎杖 悠仁",
         "cardNumData2": "JJK-1-038",
-        "id": "453",
+        "id": "455",
         "bpData": "3000",
         "attributeCnData": [
         ],
@@ -12038,7 +12092,7 @@
         "imageFileName": "UAPR_JJK-1-043.png",
         "cardCnName": "钉崎 野蔷薇",
         "cardNumData2": "JJK-1-043",
-        "id": "454",
+        "id": "456",
         "bpData": "1500",
         "attributeCnData": [
         ],
@@ -12064,7 +12118,7 @@
         "imageFileName": "UAPR_JJK-1-045.png",
         "cardCnName": "五条 悟",
         "cardNumData2": "JJK-1-045",
-        "id": "455",
+        "id": "457",
         "bpData": "2500",
         "attributeCnData": [
         ],
@@ -12090,7 +12144,7 @@
         "imageFileName": "UAPR_JJK-1-053.png",
         "cardCnName": "七海 建人",
         "cardNumData2": "JJK-1-053",
-        "id": "456",
+        "id": "458",
         "bpData": "4000",
         "attributeCnData": [
         ],
@@ -12116,10 +12170,63 @@
         "imageFileName": "UAPR_KMY-1-006.png",
         "cardCnName": "灶门 炭治郎",
         "cardNumData2": "KMY-1-006",
-        "id": "457",
+        "id": "459",
         "bpData": "3000",
         "attributeCnData": [
         ],
         "attributeData": "-"
+    },
+    {
+        "triggerData": "-",
+        "cardNumData": "UAPR/KMY-1-015",
+        "cardName": "嘴平 伊之助",
+        "ipCnData": "《鬼灭之刃》",
+        "effectCnData": "【冲击1】(攻击并赢得战斗时，对对方玩家造成1点伤害。)【在前线】我方攻击阶段结束时，此角色处于活跃状态的场合，让这个角色退场。这个角色攻击战斗失败的时候，让这个角色退场。",
+        "effectData": "<img src=\"/jp/images/cardlist/icon/effect/ico_impact1.png\" alt=\"インパクト（1）\">（アタックしてバトルに勝利した時、相手プレイヤーに1ダメージ）\n<img src=\"/jp/images/cardlist/icon/effect/ico_frontl.png\" alt=\"フロントLにある場合\">自分のアタックフェイズ終了時、このキャラがアクティブの場合、このキャラを退場させる。このキャラがアタックしてバトルに敗北した時、このキャラを退場させる。",
+        "ipData": "KMY",
+        "categoryData": "角色",
+        "apData": "1",
+        "cardPackData": "UAPR",
+        "generatedEnergyData": "黄",
+        "needEnergyData": "黄1",
+        "sourceUrl": "https://unionarena-tcg.com/jp/cardlist/./detail_iframe.php?card_no=UAPR/KMY-1-015",
+        "triggerCnData": "-",
+        "rareData": "U",
+        "imageUrl": "https://unionarena-tcg.com//jp/images/cardlist/card/UAPR_KMY-1-015.png",
+        "imageFileName": "UAPR_KMY-1-015.png",
+        "cardCnName": "嘴平 伊之助",
+        "cardNumData2": "KMY-1-015",
+        "id": "460",
+        "bpData": "2500",
+        "attributeCnData": [
+        ],
+        "attributeData": "-"
+    },
+    {
+        "triggerData": "-",
+        "cardNumData": "UAPR/KMY-1-089",
+        "cardName": "煉󠄁獄 杏寿郎",
+        "ipCnData": "《鬼灭之刃》",
+        "effectCnData": "【主要阶段启动】【在前线】 【丢弃1张卡】 【1回合1次】我方全体角色、在这个回合中、BP+500。",
+        "effectData": "<img src=\"/jp/images/cardlist/icon/effect/ico_standup.png\" alt=\"起動メイン\">\n<img src=\"/jp/images/cardlist/icon/effect/ico_frontl.png\" alt=\"フロントLにある場合\"> \n<img src=\"/jp/images/cardlist/icon/effect/ico_outside.png\" alt=\"手札を1枚場外に置く\"> \n<img src=\"/jp/images/cardlist/icon/effect/ico_turn1.png\" alt=\"ターン1\">自分の場のキャラ全ては、このターン中、BP+500。",
+        "ipData": "KMY",
+        "categoryData": "角色",
+        "apData": "1",
+        "cardPackData": "UAPR",
+        "generatedEnergyData": "赤",
+        "needEnergyData": "赤3",
+        "sourceUrl": "https://unionarena-tcg.com/jp/cardlist/./detail_iframe.php?card_no=UAPR/KMY-1-089",
+        "triggerCnData": "-",
+        "rareData": "R",
+        "imageUrl": "https://unionarena-tcg.com//jp/images/cardlist/card/UAPR_KMY-1-089.png",
+        "imageFileName": "UAPR_KMY-1-089.png",
+        "cardCnName": "炼狱 杏寿郎",
+        "cardNumData2": "KMY-1-089",
+        "id": "461",
+        "bpData": "3500+",
+        "attributeCnData": [
+            "柱"
+        ],
+        "attributeData": "柱"
     }
 ]
