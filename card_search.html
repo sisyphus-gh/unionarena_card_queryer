@@ -6,224 +6,72 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>UA查卡器</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
-    <!-- <script src='main.js'></script> -->
 
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
 
-    <script>
-        var datas;
-        var url = "./data_cn.json"
-        var request = new XMLHttpRequest();
-        request.open("get", url); /*设置请求方法与路径*/
-        request.send(null); /*不发送数据到服务器*/
-        request.onload = function () { /*XHR对象获取到返回信息后执行*/
-            if (request.status == 200) { /*返回状态为200，即为数据获取成功*/
-                datas = JSON.parse(request.responseText);
-
-
-                search();
-            }
-        }
-
-        function clickCard(e) {
-            var id = e.getAttribute("id");
-
-            var data;
-            for (var i = 0; i < datas.length; i++) {
-                data = datas[i];
-                if (data.id == id) {
-                    break;
-                }
-            }
-
-            var cardInfoDiv = document.getElementById("cardInfoArea");
-            while (cardInfoDiv.hasChildNodes()) {
-                cardInfoDiv.removeChild(cardInfoDiv.firstChild);
-            }
-
-            var div = document.createElement('h1');
-            div.innerHTML = data.cardNumData + "&nbsp;&nbsp;&nbsp;&nbsp;" + data.rareData;
-            cardInfoDiv.appendChild(div);
-
-            div = document.createElement('h2');
-            div.innerText = "中文卡名: " + data.cardCnName;
-            cardInfoDiv.appendChild(div);
-
-            div = document.createElement('h2');
-            div.innerText = "日文卡名:" + data.cardName;
-            cardInfoDiv.appendChild(div);
-
-
-            div = document.createElement('h2');
-            div.innerText = "特征：" + data.attributeCnData;
-            cardInfoDiv.appendChild(div);
-
-            div = document.createElement('h2');
-            div.innerText = "效果：";
-            cardInfoDiv.appendChild(div);
-
-
-            div = document.createElement('p');
-            div.innerText = data.effectCnData;
-            cardInfoDiv.appendChild(div);
-
-            div = document.createElement('h2');
-            div.innerText = "触发效果：";
-            cardInfoDiv.appendChild(div);
-
-            div = document.createElement('p');
-            div.innerText = data.triggerCnData;
-            cardInfoDiv.appendChild(div);
-
-            div = document.createElement('img');
-            div.setAttribute("src", "./card/" + data.imageFileName);
-            div.setAttribute("style", "width: 75%");
-            cardInfoDiv.appendChild(div);
-
-        }
-
-        function search() {
-            form = document.getElementById("search");
-            var effectData = form.querySelector('[name="effectData"]').value;
-            var ipData = form.querySelector('[name="ipData"]').value;
-            var cardCnName = form.querySelector('[name="cardCnName"]').value;
-            var cardName = form.querySelector('[name="cardName"]').value;
-            var cardPackData = form.querySelector('[name="cardPackData"]').value;
-            var colorData = form.querySelector('[name="colorData"]').value;
-            var needEnergyData = form.querySelector('[name="needEnergyData"]').value;
-            var cardNumData = form.querySelector('[name="cardNumData"]').value;
-            var rareData = form.querySelector('[name="rareData"]').value;
-            var parallelFlag = form.querySelector('[name="parallelFlag"]').value;
-            var triggerCnData = form.querySelector('[name="triggerCnData"]').value;
-            var attributeCnData = form.querySelector('[name="attributeCnData"]').value;
-
-
-            var cardDiv = document.getElementById("cardListArea");
-            var cardDivHtml = "";
-            var count = 0;
-            for (var i = 0; i < datas.length; i++) {
-                var data = datas[i];
-                if (effectData != "" && !data.effectCnData.includes(effectData)) {
-                    continue;
-                }
-                if (cardNumData != "" && !data.cardNumData.includes(cardNumData)) {
-                    continue;
-                }
-                if (cardCnName != "" && !data.cardCnName.includes(cardCnName)) {
-                    continue;
-                }
-                if (cardName != "" && !data.cardName.includes(cardName)) {
-                    continue;
-                }
-                if (ipData != "" && data.ipData != ipData) {
-                    continue;
-                }
-                if (cardPackData != "" && data.cardPackData != cardPackData) {
-                    continue;
-                }
-                if (colorData != "" && !data.needEnergyData.includes(colorData)) {
-                    continue;
-                }
-                if (needEnergyData != "" && !data.needEnergyData.endsWith(needEnergyData)) {
-                    continue;
-                }
-                if (parallelFlag != "" && data.rareData.includes("★")) {
-                    continue;
-                }
-                if (rareData != "" && data.rareData != rareData) {
-                    continue;
-                }
-                if (triggerCnData != "" && !data.triggerCnData.startsWith(triggerCnData)) {
-                    continue;
-                }
-                if (attributeCnData != "" && !data.attributeCnData.includes(attributeCnData)) {
-                    continue;
-                }
-
-                cardDivHtml = cardDivHtml +
-                    `<div class="cardImageBox"><img onclick="clickCard(this);" id="${data.id}" src="./card/${data.imageFileName}" class="cardImage"/>
-                    <p style="font-size: 16px;font-weight: bolder;">${data.cardNumData}</p>
-                    <p style="font-size: 16px;">${data.cardCnName}</p>
-                    </div>`;
-                count++;
-            }
-            cardDiv.innerHTML = cardDivHtml;
-
-            document.getElementById("searchCount").innerHTML = count;
-        }
-    </script>
     <style>
-        * {
-            margin: 0px;
-        }
-
-        .main {
-            display: flex;
-            flex-wrap: wrap;
-            width: 70%;
-        }
-
-
-        .main #search {
-            padding-top: 10px;
-            padding-left: 13px;
-            padding-bottom: 10px;
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .main #search>div {
-            margin-top: 5px;
-            width: 320px;
-        }
-
-        #cardListArea {
-            display: flex;
-            flex-wrap: wrap;
-            padding: 0 0 0 10px;
-        }
-
         #cardInfoArea {
-            position: fixed;
-            top: 10px;
-            right: 10px;
-            border-width: 4px;
-            border-style: double;
-            width: 30%;
             height: calc(100vh - 30px);
-            overflow: hidden;
-            overflow-y: auto;
-            padding: 0 8px 8px 8px;
         }
 
-        .cardImageBox {
-            margin: 0 3px;
+        .card {
+            padding: 10px;
         }
 
-        .cardImageBox p {
-            text-align: center;
+        .card-block {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .card-item {
+            width: 16.6666667%;
         }
 
 
-        .cardImage {
-            /* width: 19.5% */
-            width: 250px;
-            margin: 3px auto;
-            display: block;
+        select {
+            height: 2rem;
+        }
+
+        input {
+            border: 0;
+            outline: none;
+            padding: 5px;
+            width: 100%;
+            height: 2rem;
+        }
+
+        button {
+            border: none;
+            background: #ae3149;
+            color: white;
+            padding: 5px;
+            width: 100%;
+            height: 2rem;
+        }
+
+        button:focus {
+            outline: none;
+            background: #ae3149;
+        }
+
+        #search div {
+            margin-bottom: 10px;
         }
     </style>
 </head>
 
-<body>
-    <div class="main">
-        <div class="searchBox">
-            <form id="search" style="width: 100%; ">
-                <div> 卡片编号 ：<input type="text" name="cardNumData" /> </div>
-                <div> 中文卡名 ：<input type="text" name="cardCnName" /> </div>
-                <div> 日文卡名 ： <input type="text" name="cardName" /></div>
-                <div> 效果 ： <input type="text" name="effectData" /></div>
-                <div> 稀有度 ： <select name="rareData">
+<body class="row" style="background-image:linear-gradient( #391922, #0c1b29  ) ;overflow: hidden;">
+    <div class="col s8">
+        <div class="card" style="background-color: #bdb1b13b;color: white;">
+            <form id="search" style="width: 100%;margin-bottom: 0px;" class="row">
+                <div class="col s3"> 卡片编号 ：<input type="text" name="cardNumData" class="browser-default" /> </div>
+                <div class="col s3"> 中文卡名 ：<input type="text" name="cardCnName" class="browser-default" /> </div>
+                <div class="col s3"> 日文卡名 ： <input type="text" name="cardName" class="browser-default" /></div>
+                <div class="col s3"> 效果 ： <input type="text" name="effectData" class="browser-default" /></div>
+                <div class="col s3"> 稀有度 ： <select name="rareData" class="browser-default">
                         <option value="">全部</option>
                         <option value="C">C</option>
                         <option value="U">U</option>
@@ -237,7 +85,7 @@
                         <option value="SR★★★">SR★★★</option>
                     </select>
                 </div>
-                <div> 出场作品 ： <select name="ipData">
+                <div class="col s3"> 出场作品 ： <select name="ipData" class="browser-default">
                         <option value="">全部</option>
                         <option value="CGH">反叛的鲁路修</option>
                         <option value="JJK">咒术回战</option>
@@ -246,7 +94,7 @@
                         <option value="KMY">鬼灭之刃</option>
                     </select>
                 </div>
-                <div> 所属商品 ： <select name="cardPackData">
+                <div class="col s3"> 所属商品 ： <select name="cardPackData" class="browser-default">
                         <option value="">全部</option>
                         <option value="UA01BT">反叛的鲁路修 UA01BT</option>
                         <option value="UA01ST">反叛的鲁路修 UA01ST</option>
@@ -260,7 +108,8 @@
                         <option value="UAPR">PR</option>
                     </select>
                 </div>
-                <div> 颜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;色 ： <select name="colorData">
+                <div class="col s3"> 颜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;色 ： <select name="colorData"
+                        class="browser-default">
                         <option value="">全部</option>
                         <option value="紫">紫</option>
                         <option value="緑">绿</option>
@@ -269,7 +118,7 @@
                         <option value="黄">黄</option>
                     </select>
                 </div>
-                <div>所需能量 ： <select name="needEnergyData">
+                <div class="col s3"> 所需能量 ： <select name="needEnergyData" class="browser-default">
                         <option value="">全部</option>
                         <option value="-">0</option>
                         <option value="1">1</option>
@@ -282,7 +131,7 @@
                         <option value="8">8</option>
                     </select>
                 </div>
-                <div>触发效果 ： <select name="triggerCnData">
+                <div class="col s3"> 触发效果 ： <select name="triggerCnData" class="browser-default">
                         <option value="">全部</option>
                         <option value="【最终】">最终</option>
                         <option value="【特殊】">特殊</option>
@@ -293,8 +142,8 @@
                         <option value="【突进】">突进</option>
                     </select>
                 </div>
-                <div>特征 ：
-                    <select name="attributeCnData">
+                <div class="col s3"> 特征 ：
+                    <select name="attributeCnData" class="browser-default">
                         <option value="">全部</option>
                         <option value="黑色骑士团">黑色骑士团</option>
                         <option value="四圣剑">四圣剑</option>
@@ -314,31 +163,182 @@
                         <option value="揍敌客家族">揍敌客家族</option>
                         <option value="爆弹魔">爆弹魔</option>
                         <option value="幻影旅团">幻影旅团</option>
+                        <option value="L'Antica">L'Antica</option>
+                        <option value="noctchill">noctchill</option>
                         <option value="Straylight">Straylight</option>
+                        <option value="柱">柱</option>
                     </select>
 
-
                 </div>
-                <div> 显示异画 ： <select name="parallelFlag">
+                <div class="col s3"> 显示异画 ： <select name="parallelFlag" class="browser-default">
                         <option value="no">过滤</option>
                         <option value="">全部</option>
                     </select>
                 </div>
 
-                <div>
-                    <input type="button" value="搜索" onclick="search()" />
+                <div class="col s3">
+                    <button type="button" onclick="search()"
+                        class="py-2 px-4 flex justify-center items-center  bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  w-12 h-12 rounded-lg ">
+                        搜索
+                    </button>
                 </div>
 
             </form>
         </div>
-        <h1 style="margin-left: 20px;text-align: center;width:100%;">搜索结果:<span id="searchCount">0</span>
-        </h1>
-        <div id="cardListArea">
-            <!-- <img src="./card/UA01BT_CGH-1-001.png" class="cardImage"> -->
+
+        <div class="card"
+            style="overflow: hidden;overflow-y: auto;height: calc(100vh - 290px);background-color:#bdb1b13b;color: white;">
+            <p style="font-size: 1.5rem; text-align: center;margin: 0 0 5px 0;">搜索结果:<span id="searchCount">0</span></p>
+            <div id="cardListArea" class="row card-block">
+                <!-- <img src="./card/UA01BT_CGH-1-001.png" class="cardImage"> -->
+            </div>
         </div>
     </div>
-    <div id="cardInfoArea">
+
+    <div class="row col s4">
+        <div id="cardInfoArea" class="col s12 card" style="background-color: #bdb1b13b;color: white;">
+        </div>
     </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.materialboxed');
+        var instances = M.Materialbox.init(elems);
+    });
+
+    var datas;
+    var url = "./data_cn.json"
+    var request = new XMLHttpRequest();
+    request.open("get", url); /*设置请求方法与路径*/
+    request.send(null); /*不发送数据到服务器*/
+    request.onload = function () {
+        /*XHR对象获取到返回信息后执行*/
+        if (request.status == 200) {
+            /*返回状态为200，即为数据获取成功*/
+            datas = JSON.parse(request.responseText);
+            search();
+        }
+    }
+
+    function clickCard(e) {
+        var id = e.getAttribute("id");
+
+        var data;
+        for (var i = 0; i < datas.length; i++) {
+            data = datas[i];
+            if (data.id == id) {
+                break;
+            }
+        }
+
+        var cardInfoDiv = document.getElementById("cardInfoArea");
+        while (cardInfoDiv.hasChildNodes()) {
+            cardInfoDiv.removeChild(cardInfoDiv.firstChild);
+        }
+
+        cardInfoDiv.innerHTML =
+            `<div class="card-image col s4" style="padding: 5px;">
+                    <img class="materialboxed" src="./card/${data.imageFileName}" >
+            </div>
+            <div class="col s8">
+                <p style="font-size:1.5rem;">${data.cardNumData}&nbsp;&nbsp;&nbsp;&nbsp;${data.rareData}</p>
+                    <p style="font-size:1.2rem;">中文卡名: ${data.cardCnName}</p>
+                <p style="font-size:1.2rem;">日文卡名:${data.cardName}</p>
+                <p style="font-size:1.2rem;">特征：${data.attributeCnData}</p>
+            </div>
+
+            <div class="col s12">
+            
+                <p style="font-size:1.2rem;">效果：</p>
+                <p class="effectCnData" >${data.effectCnData}</p>
+                <p style="font-size:1.2rem;">触发效果：</p>
+                <p >${data.triggerCnData}</div>
+            </div>
+                
+           `;
+
+        document.querySelector('.effectCnData').innerText = data.effectCnData;
+
+        M.Materialbox.init(document.querySelectorAll('.materialboxed'));
+        M.Tabs.init(document.querySelectorAll('.tabs'), {
+            "swipeable": true
+        });
+    }
+
+    function search() {
+        form = document.getElementById("search");
+        var effectData = form.querySelector('[name="effectData"]').value;
+        var ipData = form.querySelector('[name="ipData"]').value;
+        var cardCnName = form.querySelector('[name="cardCnName"]').value;
+        var cardName = form.querySelector('[name="cardName"]').value;
+        var cardPackData = form.querySelector('[name="cardPackData"]').value;
+        var colorData = form.querySelector('[name="colorData"]').value;
+        var needEnergyData = form.querySelector('[name="needEnergyData"]').value;
+        var cardNumData = form.querySelector('[name="cardNumData"]').value;
+        var rareData = form.querySelector('[name="rareData"]').value;
+        var parallelFlag = form.querySelector('[name="parallelFlag"]').value;
+        var triggerCnData = form.querySelector('[name="triggerCnData"]').value;
+        var attributeCnData = form.querySelector('[name="attributeCnData"]').value;
+
+
+        var cardDiv = document.getElementById("cardListArea");
+        var cardDivHtml = "";
+        var count = 0;
+        for (var i = 0; i < datas.length; i++) {
+            var data = datas[i];
+            if (effectData != "" && !data.effectCnData.includes(effectData)) {
+                continue;
+            }
+            if (cardNumData != "" && !data.cardNumData.includes(cardNumData)) {
+                continue;
+            }
+            if (cardCnName != "" && !data.cardCnName.includes(cardCnName)) {
+                continue;
+            }
+            if (cardName != "" && !data.cardName.includes(cardName)) {
+                continue;
+            }
+            if (ipData != "" && data.ipData != ipData) {
+                continue;
+            }
+            if (cardPackData != "" && data.cardPackData != cardPackData) {
+                continue;
+            }
+            if (colorData != "" && !data.needEnergyData.includes(colorData)) {
+                continue;
+            }
+            if (needEnergyData != "" && !data.needEnergyData.endsWith(needEnergyData)) {
+                continue;
+            }
+            if (parallelFlag != "" && data.rareData.includes("★")) {
+                continue;
+            }
+            if (rareData != "" && data.rareData != rareData) {
+                continue;
+            }
+            if (triggerCnData != "" && !data.triggerCnData.startsWith(triggerCnData)) {
+                continue;
+            }
+            if (attributeCnData != "" && !data.attributeCnData.includes(attributeCnData)) {
+                continue;
+            }
+
+            cardDivHtml = cardDivHtml +
+                `<div class="cardImageBox card-item">
+                        <img onclick="clickCard(this);" id="${data.id}" src="./card/${data.imageFileName}" width="100%" class="col s12"/>
+                        <p class="center-align" style="font-size: 1.1rem; margin: 0px;">${data.cardNumData}</p>
+                        <p class="center-align" style="font-size: 1.0rem; margin: 0px;">${data.cardCnName}</p>
+                    </div>`;
+            count++;
+        }
+        cardDiv.innerHTML = cardDivHtml;
+
+        document.getElementById("searchCount").innerHTML = count;
+    }
+</script>
 
 </html>

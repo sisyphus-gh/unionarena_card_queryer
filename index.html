@@ -7,14 +7,50 @@
     <title>UA工具箱</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .xxfs-btn {
+            background: linear-gradient(to left bottom, transparent 50%, #b7afaf 0) no-repeat 100% 0 / 1rem 1rem,
+                linear-gradient(225deg, transparent 0.7rem,#bdb1b13b 0);
+            color: white;
+            height: 20vw;
+            width: 20vw;
+            font-size: 2rem;
+            border: none;
+        }
+    </style>
+
 </head>
 
-<body>
-    <a target="_blank" href="./card_search.html">查卡器-PC</a>
-    <a target="_blank" href="./card_search2.html">查卡器-手机</a>
-    <a target="_blank"
-        href="./deck_edit.html?deck=UA01BT/CGH-1-001%0AUA01BT/CGH-1-002%0AUA01BT/CGH-1-003%0AUA01BT/CGH-1-004">组卡器</a>
-
+<body style="background-image:linear-gradient( #391922, #0c1b29  ) ;height: 100vh;">
+    <div class="container text-center" style="height: 100%;">
+        <div class="row align-items-center" style="height: 100%;">
+            <div class="col">
+                <a class="btn shadow-lg xxfs-btn" target="_blank" href="./card_search.html">
+                    <div class="row align-items-center" style="height: 100%;">
+                        <p>查卡器-PC</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="btn shadow-lg xxfs-btn" target="_blank" href="./card_search2.html">
+                    <div class="row align-items-center" style="height: 100%;">
+                        <p>查卡器-手机</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="btn shadow-lg xxfs-btn" target="_blank"
+                    href="./deck_edit.html?deck=UA01BT/CGH-1-001%0AUA01BT/CGH-1-002%0AUA01BT/CGH-1-003%0AUA01BT/CGH-1-004">
+                    <div class="row align-items-center" style="height: 100%;">
+                        <p>组卡器</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
