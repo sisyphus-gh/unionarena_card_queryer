@@ -13,7 +13,7 @@
 
     <style>
         #cardInfoArea {
-            height: calc(100vh - 30px);
+            height: calc(100vh - 20px);
         }
 
         .card {
@@ -22,7 +22,7 @@
 
         .card-block {
             display: flex;
-            justify-content: space-between;
+            /* justify-content: space-between; */
             flex-wrap: wrap;
         }
 
@@ -64,11 +64,16 @@
     <div class="col m12 l8">
         <div class="card" style="background-color: #bdb1b13b;color: white;">
             <form id="search" style="width: 100%;margin-bottom: 0px;" class="row">
-                <div class="col s6 l3"> 卡片编号 ：<input type="text" name="cardNumData" class="browser-default" /> </div>
-                <div class="col s6 l3"> 中文卡名 ：<input type="text" name="cardCnName" class="browser-default" /> </div>
-                <div class="col l3 hide-on-med-and-down"> 日文卡名 ： <input type="text" name="cardName" class="browser-default" /></div>
-                <div class="col l3 hide-on-med-and-down"> 效果 ： <input type="text" name="effectData" class="browser-default" /></div>
-                <div class="col l3 hide-on-med-and-down"> 稀有度 ： <select name="rareData" class="browser-default">
+                <div class="col s6 l3"> 卡片编号 ：<input type="text" name="cardNumData" class="browser-default"
+                        oninput="search()" /> </div>
+                <div class="col s6 l3"> 中文卡名 ：<input type="text" name="cardCnName" class="browser-default"
+                        oninput="search()" /> </div>
+                <div class="col l3 hide-on-med-and-down"> 日文卡名 ： <input type="text" name="cardName"
+                        class="browser-default" oninput="search()" /></div>
+                <div class="col l3 hide-on-med-and-down"> 效果 ： <input type="text" name="effectData"
+                        class="browser-default" oninput="search()" /></div>
+                <div class="col l3 hide-on-med-and-down"> 稀有度 ： <select name="rareData" class="browser-default"
+                        onclick="search()">
                         <option value="">全部</option>
                         <option value="C">C</option>
                         <option value="U">U</option>
@@ -82,7 +87,7 @@
                         <option value="SR★★★">SR★★★</option>
                     </select>
                 </div>
-                <div class="col s6 l3"> 出场作品 ： <select name="ipData" class="browser-default">
+                <div class="col s6 l3"> 出场作品 ： <select name="ipData" class="browser-default" onclick="search()">
                         <option value="">全部</option>
                         <option value="CGH">反叛的鲁路修</option>
                         <option value="JJK">咒术回战</option>
@@ -91,7 +96,7 @@
                         <option value="KMY">鬼灭之刃</option>
                     </select>
                 </div>
-                <div class="col s6 l3"> 所属商品 ： <select name="cardPackData" class="browser-default">
+                <div class="col s6 l3"> 所属商品 ： <select name="cardPackData" class="browser-default" onclick="search()">
                         <option value="">全部</option>
                         <option value="UA01BT">反叛的鲁路修 UA01BT</option>
                         <option value="UA01ST">反叛的鲁路修 UA01ST</option>
@@ -105,8 +110,8 @@
                         <option value="UAPR">PR</option>
                     </select>
                 </div>
-                <div class="col l3 hide-on-med-and-down"> 颜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;色 ： <select name="colorData"
-                        class="browser-default">
+                <div class="col l3 hide-on-med-and-down"> 颜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;色 ： <select
+                        name="colorData" class="browser-default" onclick="search()">
                         <option value="">全部</option>
                         <option value="紫">紫</option>
                         <option value="緑">绿</option>
@@ -115,7 +120,7 @@
                         <option value="黄">黄</option>
                     </select>
                 </div>
-                <div class="col s6 l3"> 所需能量 ： <select name="needEnergyData" class="browser-default">
+                <div class="col s6 l3"> 所需能量 ： <select name="needEnergyData" class="browser-default" onclick="search()">
                         <option value="">全部</option>
                         <option value="-">0</option>
                         <option value="1">1</option>
@@ -128,7 +133,8 @@
                         <option value="8">8</option>
                     </select>
                 </div>
-                <div class="col l3 hide-on-med-and-down"> 触发效果 ： <select name="triggerCnData" class="browser-default">
+                <div class="col l3 hide-on-med-and-down"> 触发效果 ： <select name="triggerCnData" class="browser-default"
+                        onclick="search()">
                         <option value="">全部</option>
                         <option value="【最终】">最终</option>
                         <option value="【特殊】">特殊</option>
@@ -140,7 +146,7 @@
                     </select>
                 </div>
                 <div class="col l3 hide-on-med-and-down"> 特征 ：
-                    <select name="attributeCnData" class="browser-default">
+                    <select name="attributeCnData" class="browser-default" onclick="search()">
                         <option value="">全部</option>
                         <option value="黑色骑士团">黑色骑士团</option>
                         <option value="四圣剑">四圣剑</option>
@@ -173,18 +179,12 @@
                     </select>
                 </div>
 
-                <div class="col s6 l3">
-                    <button type="button" onclick="search()"
-                        class="py-2 px-4 flex justify-center items-center  bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  w-12 h-12 rounded-lg ">
-                        搜索
-                    </button>
-                </div>
 
             </form>
         </div>
 
         <div class="card"
-            style="overflow: hidden;overflow-y: auto;height: calc(100vh - 290px);background-color:#bdb1b13b;color: white;">
+            style="overflow: hidden;overflow-y: auto;height: calc(100vh - 240px);background-color:#bdb1b13b;color: white;">
             <p style="font-size: 1.5rem; text-align: center;margin: 0 0 5px 0;">搜索结果:<span id="searchCount">0</span></p>
             <div id="cardListArea" class="row card-block">
 
