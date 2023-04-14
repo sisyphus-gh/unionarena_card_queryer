@@ -12228,5 +12228,58 @@
             "柱"
         ],
         "attributeData": "柱"
+    },
+    {
+        "triggerData": "-",
+        "cardNumData": "UAPR/IMS-1-076",
+        "cardName": "黛 冬優子",
+        "ipCnData": "《偶像大师 闪耀色彩》",
+        "effectCnData": "【登场时】查看我方卡组顶4张卡。从中公开最多1张红色的事件卡并加入手牌。将其余的以任意顺序放在你的卡组底部。加入手牌的场合、丢弃1张卡。",
+        "effectData": "<img src=\"/jp/images/cardlist/icon/effect/ico_appearance.png\" alt=\"登場時\">自分の山札の上から4枚見る。その中から赤のイベントカードを1枚まで公開し手札に加える。残りを望む順で自分の山札の下に置く。手札に加えた場合、自分の手札を1枚場外に置く。",
+        "ipData": "IMS",
+        "categoryData": "角色",
+        "apData": "1",
+        "cardPackData": "UAPR",
+        "generatedEnergyData": "赤赤",
+        "needEnergyData": "赤3",
+        "sourceUrl": "https://unionarena-tcg.com/jp/cardlist/./detail_iframe.php?card_no=UAPR/IMS-1-076",
+        "triggerCnData": "-",
+        "rareData": "U",
+        "imageUrl": "https://unionarena-tcg.com//jp/images/cardlist/card/UAPR_IMS-1-076.png",
+        "imageFileName": "UAPR_IMS-1-076.png",
+        "cardCnName": "黛 冬优子",
+        "cardNumData2": "IMS-1-076",
+        "id": "462",
+        "bpData": "2500",
+        "attributeCnData": [
+            "Straylight"
+        ],
+        "attributeData": "Straylight"
+    },
+    {
+        "triggerData": "-",
+        "cardNumData": "UAPR/KMY-1-074",
+        "cardName": "竈門 禰󠄀豆子",
+        "ipCnData": "《鬼灭之刃》",
+        "effectCnData": "这个角色是活跃的场合、这个角色的生成能量+【红能量】。",
+        "effectData": "このキャラがアクティブの場合、このキャラの発生エナジー+\n<img src=\"/jp/images/cardlist/icon/effect/ico_circle_red.png\" alt=\"赤\">。",
+        "ipData": "KMY",
+        "categoryData": "角色",
+        "apData": "1",
+        "cardPackData": "UAPR",
+        "generatedEnergyData": "赤+",
+        "needEnergyData": "赤2",
+        "sourceUrl": "https://unionarena-tcg.com/jp/cardlist/./detail_iframe.php?card_no=UAPR/KMY-1-074",
+        "triggerCnData": "-",
+        "rareData": "U",
+        "imageUrl": "https://unionarena-tcg.com//jp/images/cardlist/card/UAPR_KMY-1-074.png",
+        "imageFileName": "UAPR_KMY-1-074.png",
+        "cardCnName": "灶门 祢豆子",
+        "cardNumData2": "KMY-1-074",
+        "id": "463",
+        "bpData": "2500",
+        "attributeCnData": [
+        ],
+        "attributeData": "-"
     }
 ]

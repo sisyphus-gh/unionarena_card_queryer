@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>UA查卡器</title>
+    <title>UA组卡器</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
     <!-- Compiled and minified CSS -->
@@ -59,7 +59,13 @@
 </head>
 
 <body class="row" style="background-image:linear-gradient( #391922, #0c1b29  ) ;overflow: hidden;">
-    <div class="col m12 l8">
+    <div class="row col s3">
+        <div class="card" style="background-color: #bdb1b13b;color: white;  height: calc(100vh - 20px);">
+
+        </div>
+    </div>
+
+    <div class="col m12 l6">
         <div class="card" style="background-color: #bdb1b13b;color: white;">
             <form id="search" style="width: 100%;margin-bottom: 0px;" class="row">
                 <div class="col s6 l3"> 卡片编号 ：<input type="text" name="cardNumData" class="browser-default"
@@ -70,52 +76,13 @@
                         class="browser-default" oninput="search()" /></div>
                 <div class="col l3 hide-on-med-and-down"> 效果 ： <input type="text" name="effectData"
                         class="browser-default" oninput="search()" /></div>
-                <div class="col l3 hide-on-med-and-down"> 稀有度 ： <select name="rareData" class="browser-default"
-                        onclick="search()">
-                        <option value="">全部</option>
-                        <option value="C">C</option>
-                        <option value="U">U</option>
-                        <option value="R">R</option>
-                        <option value="SR">SR</option>
-                        <option value="C★">C★</option>
-                        <option value="U★">U★</option>
-                        <option value="R★">R★</option>
-                        <option value="SR★">SR★</option>
-                        <option value="SR★★">SR★★</option>
-                        <option value="SR★★★">SR★★★</option>
-                    </select>
-                </div>
-                <div class="col s6 l3"> 出场作品 ： <select name="ipData" class="browser-default" onclick="search()">
-                        <option value="">全部</option>
-                        <option value="CGH">反叛的鲁路修</option>
-                        <option value="JJK">咒术回战</option>
-                        <option value="HTR">全职猎人</option>
-                        <option value="IMS">偶像大师 闪耀色彩</option>
-                        <option value="KMY">鬼灭之刃</option>
-                    </select>
-                </div>
                 <div class="col s6 l3"> 所属商品 ： <select name="cardPackData" class="browser-default" onclick="search()">
                         <option value="">全部</option>
-                        <option value="UA01BT">反叛的鲁路修 UA01BT</option>
-                        <option value="UA01ST">反叛的鲁路修 UA01ST</option>
-                        <option value="UA01PB">反叛的鲁路修 UA01PB</option>
-                        <option value="UA02BT">咒术回战 UA02BT</option>
-                        <option value="UA02ST">咒术回战 UA02ST</option>
-                        <option value="UA02PB">咒术回战 UA02PB</option>
-                        <option value="UA03BT">全职猎人 UA03BT</option>
-                        <option value="UA03ST">全职猎人 UA03ST</option>
-                        <option value="UA03PB">全职猎人 UA03PB</option>
-                        <option value="UAPR">PR</option>
                     </select>
                 </div>
                 <div class="col l3 hide-on-med-and-down"> 颜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;色 ： <select
                         name="colorData" class="browser-default" onclick="search()">
                         <option value="">全部</option>
-                        <option value="紫">紫</option>
-                        <option value="緑">绿</option>
-                        <option value="赤">红</option>
-                        <option value="青">蓝</option>
-                        <option value="黄">黄</option>
                     </select>
                 </div>
                 <div class="col s6 l3"> 所需能量 ： <select name="needEnergyData" class="browser-default" onclick="search()">
@@ -146,58 +113,23 @@
                 <div class="col l3 hide-on-med-and-down"> 特征 ：
                     <select name="attributeCnData" class="browser-default" onclick="search()">
                         <option value="">全部</option>
-                        <option value="黑色骑士团">黑色骑士团</option>
-                        <option value="四圣剑">四圣剑</option>
-                        <option value="KMF">KMF</option>
-                        <option value="神圣布里塔尼亚帝国">神圣布里塔尼亚帝国</option>
-                        <option value="纯血派">纯血派</option>
-                        <option value="亲卫队">亲卫队</option>
-                        <option value="KGF">KGF</option>
-                        <option value="阿什福德学园">阿什福德学园</option>
-                        <option value="披萨">披萨</option>
-                        <option value="式神">式神</option>
-                        <option value="京都校">京都校</option>
-                        <option value="咒具">咒具</option>
-                        <option value="改造人间">改造人间</option>
-                        <option value="咒灵">咒灵</option>
-                        <option value="指定口袋">指定口袋</option>
-                        <option value="揍敌客家族">揍敌客家族</option>
-                        <option value="爆弹魔">爆弹魔</option>
-                        <option value="幻影旅团">幻影旅团</option>
-                        <option value="L'Antica">L'Antica</option>
-                        <option value="noctchill">noctchill</option>
-                        <option value="Straylight">Straylight</option>
-                        <option value="柱">柱</option>
-                    </select>
-
-                </div>
-                <div class="col s6 l3"> 显示异画 ： <select name="parallelFlag" class="browser-default" onclick="search()">
-                        <option value="no">过滤</option>
-                        <option value="">全部</option>
                     </select>
                 </div>
             </form>
         </div>
-
         <div class="card"
             style="overflow: hidden;overflow-y: auto;height: calc(100vh - 240px);background-color:#bdb1b13b;color: white;">
             <p style="font-size: 1.5rem; text-align: center;margin: 0 0 5px 0;">搜索结果:<span id="searchCount">0</span></p>
-            <div id="cardListArea" class="row card-block hide-on-med-and-down">
-            </div>
-            <div class="show-on-medium-and-down" style="display: none;">
-                <div id="cardListArea2" class="row card-block">
-                </div>
-            </div>
+            <div id="cardListArea" class="row card-block"></div>
         </div>
     </div>
-
-    <div class="row col m4 hide-on-med-and-down">
+    <div class="row col m3 hide-on-med-and-down">
         <div id="cardInfoArea" class="col s12 card" style="background-color: #bdb1b13b;color: white;">
         </div>
     </div>
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src="./js/card_search.js"></script>
+<script src="./js/card_edit.js"></script>
 
 </html>
