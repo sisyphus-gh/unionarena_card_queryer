@@ -20,7 +20,7 @@ request.onload = function () {
             let data = datas[i];
             cardDivHtml = cardDivHtml +
                 `<div class=" " style=" width: 16.6666667%;">
-                    <img onclick="clickCard(this);" id="${data.id}" src="./card/${data.imageFileName}" width="100%" class="col s12"/>
+                    <img onclick="clickCard(this);" id="${data.id}" src="${data.imageUrl}" width="100%" class="col s12"/>
                     <p class="center-align" style="font-size: 1.1rem; margin: 0px;">${data.cardNumData}</p>
                     <p class="center-align " style="font-size: 1rem; margin: 0px;">${data.cardCnName}</p>
                 </div>
@@ -29,7 +29,7 @@ request.onload = function () {
             cardDivHtml2 = cardDivHtml2 +
                 `<div class="center-align" style="width: 33.3333%;">
                     <a target="_blank" href="./info.html?cardNumData=${data.cardNumData}" >
-                        <img src="./card/${data.imageFileName}" width="80%" style="margin: 0 auto;" />
+                        <img src="${data.imageUrl}" width="80%" style="margin: 0 auto;" />
                         <p style="font-size: 1rem;margin: 0px;">${data.cardNumData}</p>
                         <p style="margin: 0px;">${data.cardCnName}</p>
                     </a>
@@ -60,7 +60,7 @@ function clickCard(e) {
 
     cardInfoDiv.innerHTML =
         `<div class="card-image col s4" style="padding: 5px;">
-                <img class="materialboxed" src="./card/${data.imageFileName}" >
+                <img class="materialboxed" src="${data.imageUrl}" >
         </div>
         <div class="col s8">
             <p style="font-size:1.5rem;">${data.cardNumData}&nbsp;&nbsp;&nbsp;&nbsp;${data.rareData}</p>
@@ -139,7 +139,7 @@ function search() {
 
         cardDivHtml = cardDivHtml +
             `<div class=" " style=" width: 16.6666667%;">
-                    <img onclick="clickCard(this);" id="${data.id}" src="./card/${data.imageFileName}" width="100%" class="col s12"/>
+                    <img onclick="clickCard(this);" id="${data.id}" src="${data.imageUrl}" width="100%" class="col s12"/>
                     <p class="center-align" style="font-size: 1.1rem; margin: 0px;">${data.cardNumData}</p>
                     <p class="center-align " style="font-size: 1rem; margin: 0px;">${data.cardCnName}</p>
                 </div>
@@ -148,7 +148,7 @@ function search() {
         cardDivHtml2 = cardDivHtml2 +
             `<div class="center-align" style="width: 33.3333%;">
                     <a target="_blank" href="./info.html?cardNumData=${data.cardNumData}" >
-                        <img src="./card/${data.imageFileName}" width="80%" style="margin: 0 auto;" />
+                        <img src="${data.imageUrl}" width="80%" style="margin: 0 auto;" />
                         <p style="font-size: 1rem;margin: 0px;">${data.cardNumData}</p>
                         <p style="margin: 0px;">${data.cardCnName}</p>
                     </a>

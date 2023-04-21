@@ -96,7 +96,7 @@ function clickCard(id) {
 
     cardInfoDiv.innerHTML =
         `<div class="card-image col s4" style="padding: 5px;">
-                <img class="materialboxed" src="./card/${data.imageFileName}" >
+                <img class="materialboxed" src="${data.imageUrl}" >
         </div>
         <div class="col s8">
             <p style="font-size:1.5rem;">${data.cardNumData}</p>
@@ -171,7 +171,7 @@ function displayDeck() {
         deckHtml = deckHtml +
             `<div onclick="clickCard(${data.id});">
             <div class="card-image col s3" style="padding: 5px;">
-                <img  src="./card/${data.imageFileName}" >
+                <img  src="${data.imageUrl}" >
         </div>
         </div>`;
     }
@@ -262,7 +262,7 @@ function search() {
 
         cardDivHtml = cardDivHtml +
             `<div style=" width: 20%;">
-                <img onclick="clickCard(${data.id});" src="./card/${data.imageFileName}" width="100%" class="col s12"/>
+                <img onclick="clickCard(${data.id});" src="${data.imageUrl}" width="100%" class="col s12"/>
                 <p class="center-align" style="font-size: 1.1rem; margin: 0px;">${data.cardNumData}</p>
                 <p class="center-align " style="font-size: 1rem; margin: 0px;">${data.cardCnName}</p>
             </div>`;
