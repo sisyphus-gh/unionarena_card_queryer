@@ -55,6 +55,10 @@
                 {
                     "serialNo": "UA01PB",
                     "packName": "反叛的鲁路修 UA01PB"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "PR"
                 }
             ],
             "ipName": "反叛的鲁路修",
@@ -125,6 +129,10 @@
                 {
                     "serialNo": "UA02PB",
                     "packName": "咒术回战 UA02PB"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "PR"
                 }
             ],
             "ipName": "咒术回战",
@@ -179,6 +187,10 @@
                 {
                     "serialNo": "UA03PB",
                     "packName": "全职猎人 UA03PB"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "PR"
                 }
             ],
             "ipName": "全职猎人",
@@ -218,6 +230,10 @@
         },
         {
             "cardPacks": [
+                {
+                    "serialNo": "UAPR",
+                    "packName": "PR"
+                }
             ],
             "ipName": "偶像大师 闪耀色彩",
             "colors": [
@@ -247,11 +263,27 @@
                 {
                     "jpName": "Straylight",
                     "name": "Straylight"
+                },
+                {
+                    "jpName": "ALSTROEMERIA",
+                    "name": "ALSTROEMERIA"
+                },
+                {
+                    "jpName": "illumination STARS",
+                    "name": "illumination STARS"
+                },
+                {
+                    "jpName": "SHHis",
+                    "name": "SHHis"
                 }
             ]
         },
         {
             "cardPacks": [
+                {
+                    "serialNo": "UAPR",
+                    "packName": "PR"
+                }
             ],
             "ipName": "鬼灭之刃",
             "colors": [
@@ -387,6 +419,38 @@
         {
             "jpName": "ピザ",
             "name": "披萨"
+        },
+        {
+            "jpName": "ALSTROEMERIA",
+            "name": "ALSTROEMERIA"
+        },
+        {
+            "jpName": "illumination STARS",
+            "name": "illumination STARS"
+        },
+        {
+            "jpName": "SHHis",
+            "name": "SHHis"
+        },
+        {
+            "jpName": "放課後クライマックスガールズ",
+            "name": "放学后的高潮少女"
+        },
+        {
+            "jpName": "下弦の鬼",
+            "name": "下弦的鬼"
+        },
+        {
+            "jpName": "上弦の鬼",
+            "name": "上弦鬼"
+        },
+        {
+            "jpName": "天元の嫁",
+            "name": "天元之妻"
+        },
+        {
+            "jpName": "変装",
+            "name": "变装"
         }
     ]
 }
