@@ -154,7 +154,11 @@ function removeCard(id) {
     }
 
     console.log("", data);
-    deckList.splice(deckList.indexOf(data), 1);
+    let index = deckList.indexOf(data);
+    if (index < 0) {
+        return;
+    }
+    deckList.splice(index, 1);
     displayDeck();
 }
 
