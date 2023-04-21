@@ -1,9 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
     let elems = document.querySelectorAll('.materialboxed');
     let instances = M.Materialbox.init(elems);
+
+    elems = document.querySelectorAll('.modal');
+    instances = M.Modal.init(elems, {});
 });
 
 var datas;
+var deckList = [];
 
 let request = new XMLHttpRequest();
 request.open("get", "./data_cn.json"); /*设置请求方法与路径*/
@@ -15,6 +19,7 @@ request.onload = function () {
         let queryString = window.location.search;
         let urlParams = new URLSearchParams(queryString);
         let ip = urlParams.get('ip');
+        let deck = urlParams.get('deck');
 
         if (ip == null) {
             return;
@@ -25,6 +30,18 @@ request.onload = function () {
             return data1.cardNumData2.localeCompare(data2.cardNumData2);
         });
         search();
+
+        let cardList = deck.split("\n");
+        for (var i = 0; i < cardList.length; i++) {
+            let cardNumData = cardList[i].split(" ")[0];
+            for (let i = 0; i < datas.length; i++) {
+                let data = datas[i];
+                if (data.cardNumData == cardNumData) {
+                    deckList.push(data);
+                }
+            }
+        }
+        displayDeck();
     }
 }
 
@@ -60,13 +77,10 @@ request.onload = function () {
         ipData.attributes.forEach(element => {
             attributeCnData.options.add(new Option(element.name, element.name));
         });
-
     }
 }
 
-function clickCard(e) {
-    let id = e.getAttribute("id");
-
+function clickCard(id) {
     let data;
     for (let i = 0; i < datas.length; i++) {
         data = datas[i];
@@ -97,10 +111,10 @@ function clickCard(e) {
             <p >${data.triggerCnData}</div>
         </div>
         <div class ="col s3 ">
-        <a class="btn-floating btn-large waves-effect waves-light teal" style='background: #391922  !important'>+</a>
+        <a class="btn-floating btn-large waves-effect waves-light" style='background: #391922  !important' onclick="addCard(${data.id})">+</a>
         </div>
         <div class ="col s3"> 
-        <a class="btn-floating btn-large waves-effect waves-light teal" style='background: #391922  !important'>-</a>
+        <a class="btn-floating btn-large waves-effect waves-light" style='background: #391922  !important' onclick="removeCard(${data.id})">-</a>
         </div>
        `;
 
@@ -109,6 +123,88 @@ function clickCard(e) {
     M.Tabs.init(document.querySelectorAll('.tabs'), {
         "swipeable": true
     });
+}
+
+function addCard(id) {
+    let data;
+    for (let i = 0; i < datas.length; i++) {
+        data = datas[i];
+        if (data.id == id) {
+            break;
+        }
+    }
+
+    let num = deckList.filter(e => e.cardNumData2 == data.cardNumData2).length;
+    if (num >= 4) {
+        M.toast({ html: data.cardNumData2 + '已经有四张。' });
+    } else {
+        console.log("", data);
+        deckList.push(data);
+        displayDeck();
+    }
+}
+
+function removeCard(id) {
+    let data;
+    for (let i = 0; i < datas.length; i++) {
+        data = datas[i];
+        if (data.id == id) {
+            break;
+        }
+    }
+
+    console.log("", data);
+    deckList.splice(deckList.indexOf(data), 1);
+    displayDeck();
+}
+
+function displayDeck() {
+    let deck = document.getElementById("deck");
+
+    let deckHtml = "";
+    for (let i = 0; i < deckList.length; i++) {
+        let data = deckList[i];
+        deckHtml = deckHtml +
+            `<div onclick="clickCard(${data.id});">
+            <div class="card-image col s3" style="padding: 5px;">
+                <img  src="./card/${data.imageFileName}" >
+        </div>
+        </div>`;
+    }
+    deck.innerHTML = deckHtml;
+}
+
+function sort() {
+    deckList = deckList.sort(function (data1, data2) {
+        return (data1.cardNumData > data2.cardNumData ? 1 : (data1.cardNumData == data2.cardNumData ? 0 : -1));
+    });
+    displayDeck();
+}
+
+function sort2() {
+    deckList = deckList.sort(function (data1, data2) {
+        var needEnergyData = data1.needEnergyData.substr(-1);
+        needEnergyData = needEnergyData == "-" ? 0 : needEnergyData;
+        var needEnergyData2 = data2.needEnergyData.substr(-1);
+        needEnergyData2 = needEnergyData2 == "-" ? 0 : needEnergyData2;
+        return needEnergyData - needEnergyData2;
+    });
+    displayDeck();
+}
+
+function share() {
+    let urlParams = new URLSearchParams(window.location.search);
+    let ip = urlParams.get('ip');
+
+    let url = "https://sisyphus2016.gitee.io/unionarena_card_queryer/deck_edit2.html?ip=" + ip + "&deck=";
+    for (let i = 0; i < deckList.length; i++) {
+        let data = deckList[i];
+        url += data.cardNumData + "%0A";
+    }
+
+    document.getElementById('modal1-content').innerHTML = url;
+    M.Modal.getInstance(document.getElementById('modal1')).open();
+    //   window.open(url, "_blank");
 }
 
 function search() {
@@ -162,7 +258,7 @@ function search() {
 
         cardDivHtml = cardDivHtml +
             `<div style=" width: 20%;">
-                <img onclick="clickCard(this);" id="${data.id}" src="./card/${data.imageFileName}" width="100%" class="col s12"/>
+                <img onclick="clickCard(${data.id});" src="./card/${data.imageFileName}" width="100%" class="col s12"/>
                 <p class="center-align" style="font-size: 1.1rem; margin: 0px;">${data.cardNumData}</p>
                 <p class="center-align " style="font-size: 1rem; margin: 0px;">${data.cardCnName}</p>
             </div>`;

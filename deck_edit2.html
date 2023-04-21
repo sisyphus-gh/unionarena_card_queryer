@@ -20,7 +20,7 @@
             padding: 10px;
         }
 
-        .card-block {
+        .card-block {   
             display: flex;
             /* justify-content: space-between; */
             flex-wrap: wrap;
@@ -38,30 +38,24 @@
             height: 2rem;
         }
 
-        button {
-            border: none;
-            background: #ae3149;
-            color: white;
-            padding: 5px;
-            width: 100%;
-            height: 2rem;
-        }
-
-        button:focus {
-            outline: none;
-            background: #ae3149;
-        }
-
         #search div {
             margin-bottom: 10px;
         }
     </style>
 </head>
 
-<body class="row" style="background-image:linear-gradient( #391922, #0c1b29  ) ;overflow: hidden;">
+<body class="row" style="background-image:linear-gradient( #391922, #0c1b29  ) ;overflow: hidden;margin-bottom: 0px;">
     <div class="row col s3">
-        <div class="card" style="background-color: #bdb1b13b;color: white;  height: calc(100vh - 20px);">
-
+        <div class="card"
+            style="background-color: #bdb1b13b;color: white;  height: calc(100vh - 20px);overflow: hidden;overflow-y: auto;">
+            <div>
+                <a class="btn waves-effect waves-light" style='background: #391922  !important' onclick='share()'>分享</a>
+                <a class="btn waves-effect waves-light" style='background: #391922  !important'
+                    onclick='sort()'>编号整理</a>
+                <a class="btn waves-effect waves-light" style='background: #391922  !important'
+                    onclick='sort2()'>能量整理</a>
+            </div>
+            <div id="deck"></div>
         </div>
     </div>
 
@@ -127,8 +121,18 @@
         <div id="cardInfoArea" class="col s12 card" style="background-color: #bdb1b13b;color: white;">
         </div>
     </div>
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>复制下方链接，分享给你的好友。</h4>
+            <p id="modal1-content">A bunch of text</p>
+        </div>
+
+    </div>
+
 </body>
 
+<script src="https://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="./js/card_edit.js"></script>
 

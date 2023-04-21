@@ -12281,5 +12281,31 @@
         "attributeCnData": [
         ],
         "attributeData": "-"
+    },
+    {
+        "triggerData": "-",
+        "cardNumData": "UAPR/KMY-1-072",
+        "cardName": "竈門 炭治郎",
+        "ipCnData": "《鬼灭之刃》",
+        "effectCnData": "【主要阶段启动】【休眠】选择我方场上1张其他角色，在这个回合中、BP+1000。",
+        "effectData": "<img src=\"/jp/images/cardlist/icon/effect/ico_standup.png\" alt=\"起動メイン\">\n<img src=\"/jp/images/cardlist/icon/effect/ico_rest.png\" alt=\"レストにする\">自分の場の他のキャラを1枚選び、このターン中、BP+1000。",
+        "ipData": "KMY",
+        "categoryData": "角色",
+        "apData": "1",
+        "cardPackData": "UAPR",
+        "generatedEnergyData": "赤",
+        "needEnergyData": "赤2",
+        "sourceUrl": "https://unionarena-tcg.com/jp/cardlist/./detail_iframe.php?card_no=UAPR/KMY-1-072",
+        "triggerCnData": "-",
+        "rareData": "U",
+        "imageUrl": "https://unionarena-tcg.com//jp/images/cardlist/card/UAPR_KMY-1-072.png",
+        "imageFileName": "UAPR_KMY-1-072.png",
+        "cardCnName": "灶门 炭治郎",
+        "cardNumData2": "KMY-1-072",
+        "id": "464",
+        "bpData": "2500",
+        "attributeCnData": [
+        ],
+        "attributeData": "-"
     }
 ]
