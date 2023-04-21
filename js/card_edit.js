@@ -101,7 +101,7 @@ function clickCard(id) {
         <div class="col s8">
             <p style="font-size:1.5rem;">${data.cardNumData}</p>
                 <p style="font-size:1.2rem;">中文卡名: ${data.cardCnName}</p>
-            <p style="font-size:1.2rem;">日文卡名:${data.cardName}</p>
+            <p style="font-size:1.2rem;">日文卡名: ${data.cardName}</p>
             <p style="font-size:1.2rem;">特征：${data.attributeCnData}</p>
         </div>
         <div class="col s12">

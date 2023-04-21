@@ -1,456 +1,456 @@
 {
-    "cardPacks": [
-        {
-            "serialNo": "UA01BT",
-            "packName": "反叛的鲁路修 UA01BT"
-        },
-        {
-            "serialNo": "UA01ST",
-            "packName": "反叛的鲁路修 UA01ST"
-        },
-        {
-            "serialNo": "UA01PB",
-            "packName": "反叛的鲁路修 UA01PB"
-        },
-        {
-            "serialNo": "UA02BT",
-            "packName": "咒术回战 UA02BT"
-        },
-        {
-            "serialNo": "UA02ST",
-            "packName": "咒术回战 UA02ST"
-        },
-        {
-            "serialNo": "UA02PB",
-            "packName": "咒术回战 UA02PB"
-        },
-        {
-            "serialNo": "UA03BT",
-            "packName": "全职猎人 UA03BT"
-        },
-        {
-            "serialNo": "UA03ST",
-            "packName": "全职猎人 UA03ST"
-        },
-        {
-            "serialNo": "UA03PB",
-            "packName": "全职猎人 UA03PB"
-        },
-        {
-            "serialNo": "UAPR",
-            "packName": "PR"
-        }
-    ],
-    "ips": [
-        {
-            "cardPacks": [
-                {
-                    "serialNo": "UA01BT",
-                    "packName": "反叛的鲁路修 UA01BT"
-                },
-                {
-                    "serialNo": "UA01ST",
-                    "packName": "反叛的鲁路修 UA01ST"
-                },
-                {
-                    "serialNo": "UA01PB",
-                    "packName": "反叛的鲁路修 UA01PB"
-                },
-                {
-                    "serialNo": "UAPR",
-                    "packName": "PR"
-                }
-            ],
-            "ipName": "反叛的鲁路修",
-            "colors": [
-                {
-                    "jpName": "紫",
-                    "name": "紫"
-                },
-                {
-                    "jpName": "緑",
-                    "name": "绿"
-                },
-                {
-                    "jpName": "赤",
-                    "name": "红"
-                }
-            ],
-            "serialNo": "CGH",
-            "attributes": [
-                {
-                    "jpName": "黒の騎士団",
-                    "name": "黑色骑士团"
-                },
-                {
-                    "jpName": "四聖剣",
-                    "name": "四圣剑"
-                },
-                {
-                    "jpName": "KMF",
-                    "name": "KMF"
-                },
-                {
-                    "jpName": "神聖ブリタニア帝国",
-                    "name": "神圣布里塔尼亚帝国"
-                },
-                {
-                    "jpName": "純血派",
-                    "name": "纯血派"
-                },
-                {
-                    "jpName": "親衛隊",
-                    "name": "亲卫队"
-                },
-                {
-                    "jpName": "KGF",
-                    "name": "KGF"
-                },
-                {
-                    "jpName": "アッシュフォード学園",
-                    "name": "阿什福德学园"
-                },
-                {
-                    "jpName": "ピザ",
-                    "name": "披萨"
-                }
-            ]
-        },
-        {
-            "cardPacks": [
-                {
-                    "serialNo": "UA02BT",
-                    "packName": "咒术回战 UA02BT"
-                },
-                {
-                    "serialNo": "UA02ST",
-                    "packName": "咒术回战 UA02ST"
-                },
-                {
-                    "serialNo": "UA02PB",
-                    "packName": "咒术回战 UA02PB"
-                },
-                {
-                    "serialNo": "UAPR",
-                    "packName": "PR"
-                }
-            ],
-            "ipName": "咒术回战",
-            "colors": [
-                {
-                    "jpName": "黄",
-                    "name": "黄"
-                },
-                {
-                    "jpName": "青",
-                    "name": "蓝"
-                },
-                {
-                    "jpName": "紫",
-                    "name": "紫"
-                }
-            ],
-            "serialNo": "JJK",
-            "attributes": [
-                {
-                    "jpName": "式神",
-                    "name": "式神"
-                },
-                {
-                    "jpName": "京都校",
-                    "name": "京都校"
-                },
-                {
-                    "jpName": "呪具",
-                    "name": "咒具"
-                },
-                {
-                    "jpName": "改造人間",
-                    "name": "改造人间"
-                },
-                {
-                    "jpName": "呪霊",
-                    "name": "咒灵"
-                }
-            ]
-        },
-        {
-            "cardPacks": [
-                {
-                    "serialNo": "UA03BT",
-                    "packName": "全职猎人 UA03BT"
-                },
-                {
-                    "serialNo": "UA03ST",
-                    "packName": "全职猎人 UA03ST"
-                },
-                {
-                    "serialNo": "UA03PB",
-                    "packName": "全职猎人 UA03PB"
-                },
-                {
-                    "serialNo": "UAPR",
-                    "packName": "PR"
-                }
-            ],
-            "ipName": "全职猎人",
-            "colors": [
-                {
-                    "jpName": "青",
-                    "name": "蓝"
-                },
-                {
-                    "jpName": "紫",
-                    "name": "紫"
-                },
-                {
-                    "jpName": "緑",
-                    "name": "绿"
-                }
-            ],
-            "serialNo": "HTR",
-            "attributes": [
-                {
-                    "jpName": "指定ポケット",
-                    "name": "指定口袋"
-                },
-                {
-                    "jpName": "ゾルディック家",
-                    "name": "揍敌客家族"
-                },
-                {
-                    "jpName": "爆弾魔",
-                    "name": "爆弹魔"
-                },
-                {
-                    "jpName": "幻影旅団",
-                    "name": "幻影旅团"
-                }
-            ]
-        },
-        {
-            "cardPacks": [
-                {
-                    "serialNo": "UAPR",
-                    "packName": "PR"
-                }
-            ],
-            "ipName": "偶像大师 闪耀色彩",
-            "colors": [
-                {
-                    "jpName": "黄",
-                    "name": "黄"
-                },
-                {
-                    "jpName": "青",
-                    "name": "蓝"
-                },
-                {
-                    "jpName": "赤",
-                    "name": "红"
-                }
-            ],
-            "serialNo": "IMS",
-            "attributes": [
-                {
-                    "jpName": "L'Antica",
-                    "name": "L'Antica"
-                },
-                {
-                    "jpName": "noctchill",
-                    "name": "noctchill"
-                },
-                {
-                    "jpName": "Straylight",
-                    "name": "Straylight"
-                },
-                {
-                    "jpName": "ALSTROEMERIA",
-                    "name": "ALSTROEMERIA"
-                },
-                {
-                    "jpName": "illumination STARS",
-                    "name": "illumination STARS"
-                },
-                {
-                    "jpName": "SHHis",
-                    "name": "SHHis"
-                }
-            ]
-        },
-        {
-            "cardPacks": [
-                {
-                    "serialNo": "UAPR",
-                    "packName": "PR"
-                }
-            ],
-            "ipName": "鬼灭之刃",
-            "colors": [
-                {
-                    "jpName": "黄",
-                    "name": "黄"
-                },
-                {
-                    "jpName": "紫",
-                    "name": "紫"
-                },
-                {
-                    "jpName": "赤",
-                    "name": "红"
-                }
-            ],
-            "serialNo": "KMY",
-            "attributes": [
-                {
-                    "jpName": "柱",
-                    "name": "柱"
-                }
-            ]
-        }
-    ],
-    "colors": [
-        {
-            "jpName": "黄",
-            "name": "黄"
-        },
-        {
-            "jpName": "青",
-            "name": "蓝"
-        },
-        {
-            "jpName": "紫",
-            "name": "紫"
-        },
-        {
-            "jpName": "緑",
-            "name": "绿"
-        },
-        {
-            "jpName": "赤",
-            "name": "红"
-        }
-    ],
-    "attributes": [
-        {
-            "jpName": "神聖ブリタニア帝国",
-            "name": "神圣布里塔尼亚帝国"
-        },
-        {
-            "jpName": "KGF",
-            "name": "KGF"
-        },
-        {
-            "jpName": "改造人間",
-            "name": "改造人间"
-        },
-        {
-            "jpName": "式神",
-            "name": "式神"
-        },
-        {
-            "jpName": "純血派",
-            "name": "纯血派"
-        },
-        {
-            "jpName": "KMF",
-            "name": "KMF"
-        },
-        {
-            "jpName": "noctchill",
-            "name": "noctchill"
-        },
-        {
-            "jpName": "幻影旅団",
-            "name": "幻影旅团"
-        },
-        {
-            "jpName": "指定ポケット",
-            "name": "指定口袋"
-        },
-        {
-            "jpName": "Straylight",
-            "name": "Straylight"
-        },
-        {
-            "jpName": "ゾルディック家",
-            "name": "揍敌客家族"
-        },
-        {
-            "jpName": "黒の騎士団",
-            "name": "黑色骑士团"
-        },
-        {
-            "jpName": "L'Antica",
-            "name": "L'Antica"
-        },
-        {
-            "jpName": "アッシュフォード学園",
-            "name": "阿什福德学园"
-        },
-        {
-            "jpName": "京都校",
-            "name": "京都校"
-        },
-        {
-            "jpName": "四聖剣",
-            "name": "四圣剑"
-        },
-        {
-            "jpName": "柱",
-            "name": "柱"
-        },
-        {
-            "jpName": "親衛隊",
-            "name": "亲卫队"
-        },
-        {
-            "jpName": "呪具",
-            "name": "咒具"
-        },
-        {
-            "jpName": "爆弾魔",
-            "name": "爆弹魔"
-        },
-        {
-            "jpName": "呪霊",
-            "name": "咒灵"
-        },
-        {
-            "jpName": "ピザ",
-            "name": "披萨"
-        },
-        {
-            "jpName": "ALSTROEMERIA",
-            "name": "ALSTROEMERIA"
-        },
-        {
-            "jpName": "illumination STARS",
-            "name": "illumination STARS"
-        },
-        {
-            "jpName": "SHHis",
-            "name": "SHHis"
-        },
-        {
-            "jpName": "放課後クライマックスガールズ",
-            "name": "放学后的高潮少女"
-        },
-        {
-            "jpName": "下弦の鬼",
-            "name": "下弦的鬼"
-        },
-        {
-            "jpName": "上弦の鬼",
-            "name": "上弦鬼"
-        },
-        {
-            "jpName": "天元の嫁",
-            "name": "天元之妻"
-        },
-        {
-            "jpName": "変装",
-            "name": "变装"
-        }
-    ]
+  "cardPacks": [
+      {
+          "serialNo": "UA01BT",
+          "packName": "反叛的鲁路修 UA01BT"
+      },
+      {
+          "serialNo": "UA01ST",
+          "packName": "反叛的鲁路修 UA01ST"
+      },
+      {
+          "serialNo": "UA01PB",
+          "packName": "反叛的鲁路修 UA01PB"
+      },
+      {
+          "serialNo": "UA02BT",
+          "packName": "咒术回战 UA02BT"
+      },
+      {
+          "serialNo": "UA02ST",
+          "packName": "咒术回战 UA02ST"
+      },
+      {
+          "serialNo": "UA02PB",
+          "packName": "咒术回战 UA02PB"
+      },
+      {
+          "serialNo": "UA03BT",
+          "packName": "全职猎人 UA03BT"
+      },
+      {
+          "serialNo": "UA03ST",
+          "packName": "全职猎人 UA03ST"
+      },
+      {
+          "serialNo": "UA03PB",
+          "packName": "全职猎人 UA03PB"
+      },
+      {
+          "serialNo": "UAPR",
+          "packName": "PR"
+      }
+  ],
+  "ips": [
+      {
+          "cardPacks": [
+              {
+                  "serialNo": "UA01BT",
+                  "packName": "反叛的鲁路修 UA01BT"
+              },
+              {
+                  "serialNo": "UA01ST",
+                  "packName": "反叛的鲁路修 UA01ST"
+              },
+              {
+                  "serialNo": "UA01PB",
+                  "packName": "反叛的鲁路修 UA01PB"
+              },
+              {
+                  "serialNo": "UAPR",
+                  "packName": "PR"
+              }
+          ],
+          "ipName": "反叛的鲁路修",
+          "colors": [
+              {
+                  "jpName": "紫",
+                  "name": "紫"
+              },
+              {
+                  "jpName": "緑",
+                  "name": "绿"
+              },
+              {
+                  "jpName": "赤",
+                  "name": "红"
+              }
+          ],
+          "serialNo": "CGH",
+          "attributes": [
+              {
+                  "jpName": "黒の騎士団",
+                  "name": "黑色骑士团"
+              },
+              {
+                  "jpName": "四聖剣",
+                  "name": "四圣剑"
+              },
+              {
+                  "jpName": "KMF",
+                  "name": "KMF"
+              },
+              {
+                  "jpName": "神聖ブリタニア帝国",
+                  "name": "神圣布里塔尼亚帝国"
+              },
+              {
+                  "jpName": "純血派",
+                  "name": "纯血派"
+              },
+              {
+                  "jpName": "親衛隊",
+                  "name": "亲卫队"
+              },
+              {
+                  "jpName": "KGF",
+                  "name": "KGF"
+              },
+              {
+                  "jpName": "アッシュフォード学園",
+                  "name": "阿什福德学园"
+              },
+              {
+                  "jpName": "ピザ",
+                  "name": "披萨"
+              }
+          ]
+      },
+      {
+          "cardPacks": [
+              {
+                  "serialNo": "UA02BT",
+                  "packName": "咒术回战 UA02BT"
+              },
+              {
+                  "serialNo": "UA02ST",
+                  "packName": "咒术回战 UA02ST"
+              },
+              {
+                  "serialNo": "UA02PB",
+                  "packName": "咒术回战 UA02PB"
+              },
+              {
+                  "serialNo": "UAPR",
+                  "packName": "PR"
+              }
+          ],
+          "ipName": "咒术回战",
+          "colors": [
+              {
+                  "jpName": "黄",
+                  "name": "黄"
+              },
+              {
+                  "jpName": "青",
+                  "name": "蓝"
+              },
+              {
+                  "jpName": "紫",
+                  "name": "紫"
+              }
+          ],
+          "serialNo": "JJK",
+          "attributes": [
+              {
+                  "jpName": "式神",
+                  "name": "式神"
+              },
+              {
+                  "jpName": "京都校",
+                  "name": "京都校"
+              },
+              {
+                  "jpName": "呪具",
+                  "name": "咒具"
+              },
+              {
+                  "jpName": "改造人間",
+                  "name": "改造人间"
+              },
+              {
+                  "jpName": "呪霊",
+                  "name": "咒灵"
+              }
+          ]
+      },
+      {
+          "cardPacks": [
+              {
+                  "serialNo": "UA03BT",
+                  "packName": "全职猎人 UA03BT"
+              },
+              {
+                  "serialNo": "UA03ST",
+                  "packName": "全职猎人 UA03ST"
+              },
+              {
+                  "serialNo": "UA03PB",
+                  "packName": "全职猎人 UA03PB"
+              },
+              {
+                  "serialNo": "UAPR",
+                  "packName": "PR"
+              }
+          ],
+          "ipName": "全职猎人",
+          "colors": [
+              {
+                  "jpName": "青",
+                  "name": "蓝"
+              },
+              {
+                  "jpName": "紫",
+                  "name": "紫"
+              },
+              {
+                  "jpName": "緑",
+                  "name": "绿"
+              }
+          ],
+          "serialNo": "HTR",
+          "attributes": [
+              {
+                  "jpName": "指定ポケット",
+                  "name": "指定口袋"
+              },
+              {
+                  "jpName": "ゾルディック家",
+                  "name": "揍敌客家族"
+              },
+              {
+                  "jpName": "爆弾魔",
+                  "name": "爆弹魔"
+              },
+              {
+                  "jpName": "幻影旅団",
+                  "name": "幻影旅团"
+              }
+          ]
+      },
+      {
+          "cardPacks": [
+              {
+                  "serialNo": "UAPR",
+                  "packName": "PR"
+              }
+          ],
+          "ipName": "偶像大师 闪耀色彩",
+          "colors": [
+              {
+                  "jpName": "黄",
+                  "name": "黄"
+              },
+              {
+                  "jpName": "青",
+                  "name": "蓝"
+              },
+              {
+                  "jpName": "赤",
+                  "name": "红"
+              }
+          ],
+          "serialNo": "IMS",
+          "attributes": [
+              {
+                  "jpName": "L'Antica",
+                  "name": "L'Antica"
+              },
+              {
+                  "jpName": "noctchill",
+                  "name": "noctchill"
+              },
+              {
+                  "jpName": "Straylight",
+                  "name": "Straylight"
+              },
+              {
+                  "jpName": "ALSTROEMERIA",
+                  "name": "ALSTROEMERIA"
+              },
+              {
+                  "jpName": "illumination STARS",
+                  "name": "illumination STARS"
+              },
+              {
+                  "jpName": "SHHis",
+                  "name": "SHHis"
+              }
+          ]
+      },
+      {
+          "cardPacks": [
+              {
+                  "serialNo": "UAPR",
+                  "packName": "PR"
+              }
+          ],
+          "ipName": "鬼灭之刃",
+          "colors": [
+              {
+                  "jpName": "黄",
+                  "name": "黄"
+              },
+              {
+                  "jpName": "紫",
+                  "name": "紫"
+              },
+              {
+                  "jpName": "赤",
+                  "name": "红"
+              }
+          ],
+          "serialNo": "KMY",
+          "attributes": [
+              {
+                  "jpName": "柱",
+                  "name": "柱"
+              }
+          ]
+      }
+  ],
+  "colors": [
+      {
+          "jpName": "黄",
+          "name": "黄"
+      },
+      {
+          "jpName": "青",
+          "name": "蓝"
+      },
+      {
+          "jpName": "紫",
+          "name": "紫"
+      },
+      {
+          "jpName": "緑",
+          "name": "绿"
+      },
+      {
+          "jpName": "赤",
+          "name": "红"
+      }
+  ],
+  "attributes": [
+      {
+          "jpName": "神聖ブリタニア帝国",
+          "name": "神圣布里塔尼亚帝国"
+      },
+      {
+          "jpName": "KGF",
+          "name": "KGF"
+      },
+      {
+          "jpName": "改造人間",
+          "name": "改造人间"
+      },
+      {
+          "jpName": "式神",
+          "name": "式神"
+      },
+      {
+          "jpName": "純血派",
+          "name": "纯血派"
+      },
+      {
+          "jpName": "KMF",
+          "name": "KMF"
+      },
+      {
+          "jpName": "noctchill",
+          "name": "noctchill"
+      },
+      {
+          "jpName": "幻影旅団",
+          "name": "幻影旅团"
+      },
+      {
+          "jpName": "指定ポケット",
+          "name": "指定口袋"
+      },
+      {
+          "jpName": "Straylight",
+          "name": "Straylight"
+      },
+      {
+          "jpName": "ゾルディック家",
+          "name": "揍敌客家族"
+      },
+      {
+          "jpName": "黒の騎士団",
+          "name": "黑色骑士团"
+      },
+      {
+          "jpName": "L'Antica",
+          "name": "L'Antica"
+      },
+      {
+          "jpName": "アッシュフォード学園",
+          "name": "阿什福德学园"
+      },
+      {
+          "jpName": "京都校",
+          "name": "京都校"
+      },
+      {
+          "jpName": "四聖剣",
+          "name": "四圣剑"
+      },
+      {
+          "jpName": "柱",
+          "name": "柱"
+      },
+      {
+          "jpName": "親衛隊",
+          "name": "亲卫队"
+      },
+      {
+          "jpName": "呪具",
+          "name": "咒具"
+      },
+      {
+          "jpName": "爆弾魔",
+          "name": "爆弹魔"
+      },
+      {
+          "jpName": "呪霊",
+          "name": "咒灵"
+      },
+      {
+          "jpName": "ピザ",
+          "name": "披萨"
+      },
+      {
+          "jpName": "ALSTROEMERIA",
+          "name": "ALSTROEMERIA"
+      },
+      {
+          "jpName": "illumination STARS",
+          "name": "illumination STARS"
+      },
+      {
+          "jpName": "SHHis",
+          "name": "SHHis"
+      },
+      {
+          "jpName": "放課後クライマックスガールズ",
+          "name": "放学后的高潮少女"
+      },
+      {
+          "jpName": "下弦の鬼",
+          "name": "下弦鬼"
+      },
+      {
+          "jpName": "上弦の鬼",
+          "name": "上弦鬼"
+      },
+      {
+          "jpName": "天元の嫁",
+          "name": "天元之妻"
+      },
+      {
+          "jpName": "変装",
+          "name": "变装"
+      }
+  ]
 }
