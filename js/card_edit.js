@@ -1,12 +1,20 @@
+var modal1;
+
 document.addEventListener('DOMContentLoaded', function () {
     let elems = document.querySelectorAll('.materialboxed');
     let instances = M.Materialbox.init(elems);
 
-    elems = document.querySelectorAll('.modal');
-    instances = M.Modal.init(elems, {});
+    modal1 = M.Modal.init(document.getElementById('modal1'), {
+        "onOpenEnd": function () {
+            console.log("111111111111111");
+            $('.tabs').tabs();
+        }
+    });
+
+    $('.tabs').tabs();
 });
 
-var datas;
+var datas = [];
 var deckList = [];
 
 let request = new XMLHttpRequest();
@@ -24,24 +32,50 @@ request.onload = function () {
         if (ip == null) {
             return;
         }
-        datas = JSON.parse(this.responseText);
-        datas = datas.filter(data => { return data.ipData == ip && !data.rareData.includes("★") });
+        let rawDatas = JSON.parse(this.responseText);
+        rawDatas = rawDatas.filter(data => { return data.ipData == ip && !data.rareData.includes("★") });
+        for (var i = 0; i < rawDatas.length; i++) {
+            let rawData = rawDatas[i];
+
+            let isAdd = true;
+            for (let j = 0; j < datas.length; j++) {
+                let data = datas[j];
+                if (data.cardNumData2 == rawData.cardNumData2) {
+                    isAdd = false;
+                    break;
+                }
+            }
+            if (isAdd) {
+                datas.push(rawData);
+            }
+        }
+
         datas.sort(function (data1, data2) {
             return data1.cardNumData2.localeCompare(data2.cardNumData2);
         });
         search();
 
-        let cardList = deck.split("\n");
-        for (var i = 0; i < cardList.length; i++) {
-            let cardNumData = cardList[i].split(" ")[0];
-            for (let i = 0; i < datas.length; i++) {
-                let data = datas[i];
-                if (data.cardNumData == cardNumData) {
-                    deckList.push(data);
+        if (deck != null) {
+            let cardList = deck.split("\n").filter(str => { return str != ""; });
+
+            for (let i = 0; i < cardList.length; i++) {
+                let cardNumData = cardList[i];
+
+                let isAdd = false;
+                for (let j = 0; j < datas.length; j++) {
+                    let data = datas[j];
+                    if (data.cardNumData == cardNumData) {
+                        deckList.push(data);
+                        isAdd = true;
+                        break;
+                    }
+                }
+                if (!isAdd) {
+                    M.toast({ html: '找不到' + cardNumData });
                 }
             }
+            displayDeck();
         }
-        displayDeck();
     }
 }
 
@@ -62,8 +96,6 @@ request.onload = function () {
 
         let response = JSON.parse(this.responseText);
         let ipData = response.ips.filter(e => { return e.serialNo == ip })[0];
-
-        console.log("", ipData);
 
         let cardPackData = document.querySelector('[name="cardPackData"]');
         ipData.cardPacks.forEach(element => {
@@ -120,9 +152,6 @@ function clickCard(id) {
 
     document.querySelector('.effectCnData').innerText = data.effectCnData;
     M.Materialbox.init(document.querySelectorAll('.materialboxed'));
-    M.Tabs.init(document.querySelectorAll('.tabs'), {
-        "swipeable": true
-    });
 }
 
 function addCard(id) {
@@ -138,7 +167,6 @@ function addCard(id) {
     if (num >= 4) {
         M.toast({ html: data.cardNumData2 + '已经有四张。' });
     } else {
-        console.log("", data);
         deckList.push(data);
         displayDeck();
     }
@@ -153,7 +181,6 @@ function removeCard(id) {
         }
     }
 
-    console.log("", data);
     let index = deckList.indexOf(data);
     if (index < 0) {
         return;
@@ -171,7 +198,7 @@ function displayDeck() {
         let data = deckList[i];
         deckHtml = deckHtml +
             `<div onclick="clickCard(${data.id});">
-            <div class="card-image col s3" style="padding: 5px;">
+            <div class="card-image col ms5" style="padding: 5px;">
                 <img  src="${data.imageUrl}" >
         </div>
         </div>`;
@@ -199,30 +226,6 @@ function sort2() {
     displayDeck();
 }
 
-function share() {
-    let urlParams = new URLSearchParams(window.location.search);
-    let ip = urlParams.get('ip');
-
-    let url = "https://sisyphus2016.gitee.io/unionarena_card_queryer/deck_edit2.html?ip=" + ip + "&deck=";
-    let txt = "";
-    for (let i = 0; i < deckList.length; i++) {
-        let data = deckList[i];
-        url += data.cardNumData + "%0A";
-        txt += data.cardNumData + "\n";
-    }
-
-    document.getElementById('modal1-tab1').innerHTML = 
-    `<div class="modal-content">
-        <h5>复制下方链接，分享给你的好友。</h5>
-        <textarea style='height: 200px;color: white;'>${url}</textarea>
-        </div>`;
-
-    document.getElementById('modal1-tab2').innerHTML = "<textarea style='height: 400px;color: white;'>" + txt + "</textarea>";
-    M.Modal.getInstance(document.getElementById('modal1')).open();
-    //   window.open(url, "_blank");
-    $('.tabs').tabs();
-}
-
 function search() {
     let form = document.getElementById("search");
     let effectData = form.querySelector('[name="effectData"]').value;
@@ -234,6 +237,8 @@ function search() {
     let cardNumData = form.querySelector('[name="cardNumData"]').value;
     let triggerCnData = form.querySelector('[name="triggerCnData"]').value;
     let attributeCnData = form.querySelector('[name="attributeCnData"]').value;
+    let rareData = form.querySelector('[name="rareData"]').value;
+
 
     let cardDiv = document.getElementById("cardListArea");
     let cardDivHtml = "";
@@ -263,12 +268,13 @@ function search() {
         if (needEnergyData != "" && !data.needEnergyData.endsWith(needEnergyData)) {
             continue;
         }
-
-
         if (triggerCnData != "" && !data.triggerCnData.startsWith(triggerCnData)) {
             continue;
         }
         if (attributeCnData != "" && !data.attributeCnData.includes(attributeCnData)) {
+            continue;
+        }
+        if (rareData != "" && data.rareData != rareData) {
             continue;
         }
 
@@ -283,4 +289,26 @@ function search() {
     cardDiv.innerHTML = cardDivHtml;
 
     document.getElementById("searchCount").innerHTML = count;
+}
+
+function share() {
+    let urlParams = new URLSearchParams(window.location.search);
+    let ip = urlParams.get('ip');
+
+    let url = "https://sisyphus2016.gitee.io/unionarena_card_queryer/deck_edit2.html?ip=" + ip + "&deck=";
+    let cardNumDatas = [];
+    for (let i = 0; i < deckList.length; i++) {
+        let data = deckList[i];
+        cardNumDatas.push(data.cardNumData);
+    }
+
+    document.getElementById('modal1-tab1').innerHTML =
+        `<div class="modal-content">
+        <h5>复制下方链接，分享给你的好友。</h5>
+        <textarea style='height: 200px;color: white;'>${url + cardNumDatas.join("%0A")}</textarea>
+        </div>`;
+    document.getElementById('modal1-tab2').innerHTML = `<div class="modal-content"><textarea style='height: 400px;color: white;'>${cardNumDatas.join("\n")}</textarea></div>`;
+    document.getElementById('modal1-tab3').innerHTML = `<div class="modal-content"><textarea style='height: 400px;color: white;'>${JSON.stringify(cardNumDatas)}</textarea></div>`;
+
+    modal1.open();
 }
