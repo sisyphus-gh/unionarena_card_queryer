@@ -127,10 +127,10 @@ function clickCard(id) {
     }
 
     cardInfoDiv.innerHTML =
-        `<div class="card-image col s4" style="padding: 5px;">
+        `<div class="card-image col s5" style="padding: 5px;">
                 <img class="materialboxed" src="${data.imageUrl}" >
         </div>
-        <div class="col s8">
+        <div class="col s7">
             <p style="font-size:1.5rem;">${data.cardNumData}</p>
                 <p style="font-size:1.2rem;">中文卡名: ${data.cardCnName}</p>
             <p style="font-size:1.2rem;">日文卡名: ${data.cardName}</p>
@@ -147,6 +147,12 @@ function clickCard(id) {
         </div>
         <div class ="col s3"> 
         <a class="btn-floating btn-large waves-effect waves-light" style='background: #391922  !important' onclick="removeCard(${data.id})">-</a>
+        </div>
+        <div class ="col s3"> 
+        <a class="btn-floating btn-large waves-effect waves-light" style='background: #391922  !important' onclick="addCard(${data.id});addCard(${data.id});addCard(${data.id});addCard(${data.id});">+4</a>
+        </div>
+        <div class ="col s3"> 
+        <a class="btn-floating btn-large waves-effect waves-light" style='background: #391922  !important' onclick="removeCard(${data.id});removeCard(${data.id});removeCard(${data.id});removeCard(${data.id});">-4</a>
         </div>
        `;
 
@@ -223,6 +229,23 @@ function sort2() {
         needEnergyData2 = needEnergyData2 == "-" ? 0 : needEnergyData2;
         return needEnergyData - needEnergyData2;
     });
+    displayDeck();
+}
+
+function sort3() {
+    const shuffle = (arr) => {
+        for (let i = 0; i < arr.length; i++) {
+            const randomIndex = Math.round(Math.random() * (arr.length - 1 - i)) + i;
+            [arr[i], arr[randomIndex]] = [arr[randomIndex], arr[i]]
+        }
+        return arr
+    };
+    deckList = shuffle(deckList);
+    displayDeck();
+}
+
+function clearDeck(){
+    deckList = [];
     displayDeck();
 }
 
