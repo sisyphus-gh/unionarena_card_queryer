@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 var datas;
-var url = "./data_cn.json"
+var url = "./data/data_cn.json"
 var request = new XMLHttpRequest();
 request.open("get", url); /*设置请求方法与路径*/
 request.send(null); /*不发送数据到服务器*/

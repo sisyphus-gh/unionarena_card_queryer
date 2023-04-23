@@ -163,6 +163,7 @@ function removeCard(id) {
 }
 
 function displayDeck() {
+    let count = 0;
     let deck = document.getElementById("deck");
 
     let deckHtml = "";
@@ -174,8 +175,10 @@ function displayDeck() {
                 <img  src="${data.imageUrl}" >
         </div>
         </div>`;
+        count += 1;
     }
     deck.innerHTML = deckHtml;
+    document.getElementById("deckCount").innerHTML = count;
 }
 
 function sort() {
@@ -211,10 +214,10 @@ function share() {
     document.getElementById('modal1-tab1').innerHTML = 
     `<div class="modal-content">
         <h5>复制下方链接，分享给你的好友。</h5>
-        <textarea style='height: 200px;'>${url}</textarea>
+        <textarea style='height: 200px;color: white;'>${url}</textarea>
         </div>`;
 
-    document.getElementById('modal1-tab2').innerHTML = "<textarea style='height: 300px;'>" + txt + "</textarea>";
+    document.getElementById('modal1-tab2').innerHTML = "<textarea style='height: 400px;color: white;'>" + txt + "</textarea>";
     M.Modal.getInstance(document.getElementById('modal1')).open();
     //   window.open(url, "_blank");
     $('.tabs').tabs();

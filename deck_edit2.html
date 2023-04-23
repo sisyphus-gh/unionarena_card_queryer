@@ -8,10 +8,10 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
 
-    <style>
+    <style>  
         #cardInfoArea {
             height: calc(100vh - 20px);
         }
@@ -54,6 +54,7 @@
                     onclick='sort()'>编号整理</a>
                 <a class="btn waves-effect waves-light" style='background: #391922  !important'
                     onclick='sort2()'>能量整理</a>
+                <h5 style=" text-align: center;">卡组总数:<span id="deckCount">0</span></h5>
             </div>
             <div id="deck"></div>
         </div>
@@ -122,19 +123,19 @@
         </div>
     </div>
 
-    <div id="modal1" class="modal">
+    <div id="modal1" class="modal  " style="background: #391922;color: white;">
         <div class="row">
             <div class="col s12">
-                <ul class="tabs">
-                    <li class="tab col s6"><a href="#modal1-tab1">链接</a></li>
-                    <li class="tab col s6"><a href="#modal1-tab2">文本</a></li>
+                <ul class="tabs" style="background-color:#bdb1b13b;">
+                    <li class="tab col s6"><a href="#modal1-tab1" style="color: white;">链接</a></li>
+                    <li class="tab col s6"><a href="#modal1-tab2" style="color: white;">文本</a></li>
                 </ul>
             </div>
             <div id="modal1-tab1" class="col s12">
-              
+
             </div>
             <div id="modal1-tab2" class="col s12">
-                
+
             </div>
 
         </div>

@@ -7,43 +7,72 @@
     <title>UA工具箱</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <script src="./js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/materialize.min.css">
 
     <style>
         .xxfs-btn {
             background: linear-gradient(to left bottom, transparent 50%, #b7afaf 0) no-repeat 100% 0 / 1rem 1rem,
-                linear-gradient(225deg, transparent 0.7rem, #bdb1b13b 0);
+                linear-gradient(225deg, transparent 0.7rem, #bdb1b13b 0) !important;
             color: white;
             height: 20vw;
             width: 20vw;
             font-size: 2rem;
             border: none;
         }
+
+        .xxfs-btn:hover {
+            color: var(--bs-btn-hover-color);
+            background-color: var(--bs-btn-hover-bg);
+            border-color: var(--bs-btn-hover-border-color);
+        }
+
+        .container {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            justify-content: space-around;
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+            width: 100%;
+            padding-right: calc(var(--bs-gutter-x) * .5);
+            padding-left: calc(var(--bs-gutter-x) * .5);
+            margin-right: auto;
+            margin-left: auto;
+        }
     </style>
 
 </head>
 
 <body style="background-image:linear-gradient( #391922, #0c1b29  ) ;height: 100vh;">
-    <div class="container text-center" style="height: 100%;">
-        <div class="row align-items-center" style="height: 100%;">
-            <div class="col">
-                <a class="btn shadow-lg xxfs-btn" target="_blank" href="./card_search.html">
-                    <div class="row align-items-center" style="height: 100%;">
-                        <p>查卡器</p>
-                    </div>
-                </a>
+
+
+    <div class="container" style="height: 100%;">
+
+
+
+        <a class="btn   xxfs-btn" target="_blank" href="./card_search.html">
+            <div class="row valign-wrapper" style="height: 100%;">
+                <p style="width: 100%;">查卡器</p>
             </div>
-            <div class="col">
-                <a class="btn shadow-lg xxfs-btn" target="_blank"
-                    href="./deck_create.html">
-                    <div class="row align-items-center" style="height: 100%;">
-                        <p>组卡器</p>
-                    </div>
-                </a>
+        </a>
+
+        <a class="btn  xxfs-btn" target="_blank" href="./deck_create.html">
+            <div class="row valign-wrapper" style="height: 100%;">
+                <p style="width: 100%;">组卡器</p>
             </div>
-        </div>
+        </a>
+
+
+
+
     </div>
+
+
 </body>
 
 </html>
