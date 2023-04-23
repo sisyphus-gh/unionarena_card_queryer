@@ -10,7 +10,7 @@ var datas;
 var deckList = [];
 
 let request = new XMLHttpRequest();
-request.open("get", "./data_cn.json"); /*设置请求方法与路径*/
+request.open("get", "./data/data_cn.json"); /*设置请求方法与路径*/
 request.send(null); /*不发送数据到服务器*/
 request.onload = function () {
     /*XHR对象获取到返回信息后执行*/
@@ -96,7 +96,7 @@ function clickCard(id) {
 
     cardInfoDiv.innerHTML =
         `<div class="card-image col s4" style="padding: 5px;">
-                <img class="materialboxed" src="./card/${data.imageFileName}" >
+                <img class="materialboxed" src="${data.imageUrl}" >
         </div>
         <div class="col s8">
             <p style="font-size:1.5rem;">${data.cardNumData}</p>
@@ -171,7 +171,7 @@ function displayDeck() {
         deckHtml = deckHtml +
             `<div onclick="clickCard(${data.id});">
             <div class="card-image col s3" style="padding: 5px;">
-                <img  src="./card/${data.imageFileName}" >
+                <img  src="${data.imageUrl}" >
         </div>
         </div>`;
     }
@@ -201,14 +201,23 @@ function share() {
     let ip = urlParams.get('ip');
 
     let url = "https://sisyphus2016.gitee.io/unionarena_card_queryer/deck_edit2.html?ip=" + ip + "&deck=";
+    let txt = "";
     for (let i = 0; i < deckList.length; i++) {
         let data = deckList[i];
         url += data.cardNumData + "%0A";
+        txt += data.cardNumData + "\n";
     }
 
-    document.getElementById('modal1-content').innerHTML = url;
+    document.getElementById('modal1-tab1').innerHTML = 
+    `<div class="modal-content">
+        <h5>复制下方链接，分享给你的好友。</h5>
+        <textarea style='height: 200px;'>${url}</textarea>
+        </div>`;
+
+    document.getElementById('modal1-tab2').innerHTML = "<textarea style='height: 300px;'>" + txt + "</textarea>";
     M.Modal.getInstance(document.getElementById('modal1')).open();
     //   window.open(url, "_blank");
+    $('.tabs').tabs();
 }
 
 function search() {
@@ -262,7 +271,7 @@ function search() {
 
         cardDivHtml = cardDivHtml +
             `<div style=" width: 20%;">
-                <img onclick="clickCard(${data.id});" src="./card/${data.imageFileName}" width="100%" class="col s12"/>
+                <img onclick="clickCard(${data.id});" src="${data.imageUrl}" width="100%" class="col s12"/>
                 <p class="center-align" style="font-size: 1.1rem; margin: 0px;">${data.cardNumData}</p>
                 <p class="center-align " style="font-size: 1rem; margin: 0px;">${data.cardCnName}</p>
             </div>`;
