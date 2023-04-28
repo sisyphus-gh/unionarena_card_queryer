@@ -37,61 +37,16 @@
             "./card/" + data.cardNumData.replace("/", "_") + ".png";
           var cardInfoDiv = document.getElementById("cardInfoArea");
 
-          var div = document.createElement("h1");
-          div.innerHTML =
-            data.cardNumData + "&nbsp;&nbsp;&nbsp;&nbsp;" + data.rareData;
-          cardInfoDiv.appendChild(div);
-
-          div = document.createElement("h2");
-          div.innerText = "中文卡名: " + data.cardCnName;
-          cardInfoDiv.appendChild(div);
-
-          div = document.createElement("h2");
-          div.innerText = "日文卡名:" + data.cardName;
-          cardInfoDiv.appendChild(div);
-
-          div = document.createElement("h2");
-          div.innerText = "特征：" + data.attributeCnData;
-          cardInfoDiv.appendChild(div);
-
-          div = document.createElement("h2");
-          div.innerText = "效果：";
-          cardInfoDiv.appendChild(div);
-
-          div = document.createElement("p");
-          div.innerText = data.effectCnData;
-          cardInfoDiv.appendChild(div);
-
-          div = document.createElement("h2");
-          div.innerText = "触发效果：";
-          cardInfoDiv.appendChild(div);
-
-          div = document.createElement("p");
-          div.innerText = data.triggerCnData;
-          cardInfoDiv.appendChild(div);
-
-          div = document.createElement("img", { a: "a" });
-          div.setAttribute("src", "./card/" + data.imageFileName);
-          div.setAttribute("class", "cardImage");
-          cardInfoDiv.appendChild(div);
-
-          cardInfoDiv.innerHTML = `<div class="card-image col s5" style="padding: 5px;">
-               
-        </div>
-        <div class="col s7">
+          cardInfoDiv.innerHTML = ` 
             <p style="font-size:1.5rem;">${data.cardNumData}</p>
-                <p style="font-size:1.2rem;">中文卡名: ${data.cardCnName}</p>
+            <p style="font-size:1.2rem;">中文卡名: ${data.cardCnName}</p>
             <p style="font-size:1.2rem;">日文卡名: ${data.cardName}</p>
             <p style="font-size:1.2rem;">特征：${data.attributeCnData}</p>
-        </div>
-        <div class="col s12">
             <p style="font-size:1.2rem;">效果：</p>
             <p class="effectCnData" >${data.effectCnData}</p>
             <p style="font-size:1.2rem;">触发效果：</p>
             <p >${data.triggerCnData}</div>
-        </div>
-        <img src="${data.imageUrl}" style="width:90vw">
-       `;
+            <img src="${data.imageUrl}" style="width:90vw">`;
 
           document.querySelector(".effectCnData").innerText = data.effectCnData;
         }
