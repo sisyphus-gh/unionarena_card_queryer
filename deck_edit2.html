@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Union Arena 组卡器</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href="https://www.unionarena-tcg.com/favicon_16.ico" rel="icon" sizes="16x16">
-    <link href="https://www.unionarena-tcg.com/favicon.ico" rel="icon" sizes="any">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://www.unionarena-tcg.com/favicon_16.ico" rel="icon" sizes="16x16" />
+    <link href="https://www.unionarena-tcg.com/favicon.ico" rel="icon" sizes="any" />
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="./css/materialize.min.css" />
     <!-- Compiled and minified JavaScript -->
 
     <style>
@@ -59,43 +59,79 @@
 </head>
 
 <body class="row">
-    <div class=" col s4">
-        <div class="card"
-            style="background-color: #bdb1b13b;color: white;  height: calc(100vh - 20px);overflow: hidden;overflow-y: auto;">
+    <div class="col s4">
+        <div class="card" style="
+          background-color: #bdb1b13b;
+          color: white;
+          height: calc(100vh - 20px);
+          overflow: hidden;
+          overflow-y: auto;
+        ">
             <div>
-                <a class="btn waves-effect waves-light" style='background: #391922  !important' onclick='share()'>分享</a>
-                <a class="btn waves-effect waves-light" style='background: #391922  !important'
-                    onclick='sort()'>按编号排序</a>
-                <a class="btn waves-effect waves-light" style='background: #391922  !important'
-                    onclick='sort2()'>按能量排序</a>
-                <a class="btn waves-effect waves-light" style='background: #391922  !important' onclick='sort3()'>打乱</a>
-                <a class="btn waves-effect waves-light" style='background: #391922  !important' onclick='clearDeck()'>清空</a>
-                <h5 style=" text-align: center;">卡组总数:<span id="deckCount">0</span></h5>
+                <a class="btn waves-effect waves-light" style="background: #391922 !important" onclick="share()">分享</a>
+                <a class="btn waves-effect waves-light" style="background: #391922 !important"
+                    onclick="sort()">按编号排序</a>
+                <a class="btn waves-effect waves-light" style="background: #391922 !important"
+                    onclick="sort2()">按能量排序</a>
+                <a class="btn waves-effect waves-light" style="background: #391922 !important" onclick="sort3()">打乱</a>
+                <a class="btn waves-effect waves-light" style="background: #391922 !important"
+                    onclick="clearDeck()">清空</a>
+                <h5 style="text-align: center">
+                    卡组总数:<span id="deckCount">0</span>
+                </h5>
             </div>
             <div id="deck"></div>
         </div>
     </div>
     <div class="col s5">
-        <div class="card" style="background-color: #bdb1b13b;color: white;">
-            <form id="search" style="width: 100%;margin-bottom: 0px;" class="row">
-                <div class="col s6 l3"> 卡片编号 ：<input type="text" name="cardNumData" class="browser-default"
-                        oninput="search()" /> </div>
-                <div class="col s6 l3"> 中文卡名 ：<input type="text" name="cardCnName" class="browser-default"
-                        oninput="search()" /> </div>
-                <div class="col l3 hide-on-med-and-down"> 日文卡名 ： <input type="text" name="cardName"
-                        class="browser-default" oninput="search()" /></div>
-                <div class="col l3 hide-on-med-and-down"> 效果 ： <input type="text" name="effectData"
-                        class="browser-default" oninput="search()" /></div>
-                <div class="col s6 l3"> 所属商品 ： <select name="cardPackData" class="browser-default" onclick="search()">
+        <div class="card" style="background-color: #bdb1b13b; color: white">
+            <form id="search" style="width: 100%; margin-bottom: 0px" class="row">
+                <div class="col s6 l3">
+                    编号 ：<input type="text" name="cardNumData" class="browser-default" oninput="search()" />
+                </div>
+                <div class="col s6 l3">
+                    名称 ：<input type="text" name="cardCnName" class="browser-default" oninput="search()" />
+                </div>
+                <div class="col l3 hide-on-med-and-down">
+                    效果（含特征） ：<input type="text" name="effectData" class="browser-default" oninput="search()" />
+                </div>
+                <div class="col l3 hide-on-med-and-down">
+                    触发效果 ：
+                    <select name="triggerCnData" class="browser-default" onclick="search()">
+                        <option value="">全部</option>
+                        <option value="【最终】">最终</option>
+                        <option value="【特殊】">特殊</option>
+                        <option value="【色彩】">色彩</option>
+                        <option value="【获得】">获得</option>
+                        <option value="【抽卡】">抽卡</option>
+                        <option value="【激活】">激活</option>
+                        <option value="【突进】">突进</option>
+                    </select>
+                </div>
+                <div class="col l3 hide-on-med-and-down">
+                    颜色 ：
+                    <select name="colorData" class="browser-default" onclick="search()">
                         <option value="">全部</option>
                     </select>
                 </div>
-                <div class="col l3 hide-on-med-and-down"> 颜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;色 ： <select
-                        name="colorData" class="browser-default" onclick="search()">
+                <div class="col l3 hide-on-med-and-down">
+                    类型 ：
+                    <select name="categoryData" class="browser-default" onclick="search()">
+                        <option value="">全部</option>
+                        <option value="角色">角色</option>
+                        <option value="场地">场地</option>
+                        <option value="事件">事件</option>
+                    </select>
+                </div>
+                <div class="col l3 hide-on-med-and-down">
+                    特征 ：
+                    <select name="attributeCnData" class="browser-default" onclick="search()">
                         <option value="">全部</option>
                     </select>
                 </div>
-                <div class="col s6 l3"> 所需能量 ： <select name="needEnergyData" class="browser-default" onclick="search()">
+                <div class="col s6 l3">
+                    所需能量 ：
+                    <select name="needEnergyData" class="browser-default" onclick="search()">
                         <option value="">全部</option>
                         <option value="-">0</option>
                         <option value="1">1</option>
@@ -108,25 +144,15 @@
                         <option value="8">8</option>
                     </select>
                 </div>
-                <div class="col l3 hide-on-med-and-down"> 触发效果 ： <select name="triggerCnData" class="browser-default"
-                        onclick="search()">
-                        <option value="">全部</option>
-                        <option value="【最终】">最终</option>
-                        <option value="【特殊】">特殊</option>
-                        <option value="【色彩】">色彩</option>
-                        <option value="【获得】">获得</option>
-                        <option value="【抽卡】">抽卡</option>
-                        <option value="【激活】">激活</option>
-                        <option value="【突进】">突进</option>
-                    </select>
-                </div>
-                <div class="col l3 hide-on-med-and-down"> 特征 ：
-                    <select name="attributeCnData" class="browser-default" onclick="search()">
+                <div class="col s6 l3">
+                    所属商品 ：
+                    <select name="cardPackData" class="browser-default" onclick="search()">
                         <option value="">全部</option>
                     </select>
                 </div>
-                <div class="col l3 hide-on-med-and-down"> 稀有度 ： <select name="rareData" class="browser-default"
-                        onclick="search()">
+                <div class="col l3 hide-on-med-and-down">
+                    稀有度 ：
+                    <select name="rareData" class="browser-default" onclick="search()">
                         <option value="">全部</option>
                         <option value="C">C</option>
                         <option value="U">U</option>
@@ -136,22 +162,34 @@
                 </div>
             </form>
         </div>
-        <div class="card"
-            style="overflow: hidden;overflow-y: auto;height: calc(100vh - 240px);background-color:#bdb1b13b;color: white;">
-            <p style="font-size: 1.5rem; text-align: center;margin: 0 0 5px 0;">搜索结果:<span id="searchCount">0</span></p>
+        <div class="card" style="
+          overflow: hidden;
+          overflow-y: auto;
+          height: calc(100vh - 240px);
+          background-color: #bdb1b13b;
+          color: white;
+        ">
+            <p style="font-size: 1.5rem; text-align: center; margin: 0 0 5px 0">
+                搜索结果:<span id="searchCount">0</span>
+            </p>
             <div id="cardListArea" class="row card-block"></div>
         </div>
     </div>
     <div class="col s3">
-        <div id="cardInfoArea" class="col s12 card" style="background-color: #bdb1b13b;color: white;">
-        </div>
+        <div id="cardInfoArea" class="col s12 card" style="background-color: #bdb1b13b; color: white"></div>
     </div>
 
-    <div id="modal1" class="modal row" style="background: #391922;color: white;">
-        <ul class="tabs" style="background-color:#bdb1b13b;">
-            <li class="tab col s4"><a href="#modal1-tab1" class="active" style="color: white;">链接</a></li>
-            <li class="tab col s4"><a href="#modal1-tab2" style="color: white;">文本</a></li>
-            <li class="tab col s4"><a href="#modal1-tab3" style="color: white;">JSON</a></li>
+    <div id="modal1" class="modal row" style="background: #391922; color: white">
+        <ul class="tabs" style="background-color: #bdb1b13b">
+            <li class="tab col s4">
+                <a href="#modal1-tab1" class="active" style="color: white">链接</a>
+            </li>
+            <li class="tab col s4">
+                <a href="#modal1-tab2" style="color: white">文本</a>
+            </li>
+            <li class="tab col s4">
+                <a href="#modal1-tab3" style="color: white">JSON</a>
+            </li>
         </ul>
         <div id="modal1-tab1" class="col s12"></div>
         <div id="modal1-tab2" class="col s12"></div>
