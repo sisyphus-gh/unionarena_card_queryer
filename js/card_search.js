@@ -92,13 +92,10 @@ function search() {
   let parallelFlag = form.querySelector('[name="parallelFlag"]').value;
   let triggerCnData = form.querySelector('[name="triggerCnData"]').value;
   let rareStarData = form.querySelector('[name="rareStarData"]').value;
-
-  let count = 0;
-
-  let cardDivHtml = "";
-  let cardDivHtml2 = "";
+  let categoryData = form.querySelector('[name="categoryData"]').value;
 
   let cardList = [];
+
   for (let i = 0; i < datas.length; i++) {
     let data = datas[i];
     if (effectData != "") {
@@ -162,7 +159,9 @@ function search() {
         }
       }
     }
-
+    if (categoryData != "" && data.categoryData != categoryData) {
+      continue;
+    }
     cardList.push(data);
   }
 
@@ -170,9 +169,13 @@ function search() {
     return data1.cardNumData2 > data2.cardNumData2
       ? 1
       : data1.cardNumData2 == data2.cardNumData2
-      ? 0
-      : -1;
+        ? 0
+        : -1;
   });
+
+  let count = 0;
+  let cardDivHtml = "";
+  let cardDivHtml2 = "";
 
   cardList.forEach((data) => {
     cardDivHtml =

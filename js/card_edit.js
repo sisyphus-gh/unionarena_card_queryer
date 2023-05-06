@@ -272,7 +272,6 @@ function search() {
   let rareData = form.querySelector('[name="rareData"]').value;
   let categoryData = form.querySelector('[name="categoryData"]').value;
 
-  let cardDiv = document.getElementById("cardListArea");
   let cardDivHtml = "";
   let count = 0;
 
@@ -330,8 +329,8 @@ function search() {
             </div>`;
     count++;
   }
-  cardDiv.innerHTML = cardDivHtml;
 
+  document.getElementById("cardListArea").innerHTML = cardDivHtml;
   document.getElementById("searchCount").innerHTML = count;
 }
 
