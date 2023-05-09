@@ -1,4 +1,7 @@
-var modal1;
+
+let mode = "dev";
+
+let modal1;
 
 document.addEventListener("DOMContentLoaded", function () {
   let elems = document.querySelectorAll(".materialboxed");
@@ -6,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   modal1 = M.Modal.init(document.getElementById("modal1"), {
     onOpenEnd: function () {
-      console.log("111111111111111");
       $(".tabs").tabs();
     },
   });
@@ -14,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
   $(".tabs").tabs();
 });
 
-var datas = [];
-var deckList = [];
+let datas = [];
+let deckList = [];
 
 let request = new XMLHttpRequest();
 request.open("get", "./data/data_cn.json"); /*设置请求方法与路径*/
@@ -36,7 +38,7 @@ request.onload = function () {
     rawDatas = rawDatas.filter((data) => {
       return data.ipData == ip && !data.rareData.includes("★");
     });
-    for (var i = 0; i < rawDatas.length; i++) {
+    for (let i = 0; i < rawDatas.length; i++) {
       let rawData = rawDatas[i];
 
       let isAdd = true;
@@ -49,6 +51,9 @@ request.onload = function () {
       }
       if (isAdd) {
         datas.push(rawData);
+        if (mode == "dev") {
+          rawData.imageUrl = "./card/" + rawData.imageFileName;
+        }
       }
     }
 
@@ -233,9 +238,9 @@ function sort() {
 
 function sort2() {
   deckList = deckList.sort(function (data1, data2) {
-    var needEnergyData = data1.needEnergyData.substr(-1);
+    let needEnergyData = data1.needEnergyData.substr(-1);
     needEnergyData = needEnergyData == "-" ? 0 : needEnergyData;
-    var needEnergyData2 = data2.needEnergyData.substr(-1);
+    let needEnergyData2 = data2.needEnergyData.substr(-1);
     needEnergyData2 = needEnergyData2 == "-" ? 0 : needEnergyData2;
     return needEnergyData - needEnergyData2;
   });

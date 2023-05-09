@@ -1,3 +1,5 @@
+let mode = "dev";
+
 document.addEventListener("DOMContentLoaded", function () {
   var elems = document.querySelectorAll(".materialboxed");
   var instances = M.Materialbox.init(elems);
@@ -18,6 +20,9 @@ request.onload = function () {
     let cardDivHtml2 = "";
     for (let i = 0; i < datas.length; i++) {
       let data = datas[i];
+      if (mode == "dev") {
+        data.imageUrl = "./card/" + data.imageFileName;
+      }
       cardDivHtml =
         cardDivHtml +
         `<div class=" " style=" width: 16.6666667%;">
