@@ -1,4 +1,4 @@
-let mode = "dev";
+let mode = "prd";
 
 document.addEventListener("DOMContentLoaded", function () {
   var elems = document.querySelectorAll(".materialboxed");
