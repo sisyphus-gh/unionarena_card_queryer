@@ -45,7 +45,7 @@ request.onload = function () {
     }
     document.getElementById("cardListArea").innerHTML = cardDivHtml;
     document.getElementById("cardListArea2").innerHTML = cardDivHtml2;
-    // search();
+    search();
   }
 };
 
