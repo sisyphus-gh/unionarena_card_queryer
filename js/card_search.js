@@ -6,15 +6,15 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 var datas;
-var url = "./data/data_cn.json";
-var request = new XMLHttpRequest();
-request.open("get", url); /*设置请求方法与路径*/
+
+let request = new XMLHttpRequest();
+request.open("get", "./data/data_cn.json"); /*设置请求方法与路径*/
 request.send(null); /*不发送数据到服务器*/
 request.onload = function () {
   /*XHR对象获取到返回信息后执行*/
-  if (request.status == 200) {
+  if (this.status == 200) {
     /*返回状态为200，即为数据获取成功*/
-    datas = JSON.parse(request.responseText);
+    datas = JSON.parse(this.responseText);
 
     let cardDivHtml = "";
     let cardDivHtml2 = "";
@@ -23,6 +23,7 @@ request.onload = function () {
       if (mode == "dev") {
         data.imageUrl = "./card/" + data.imageFileName;
       }
+     
       cardDivHtml =
         cardDivHtml +
         `<div class=" " style=" width: 16.6666667%;">
@@ -44,7 +45,23 @@ request.onload = function () {
     }
     document.getElementById("cardListArea").innerHTML = cardDivHtml;
     document.getElementById("cardListArea2").innerHTML = cardDivHtml2;
-    search();
+    // search();
+  }
+};
+
+request = new XMLHttpRequest();
+request.open("get", "./data/ua_dict.json"); /*设置请求方法与路径*/
+request.send(null); /*不发送数据到服务器*/
+request.onload = function () {
+  /*XHR对象获取到返回信息后执行*/
+  if (this.status == 200) {
+    /*返回状态为200，即为数据获取成功*/
+    let response = JSON.parse(this.responseText);
+
+    let ipDataSelect = document.querySelector('[name="ipData"]');
+    response.ips.forEach((element) => {
+      ipDataSelect.options.add(new Option(element.ipName, element.serialNo));
+    });
   }
 };
 

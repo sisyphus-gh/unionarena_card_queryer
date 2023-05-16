@@ -61,6 +61,30 @@
             "packName": "鬼灭之刃 UA03PB"
         },
         {
+            "serialNo": "UA06BT",
+            "packName": "破晓传说 UA06BT"
+        },
+        {
+            "serialNo": "UA06ST",
+            "packName": "破晓传说 UA06ST"
+        },
+        {
+            "serialNo": "UA06PB",
+            "packName": "破晓传说 UA06PB"
+        },
+        {
+            "serialNo": "UA07BT",
+            "packName": "关于我转生变成史莱姆这档事 UA07BT"
+        },
+        {
+            "serialNo": "UA07ST",
+            "packName": "关于我转生变成史莱姆这档事 UA07ST"
+        },
+        {
+            "serialNo": "UA07PB",
+            "packName": "关于我转生变成史莱姆这档事 UA07PB"
+        },
+        {
             "serialNo": "UAPR",
             "packName": "PR"
         }
@@ -374,6 +398,82 @@
                     "jpName": "変装",
                     "name": "变装"
                 }
+            ]
+        },
+        {
+            "cardPacks": [
+                {
+                    "serialNo": "UA06BT",
+                    "packName": "破晓传说 UA06BT"
+                },
+                {
+                    "serialNo": "UA06ST",
+                    "packName": "破晓传说 UA06ST"
+                },
+                {
+                    "serialNo": "UA06PB",
+                    "packName": "破晓传说 UA06PB"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "PR"
+                }
+            ],
+            "ipName": "破晓传说",
+            "colors": [
+                {
+                    "jpName": "青",
+                    "name": "蓝"
+                },
+                {
+                    "jpName": "緑",
+                    "name": "绿"
+                },
+                {
+                    "jpName": "赤",
+                    "name": "红"
+                }
+            ],
+            "serialNo": "TOA",
+            "attributes": [
+            ]
+        },
+        {
+            "cardPacks": [
+                {
+                    "serialNo": "UA07BT",
+                    "packName": "关于我转生变成史莱姆这档事 UA07BT"
+                },
+                {
+                    "serialNo": "UA07ST",
+                    "packName": "关于我转生变成史莱姆这档事 UA07ST"
+                },
+                {
+                    "serialNo": "UA07PB",
+                    "packName": "关于我转生变成史莱姆这档事 UA07PB"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "PR"
+                }
+            ],
+            "ipName": "关于我转生变成史莱姆这档事",
+            "colors": [
+                {
+                    "jpName": "黄",
+                    "name": "黄"
+                },
+                {
+                    "jpName": "青",
+                    "name": "蓝"
+                },
+                {
+                    "jpName": "緑",
+                    "name": "绿"
+                }
+            ],
+            "serialNo": "TSK",
+            "attributes": [
             ]
         }
     ],
