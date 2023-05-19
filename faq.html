@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Union Arena 工具箱</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://www.unionarena-tcg.com/favicon_16.ico" rel="icon" sizes="16x16" />
+    <link href="https://www.unionarena-tcg.com/favicon.ico" rel="icon" sizes="any" />
+
+    <link rel="stylesheet" href="./css/materialize.min.css" />
+    <link rel="stylesheet" href="./css/materialIcons.css" />
+
+
+    <style>
+         .font-size-16 {
+            font-size: 16px;
+        }
+        .font-size-23 {
+            font-size: 23px;
+        }
+
+        .qa-q {
+            background-color: #e20000;
+
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav style="background-color: #e20000">
+        <div class="nav-wrapper container">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="./index.html" class="brand-logo" style="display: flex; align-items: center; height: 100%">
+                <img width="123px" height="60px" src="./img/logo_unionarena.png" />
+            </a>
+
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="./index.html">主页</a></li>
+                <li><a target="_blank" href="https://www.bilibili.com/read/cv22481887">规则草翻</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li><a target="_blank" href="./card_search.html">查卡器</a></li>
+                <li><a target="_blank" href="./deck_create.html">组卡器</a></li>
+                <li><a target="_blank"
+                        href="https://pokemon-tcg-media.com/%e3%83%a6%e3%83%8b%e3%82%aa%e3%83%b3%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%8a%e7%92%b0%e5%a2%83%e6%9c%80%e5%bc%b7%e3%83%87%e3%83%83%e3%82%ad/" />Tie表（不太靠谱）
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="./index.html">主页</a></li>
+        <li><a target="_blank" href="https://www.bilibili.com/read/cv22481887">规则草翻</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+        <li><a target="_blank" href="./card_search.html">查卡器</a></li>
+        <li><a target="_blank" href="./deck_create.html">组卡器</a></li>
+    </ul>
+
+    <div class="container">
+
+        <p style="text-align: center;"><strong><span class="font-size-23">一、卡牌设计（1~3）</span></strong><br></p>
+        <p style="text-align: left;"><span class="qa-q font-size-16">Q1：角色BP右侧的「+」是什么？</span><span
+                class="color-default font-size-16"></span><span class="font-size-16"><br></span></p>
+        <p style="text-align: left;"><strong><span
+                    class="color-pink-03 font-size-16">A：这个符号表示由于角色的效果，可能会增加BP。</span></strong></p>
+        <p style="text-align: left;"><strong><span class="color-pink-03 font-size-16"><br></span></strong></p>
+        <p style="text-align: left;"><span class="qa-q">Q2：卡牌上的「+」表示什么？</span><span
+                class="color-default font-size-16"></span><span class="font-size-16"><br></span></p>
+        <p style="text-align: left;"><strong><span
+                    class="color-pink-03 font-size-16">A：卡牌上的「+」表示由于该卡片的效果，可能会增加使用该卡片所需的能量值。</span></strong></p>
+        <p style="text-align: left;"><strong><span class="color-pink-03 font-size-16"><br></span></strong></p>
+        <p style="text-align: left;"><span class="qa-q">Q3：触发效果中的图标代表什么？</span><span
+                class="color-default font-size-16"></span><span class="font-size-16"><br></span></p>
+        <p style="text-align: left;"><strong><span class="color-pink-03 font-size-16">A：图标代表触发类型。</span></strong></p>
+        <hr />
+
+
+
+
+        <p style="text-align: center;"><strong><span class="color-pink-03 font-size-16"></span></strong><strong><span
+                    class="font-size-23">二、卡组构成（4~8）</span></strong></p>
+        <p><span class="qa-q">Q4：50张牌组中是否包含了3张AP卡牌？</span><span class="color-default font-size-16"></span><span
+                class="font-size-16"><br></span></p>
+        <p><strong><span class="color-pink-03 font-size-16">A：不包含。请准备3张AP卡片，与50张牌组分开。</span></strong></p>
+        <p><strong><span class="color-pink-03 font-size-16"><br></span></strong></p>
+        <p><span class="qa-q">Q5：可以将『咒术回战』和『全职猎人』的卡牌放在一起构筑卡组吗？</span><span
+                class="color-default font-size-16"></span><span class="font-size-16"><br></span></p>
+        <p><strong><span
+                    class="color-pink-03 font-size-16">A：不能。不能在同一卡组中加入作品编号不同的卡片。（卡牌编号“/”后面的3个字母为作品编号）</span></strong>
+        </p>
+        <p><strong><span class="color-pink-03 font-size-16"><br></span></strong></p>
+        <p><span class="qa-q">Q6：每个卡名的卡片最多可放入四张到卡组中，是这样的吗？</span><span class="color-default font-size-16"></span><span
+                class="font-size-16"><br></span></p>
+        <p><strong><span
+                    class="color-pink-03 font-size-16">A：不完全正确，如果卡牌编号中“/”后面的数字不同，则即使是同名卡也可以分别放入四张到卡组中。</span></strong>
+        </p>
+        <p><strong><span class="color-pink-03 font-size-16"><br></span></strong></p>
+        <p><span class="qa-q">Q7：能够将特殊触发（［SPECIAL］［COLOR］［FINAL］）各4张，以及12张其他触发放入同一卡组中吗？</span><span
+                class="color-default font-size-16"></span><span class="font-size-16"><br></span></p>
+        <p><strong><span class="color-pink-03 font-size-16">A：是的，可以。此外，不是特殊触发的触发卡可以在卡组中投入任意数量。</span></strong></p>
+        <p><strong><span class="color-pink-03 font-size-16"><br></span></strong></p>
+        <p><span class="qa-q">Q8：可以将颜色不同的卡牌放在一起构筑卡组吗？</span><span class="color-default font-size-16"></span><span
+                class="font-size-16"><br></span></p>
+        <p><strong><span class="color-pink-03 font-size-16">A：可以</span></strong></p>
+        <hr />
+        <p style="text-align: center;"><strong><span class="font-size-23">三、卡组构成（9~10）</span></strong></p>
+        <p><span class="qa-q">Q9：在游戏中，需要多少张行动点卡来进行游戏？</span><span class="color-default font-size-16"></span><span
+                class="font-size-16"><br></span></p>
+        <p><strong><span class="color-pink-03 font-size-16">A：每位玩家需要3张行动点卡。</span></strong></p>
+        <p><strong><span class="color-pink-03 font-size-16"><br></span></strong></p>
+        <p><span class="qa-q">Q10：猜拳胜利的一方是否会决定先手？还是胜利的一方可以选择先手或后手？</span><span
+                class="color-default font-size-16"></span><span class="font-size-16"><br></span></p>
+        <p><strong><span class="color-pink-03 font-size-16">A：猜拳胜利的一方可以选择先手或后手。</span></strong></p>
+        <hr />
+        <p style="text-align: center;"><strong><span class="font-size-23">四、胜利条件（11~14）</span></strong><strong><span
+                    class="color-pink-03 font-size-16"></span></strong><br></p>
+        <p style="text-align: left;"><span class="qa-q">Q11：在游戏中有哪些胜利条件？</span></p>
+        <p style="text-align: left;"><strong><span
+                    class="color-pink-03 font-size-16">A：如果发生以下两种情况之一，即视为获得胜利：</span></strong></p>
+        <p style="text-align: left;"><strong><span class="color-pink-03 font-size-16">①对手的生命区没有牌了；</span></strong></p>
+        <p style="text-align: left;"><strong><span
+                    class="color-pink-03 font-size-16">②对手的卡组已经没有牌，并且在其回合开始阶段不能抽卡。</span></strong></p>
+        <p><span class="qa-q"><br></span></p>
+        <p><span class="qa-q">Q12：在进行触发检查的过程中，如果生命值变为0，那么就会立即输掉比赛吗？</span><span
+                class="color-default font-size-16"></span><span class="font-size-16"><br></span></p>
+        <p><strong><span
+                    class="color-pink-03 font-size-16">A：关于因生命值降为0而判定失败的规则，会在进行完所有触发检查的效果之后进行检查。在处理所有触发（包括［FINAL］触发）后，如果生命值仍然大于等于1，则不算输掉比赛。</span></strong>
+        </p>
+        <p><span class="qa-q"><br></span></p>
+        <p><span class="qa-q">Q13：如果在非回合开始阶段无法抽牌，是否算作败北？</span><span class="color-default font-size-16"></span><span
+                class="font-size-16"><br></span></p>
+        <p><strong><span class="color-pink-03 font-size-16">A：不算作败北。</span></strong></p>
+        <p><span class="color-pink-03 font-size-16"></span></p>
+        <p><span class="qa-q">Q14：如果在自己的回合中，由于卡牌效果导致生命值降为0，这是否算作失败？</span><strong><span class="qa-q"></span><span
+                    class="color-default font-size-16"></span><span class="font-size-16"><br></span></strong></p>
+        <p><strong><span class="color-pink-03 font-size-16">A：是的，玩家将输掉比赛。</span></strong></p>
+        <hr />
+        <p style="text-align: center;"><strong><span class="font-size-23">五、回合开始阶段（15~17）</span></strong><strong><span
+                    class="color-pink-03 font-size-16"></span></strong><br></p>
+        <p><span class="qa-q">Q15：在一回合中，能否进行两次或更多次额外抽牌？</span><br></p>
+        <p><strong><span class="color-pink-03 font-size-16">A：在一回合中，只能进行一次额外抽牌。</span></strong></p>
+        <p><br></p>
+        <p><span class="qa-q">Q16：在先攻的第一个回合中可以进行额外抽牌吗？</span><br></p>
+        <p><strong><span class="color-pink-03 font-size-16">A：可以</span></strong></p>
+        <p><span class="color-pink-03 font-size-16"><br></span></p>
+        <p><span class="qa-q">Q17：当卡组没有牌时，是否可以进行额外抽牌？</span><br></p>
+        <p><strong><span class="color-pink-03 font-size-16">A：不能</span></strong></p>
+        <hr />
+        <p style="text-align: center;"><strong><span class="font-size-23">六、移动阶段（18~20）</span></strong><strong><span
+                    class="color-pink-03 font-size-16"></span></strong><br></p>
+        <p><span class="qa-q font-size-16">Q18：在移动阶段移动能量线和前线时，是否有指定移动目标的规则？<br></span></p>
+        <p><strong><span
+                    class="color-pink-03 font-size-16">A：在移动阶段移动能量线和前线时，可以移动到任何位置。此外，可以自由调整同一行中卡牌的顺序，以方便游戏。</span></strong>
+        </p>
+        <p><span class="color-pink-03 font-size-16"></span></p>
+        <p><span class="qa-q font-size-16">Q19：在移动阶段中，能否从前线移动到能量线上？<br></span></p>
+        <p><strong><span
+                    class="color-pink-03 font-size-16">A：在移动阶段中，不能从前线移动到能量线上。只有拥有【撤步】效果的角色才能从前线移动到能量线上。</span></strong>
+        </p>
+        <p><br></p>
+        <p><span class="qa-q font-size-16">Q20：在移动阶段中，移动人物角色时，是否会同时进行，还是逐一进行？<br></span></p>
+        <p><strong><span
+                    class="color-pink-03 font-size-16">A：在移动阶段中，选择要移动的所有角色，然后同时将它们移动。如果目标位置上有达到上限的卡牌，则将要移动的角色放置在除场地外之处（通常是移出游戏），并移动其余角色。</span></strong>
+        </p>
+        <hr />
+        <p style="text-align: center;"><strong><span class="font-size-23">七、主要阶段（21~32）</span></strong></p>
+        <p><span class="qa-q">Q21：在移动阶段中，移动人物角色时，是否会同时进行，还是逐一进行？</span><br></p>
+        <p><span class="color-pink-03"><strong><span
+                        class="font-size-16">A：在移动阶段中，选择要移动的所有角色，然后同时将它们移动。如果目标位置上有达到上限的卡牌，则将要移动的角色放置在除场地外之处（通常是移出游戏），并移动其余角色。</span></strong></span>
+        </p>
+        <p><span class="font-size-16"><br></span></p>
+        <p><span class="qa-q font-size-16">Q22：在一个已经有4张卡牌的战线上，是否可以额外登场卡牌？<br></span></p>
+        <p><span class="color-pink-03"><strong><span
+                        class="font-size-16">A：是的，可以。如果一个战线上已经有4张卡牌，可以选择该战线上的一张卡牌，将其除外。之后，可以将一张新的卡牌从手牌或其他区域放置到被除外的卡牌原先所在的位置上。</span></strong></span>
+        </p>
+        <p><span class="font-size-16"></span></p>
+        <p><span class="qa-q font-size-16">Q23：当前线和能量线分别已经有达到上限数（4张）的卡牌时，是否可以使用事件卡牌？</span></p>
+        <p><span class="color-pink-03"><strong><span class="font-size-16">A：是的，可以使用。</span></strong></span></p>
+        <p><span class="font-size-16"></span></p>
+        <p><span
+                class="qa-q font-size-16">Q24：当能量线已经达到上限时，如果想要将手牌中的卡牌放置到能量线上，需要将能量线上已有的卡牌除外吗？此时，可以参考被除外的卡牌所产生的能量吗？</span>
+        </p>
+        <p><span class="color-pink-03"><strong><span class="font-size-16">A：是的，可以参照。</span></strong></span></p>
+        <p><strong><span class="font-size-16"></span></strong></p>
+        <p><span class="qa-q font-size-16">Q25：处于休眠状态的卡牌是否会提供能量？</span></p>
+        <p><span class="color-pink-03"><strong><span class="font-size-16">A：是的，会提供能量。</span></strong></span></p>
+        <p><strong><span class="font-size-16"><br></span></strong></p>
+        <p><span class="qa-q font-size-16">Q26：当使用卡牌时，需要消耗相应的能量吗？</span></p>
+        <p><span class="color-pink-03"><strong><span class="font-size-16">A：不会消耗能量，能量会持续存在。</span></strong></span></p>
+        <p><strong><span class="font-size-16"></span></strong></p>
+        <p><span class="qa-q font-size-16">Q27：在使用卡牌后，是否仍需要满足所需的能量？</span></p>
+        <p><span class="color-pink-03"><strong><span
+                        class="font-size-16">A：只要在登场时满足即可。之后，即使能量减少，已经登场的卡牌也不会受到影响。</span></strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q font-size-16">Q28：在游戏中，需要按照什么顺序进行能量确认、行动点支付和卡牌效果执行。</span></p>
+        <p><span class="color-pink-03"><strong><span class="font-size-16">A：按照以下顺序进行处理。</span></strong></span></p>
+        <p><span class="color-pink-03"><strong><span class="font-size-16">①确认是否满足必要能量</span></strong></span></p>
+        <p><span class="color-pink-03"><strong><span class="font-size-16">②支付相应数目的AP</span></strong></span></p>
+        <p><span class="color-pink-03"><strong><span class="font-size-16">③使用卡牌</span></strong></span></p>
+        <p><span class="color-pink-03"><strong><span class="font-size-16">④处理卡牌效果</span></strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q font-size-16">Q29：必要能量的颜色和标记内的数字，是否都应该填有对应颜色所代表的生成能量？</span></p>
+        <p><span class="color-pink-03"><strong><span
+                        class="font-size-16">A：是的，举例来说，如果在绿色区域内标有[5]，那么需要在能量线有5个以上的绿色能量标志才可以提供该卡的能量。</span></strong></span>
+        </p>
+        <p><br></p>
+        <p><span class="qa-q font-size-16">Q30：「起动效果」可以在攻击阶段或对手回合中发动吗？</span></p>
+        <p><span class="color-pink-03"><strong><span
+                        class="font-size-16">A：不可以，「起动效果」只能在自己的主要阶段中使用。</span></strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q font-size-16">Q31：如果没有处于激活状态是否可以使用「起动效果」？</span></p>
+        <p><span class="color-pink-03"><strong>A：只要满足条件，即使其处于休眠状态，也可以发动该效果。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q font-size-16">Q32：当参考BP时，应该参考卡片效果改变后的值，还是原始数值？</span></p>
+        <p><span class="color-pink-03"><strong>A：参考卡牌效果使其变化之后的数值。</strong></span></p>
+        <hr />
+        <p style="text-align: center;"><strong><span class="font-size-23">八、战斗阶段（33~38）</span></strong></p>
+        <p style="text-align: left;"><span class="qa-q">Q33：在战斗时，当攻击和防御双方BP相等时，会发生什么？</span><br></p>
+        <p style="text-align: left;"><span class="color-pink-03"><strong>A：攻击方胜利。防守方的角色退场，而攻击方的角色不会退场。</strong></span>
+        </p>
+        <p style="text-align: left;"><br></p>
+        <p><span class="qa-q">Q34：在战斗时，如果防御方角色的BP比攻击方角色的BP值高，会发生什么？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：防御方获胜，同时，攻击方角色和防御方角色都不会退场。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q35：如果同时检查多张卡的触发时，如果有触发的卡和没有触发的卡一起被正面翻出的场合，触发的卡牌放置到到场外和处理触发效果的顺序是否任意排序？</span><br>
+        </p>
+        <p><span class="color-pink-03"><strong>A：是的，任意顺序处理。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span
+                class="qa-q">Q36：当对手的生命值为2，并使用【伤害2】造成2点伤害并且同时检查两张卡牌的触发时，如果其中一张卡牌是［FINAL］触发器，那么［FINAL］触发能否发动？如果两张卡牌都是［FINAL］触发，应该如何处理呢？</span><br>
+        </p>
+        <p><span
+                class="color-pink-03"><strong>A：可以发动。两张［FINAL］触发的场合，先处理一张［FINAL］触发，并将一张卡牌从自己的卡组顶放置到生命区。而另外一张［FINAL］触发因为条件不满足将无法发动。</strong></span>
+        </p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q37：当触发效果发动时，该卡牌持有的其他效果是否也能够发动？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不会，只有触发效果可以。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q38：如果执行触发检查并且角色登场，【登场时】效果是否会被触发？如果可以触发，处理这些效果时是否仍处于触发检查状态？</span><br></p>
+        <p><span
+                class="color-pink-03"><strong>A：是的，【登场时】效果会被触发。如果由于登场而触发了新效果，则可以按任意顺序处理尚未处理的触发效果，其中包括新效果。在处理这些效果期间，仍然处于触发器检查状态。</strong></span>
+        </p>
+        <hr />
+        <p style="text-align: center;"><strong><span class="font-size-23">九、结束阶段（39~40）</span></strong></p>
+        <p><span class="qa-q">Q39：在结束阶段，行动点是否可以转为激活？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不会，结束阶段不会重置行动点。</strong></span></p>
+        <p><span class="color-pink-03"></span></p>
+        <p><span class="qa-q">Q40：在结束阶段以外的场合，如果手牌数量超过9张，是否需要将手牌放入除外区使其减少至8张？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不会，在结束阶段以外的场合，即使手牌数量超过9张，也无需将手牌放入除外区。</strong></span></p>
+
+
+        <hr />
+
+        <p style="text-align: center;"><strong><span class="font-size-23"></span></strong></p>
+
+
+
+        <p style="text-align: center;"><strong><span class="font-size-23">十、突进（41~62）</span></strong></p>
+        <p><span class="qa-q">Q41：【突进】是什么？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：将带有【突进】效果的卡牌叠放在指定的角色或具有特定特征的角色上，使其登场。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q42：突进状态是什么</span><br></p>
+        <p><span class="color-pink-03"><strong>A：将带有【突进】效果的卡牌叠放在特定角色卡牌上，并表明该角色处于【突进】状态。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q43：在进行【突进】时，能否参考指定角色的能量？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：是的，可以参照。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q44：在进行【突进】时，「可以将其激活并移动到前线」的效果与【登场时】效果哪个先执行？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：先处理「可以将其激活并移动到前线」的效果，再处理该卡牌的【登场时】效果。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q45：可以对激活状态的角色【突进】吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：是的，可以。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q46：可以对位于前线的卡片【突进】吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：是的，可以。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q47：当使用【突进】对休眠状态的卡牌进行操作时，是否需要将其强制激活？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：是的，强制激活。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q48：当使用【突进】对处于能量线的卡牌进行操作时，是否需要将其强制移动至前线？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不是，玩家任意选择。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q49：突进元受到的效果，【突进】后还会保留吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不会保留。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q50：【突进】后还能够发动突进元的效果吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不能发动。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q51：不使用【突进】，是否可以直接登场呢？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：可以直接登场。但是，这种情况下特定于【突进】效果的部分将被视为无效。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q52：可以在不进行【突进】的情况下将拥有【突进】关键字的卡牌登场，并且之后对该卡牌进行【突进】吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不可以。只有没有【突进】关键字的卡牌才能进行【突进】。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q53：可以对已经进行过【突进】的卡牌再次进行【突进】吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不可以。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q54：能否对不同颜色的卡牌进行【突进】？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：是的，可以。但是场上需要满足进行【突进】所需能量。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q55：可以对已经进行过【突进】的卡牌，它在计算时会被视为多少张卡牌？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：1张卡牌。</strong></span></p>
+        <p><span class="color-pink-03"></span></p>
+        <p><span class="qa-q">Q56：如果从生命区里翻开了一个带有【突进】触发的卡牌，而满足了使用其【突进】所需的全部资源（例如必要的能量等），那么是否必须执行【突进】？</span><br>
+        </p>
+        <p><span class="color-pink-03"><strong>A：不是，可以选择将其放入手牌。此外，由于【突进】触发是可选的，还可以选择不执行【突进】并将其放入手牌。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q57：在使用【突进】触发进行【突进】时，是否需要支付AP？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不需要支付AP，但需要确保满足所需的能量要求。</strong></span></p>
+        <p><span class="color-pink-03"></span></p>
+        <p><span class="qa-q">Q58：【突进】触发效果，可以将该【突进】卡牌从能量区移动到前线，并在该回合进行阻挡吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：可以。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q59：【突进】触发效果，将一张处于前线的休眠状态的卡牌进行【突进】将其变为激活状态，那么这张卡片是否可以再次阻挡？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：可以。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q60：突进状态的卡牌退场的场合，那么作为突进元的卡牌会怎样？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：突进元放置到场外。</strong></span></p>
+        <p><span class="color-pink-03"></span></p>
+        <p><span class="qa-q">Q61：突进状态的卡牌除外的场合，那么作为突进元的卡牌会怎样？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：突进元放置到场外。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q62：突进状态的卡牌返回手牌或卡组的场合，那么作为突进元的卡牌会怎样？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：突进元放置到场外。</strong></span></p>
+        <hr />
+        <p style="text-align: center;"><strong><span class="font-size-23">十一、关键字效果（63~80）</span></strong></p>
+        <p><span class="qa-q">Q63：移动阶段中，拥有【撤步】的角色从前线移动到能量线，是否可以再能量线移动回前线？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不行。 在移动阶段，只能移动一次。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span
+                class="qa-q">Q64：在移动阶段中，若一个拥有【撤步】的角色从前线移动至能量线时，如果能量线的角色已经达到上限数（4张），那么是否可以将能量线上的卡牌放置到除外区后再进行移动呢？</span><br>
+        </p>
+        <p><span class="color-pink-03"><strong>A：是的，可以。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q65：如果一个拥有【狙击】和【冲击1】的角色使用【狙击】指定攻击了其他角色，那么【冲击1】的效果是否会发动呢？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：是的，如果在战斗中获胜，将会发动【冲击1】。</strong></span></p>
+        <p><span class="color-pink-03"></span></p>
+        <p><span class="qa-q">Q66：如果指定对手角色进行【狙击】，那么【攻击时】会发动吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：是的，会发动。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q67：如果使用【狙击】指定对手角色，那么该对手角色在【阻挡时】会发动吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：是的，会发动。</strong></span></p>
+        <p><span class="color-pink-03"></span></p>
+        <p><span class="qa-q">Q68：【狙击】指定了一个拥有【2次阻挡】的角色，那么这个角色「进行第一次阻挡时」是否能够触发？【2次阻挡】中「进行第一次阻挡时，激活该角色」是否会被触发？</span><br>
+        </p>
+        <p><span class="color-pink-03"><strong>A：不，因为被【狙击】攻击的角色没有进行阻挡，所以不会发动。</strong></span></p>
+        <p><span class="color-pink-03"></span></p>
+        <p><span class="qa-q">Q69：如果【狙击】指定的角色处于激活状态，可以通过休眠进行阻挡吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不可以，即使是处于激活状态的角色，也无法阻挡被【狙击】指定的卡牌。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q70：使用【狙击】无法进行阻挡，但是否会发生战斗？ 战斗胜利时/失败时效果是否会触发？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：会发生战斗，战斗胜利时/失败时效果同样也会发动。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q71：一个具有【伤害2】和【冲击1】的角色进行攻击，如果在与对手角色的战斗中胜利，那么会对对手玩家造成多少伤害？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：1点伤害。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q72：如果对手生命区只有1张卡，一个具有【伤害2】的角色造成了伤害，并且在触发检查时，对手翻出了[FINAL]触发，那么该如何处理？</span><br>
+        </p>
+        <p><span class="color-pink-03"><strong>A：在进行一次触发检查后，通过[FINAL]触发效果使对手的生命值变成1，并结束触发检查。</strong></span></p>
+        <p><span class="color-pink-03"></span></p>
+        <p><span class="qa-q">Q73：通过【伤害2】等效果造成多次伤害时，触发检查的步骤该如何执行？</span><br></p>
+        <p><span
+                class="color-pink-03"><strong>A：将与伤害数量相等的卡牌同时翻开，检查是否有触发。如果有多个触发，则可以按照任意顺序发动。发动的卡牌在效果处理后被放置于场外，然后发动剩余触发的效果。</strong></span>
+        </p>
+        <p><span class="color-pink-03"></span></p>
+        <p><span class="qa-q">Q74：当拥有【冲击1】的角色在与对手的角色进行战斗并获胜时，是先将战败的对手角色退场，还是先进行触发检查呢？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：按照以下顺序进行处理：</strong></span></p>
+        <p><span class="color-pink-03"><strong>①将战败的（阻挡的）角色退场。</strong></span></p>
+        <p><span class="color-pink-03"><strong>②处理「因退场而触发的效果」等【退场时】的效果。</strong></span></p>
+        <p><span class="color-pink-03"><strong>③处理【冲击1】等「战斗胜利时」的效果。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q75：拥有【冲击2】的角色攻击对手玩家并造成伤害时，将造成多少伤害？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：1点伤害。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q76：【冲击+1】可以叠加吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：可以叠加。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q77：拥有【冲击1】的角色因其他卡牌效果获得【冲击+1】并进行攻击，被拥有【冲击无效】的角色阻挡且战败，该如何处理？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：拥有【冲击无效】的角色因战败退场，由于【冲击无效】效果而失去了【冲击】，因此不会受到任何伤害。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q78：一个具有【2次攻击】和【冲击1】的角色在第一次攻击时，被具有【冲击无效】的角色进行阻挡且战败，那么在第二次攻击时，【冲击1】是否会发动？</span><br>
+        </p>
+        <p><span class="color-pink-03"><strong>A：【冲击1】会发动。【冲击无效】只在那次战斗中生效，因此在第二次攻击时，【冲击1】仍然会生效。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q79：【2次攻击】和【2次阻挡】在什么时候会被触发？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：【2次攻击】在指定攻击的角色后，将其休眠后立即触发。【2次防御】在指定防御的角色后，将其休眠后立即触发。</strong></span>
+        </p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q80：【2次阻挡】效果在第一次战斗中战败的情况下会怎样？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：转为激活状态后进入战斗，然后该角色会在处于激活状态中退场。</strong></span></p>
+        <hr />
+        <p style="text-align: center;"><strong><span class="font-size-23">十二、卡牌效果（81~93）</span></strong></p>
+        <p><span class="qa-q">Q81：标有【登场时】等发动时机的效果必须在满足发动时机的情况下强制发动吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：</strong><strong>效果根据以下要素而改变。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="color-pink-03"><strong>●可选</strong></span></p>
+        <p><span class="color-pink-03"><strong>·记述有「○○可以发动」或「○○可以使用」的效果</strong></span></p>
+        <p><span class="color-pink-03"><strong>·记述有「选择最多○张牌」的效果（可以通过选择“0张牌”来决定不使用该效果）</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="color-pink-03"><strong>●强制</strong></span></p>
+        <p><span class="color-pink-03"><strong>·记述有「○发动」的效果·</strong></span></p>
+        <p><span class="color-pink-03"><strong>记述有「选择○张牌」的效果（必须选择指定数量的牌）</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q82：当使用卡牌效果查看卡组时，例如「从自己的卡组上方看5张牌」时，如果卡组数量不足该怎么办？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：查看牌库中所有剩余牌，并处理效果。<span
+                        class="color-pink-02">如果由于某种原因无法处理该效果的所有部分，则将尽可能地处理它。</span></strong></span></p>
+        <p><span class="color-pink-03"><strong><span class="color-pink-02"><br></span></strong></span></p>
+        <p><span class="qa-q">Q83：记述有「选择最多1张○○」的卡牌效果，可以选择0张吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：可以。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q84：记述有「选择1张○○」的卡牌效果，可以选择0张吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不可以，必须要选择1张。</strong></span></p>
+        <p><span class="color-pink-03"></span></p>
+        <p><span class="qa-q">Q85：「下一次激活时不能激活。」是什么意思？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：这个效果是指在开始阶段、结束阶段或者受到「变为活跃状态」效果影响时，使角色保持休息状态，仅一次有效。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q86：受到两次「下一次激活时不能激活。」的场合，会变成「之后两次激活时不能激活。」吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不会。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q87：「将卡名作为〈〇〇〉处理」在哪里有效？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：在手牌、牌库、场外、场上和除外区等所有地方都有效。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q88：没有记载「1回合1次」的攻击时效果能否在同一个回合内发动多次？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：是的，每当该角色进行攻击时，就可以发动。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q89：记载有[登场时]和[攻击时]的效果，只会在角色第一次登场或第一次攻击时发动吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不会，这些效果既可以在角色登场时也可以在攻击时发动。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q90：角色在前线登场[登场时]效果可以发动吗？</span><br></p>
+        <p><span
+                class="color-pink-03"><strong>A：如没有写明发动条件，则可以在能量线或前线任何一个位置发动。如有「位于前线时」等发动条件，则必须满足相应的条件才能发动效果。</strong></span>
+        </p>
+        <p><span class="color-pink-03"></span></p>
+        <p><span class="qa-q">Q91：记载有「将卡牌激活」或「将卡牌休眠」的效果，是否可以选择已经处于该状态的卡牌来发动呢？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：是的，可以。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q92：记载有发动条件的效果，是否需要满足所有的发动条件才能发动？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：是的，必须满足所有发动条件。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q93：场地卡的效果可以叠加吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：可以。</strong></span></p>
+        <hr />
+        <p style="text-align: center;"><strong><span class="font-size-23">十三、其他（94~98）</span></strong></p>
+        <p><span class="qa-q">Q94：卡牌效果导致角色的BP降至0以下，该角色会发生什么？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：该角色退场。</strong></span></p>
+        <p><span class="color-pink-03"></span></p>
+        <p><span class="qa-q">Q95：自己将生命值放置在场外的效果，对于被翻面的生命区域卡牌上的触发效果能够发动吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不能，无法发动触发效果。</strong></span></p>
+        <p><br></p>
+        <p><span class="qa-q">Q96：当生命值在没有受到伤害的情况下减少时，谁来指定要翻开被放置牌面朝下的生命区域卡牌？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：如果没有指定，那么减少生命值的玩家来进行指定。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q97：</span><span class="qa-q">在游戏进行中，可以确认自己和对手以下的内容吗？</span></p>
+        <p><span class="qa-q">·生命区域中的卡牌数量</span></p>
+        <p><span class="qa-q">·牌库剩余数量</span></p>
+        <p><span class="qa-q">·场外卡牌的内容</span></p>
+        <p><span class="qa-q">·除外区中的卡牌的内容</span></p>
+        <p><span class="color-pink-03"><strong>A：是的，可以确认这些内容。它们作为公开信息，可以要求对手确认。</strong></span></p>
+        <p><span class="color-pink-03"><strong><br></strong></span></p>
+        <p><span class="qa-q">Q98：在游戏中可以回退到前面的阶段吗？</span><br></p>
+        <p><span class="color-pink-03"><strong>A：不可以。</strong></span></p>
+
+    </div>
+
+</body>
+
+<script src="./js/jquery.min.js"></script>
+<script src="./js/materialize.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".sidenav").sidenav();
+    });
+</script>
+
+
+
+
+</html>

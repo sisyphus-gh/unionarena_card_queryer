@@ -474,6 +474,14 @@
             ],
             "serialNo": "TSK",
             "attributes": [
+                {
+                    "jpName": "鬼人",
+                    "name": "鬼人"
+                },
+                {
+                    "jpName": "魔王",
+                    "name": "魔王"
+                }
             ]
         }
     ],
@@ -619,6 +627,14 @@
         {
             "jpName": "変装",
             "name": "变装"
+        },
+        {
+            "jpName": "鬼人",
+            "name": "鬼人"
+        },
+        {
+            "jpName": "魔王",
+            "name": "魔王"
         }
     ]
 }
