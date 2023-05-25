@@ -20547,7 +20547,7 @@
         "cardNumData": "UA06BT/TOA-1-012",
         "cardName": "テュオハリム",
         "ipCnData": "TOA",
-        "effectCnData": "【登场时】我方场上有 <奇莎兰>的场合，在这个回合中，BP-1000。",
+        "effectCnData": "【登场时】我方场上有 <奇莎兰>的场合，选择最多对方1张BP1500以上的前线角色，在这个回合中，BP-1000。",
         "effectData": "<img src=\"/jp/images/cardlist/icon/effect/ico_appearance.png\" alt=\"登場時\">自分の場に〈キサラ〉がある場合、BP1500以上の相手のフロントLのキャラを1枚まで選び、このターン中、BP-1000。",
         "ipData": "TOA",
         "categoryData": "角色",
