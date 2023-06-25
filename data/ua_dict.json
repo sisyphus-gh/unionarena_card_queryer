@@ -85,6 +85,54 @@
             "packName": "关于我转生变成史莱姆这档事 UA07PB"
         },
         {
+            "serialNo": "UA07BT",
+            "packName": "关于我转生变成史莱姆这档事 UA07BT"
+        },
+        {
+            "serialNo": "UA07ST",
+            "packName": "关于我转生变成史莱姆这档事 UA07ST"
+        },
+        {
+            "serialNo": "UA07PB",
+            "packName": "关于我转生变成史莱姆这档事 UA07PB"
+        },
+        {
+            "serialNo": "UA08BT",
+            "packName": "死神 UA08BT"
+        },
+        {
+            "serialNo": "UA08ST",
+            "packName": "死神 UA08ST"
+        },
+        {
+            "serialNo": "UA08PB",
+            "packName": "死神 UA08PB"
+        },
+        {
+            "serialNo": "UA09BT",
+            "packName": "机器子 UA09BT"
+        },
+        {
+            "serialNo": "UA09ST",
+            "packName": "机器子 UA09ST"
+        },
+        {
+            "serialNo": "UA09PB",
+            "packName": "机器子 UA09PB"
+        },
+        {
+            "serialNo": "UA10BT",
+            "packName": "鬼子学院 UA10BT"
+        },
+        {
+            "serialNo": "UA10ST",
+            "packName": "鬼子学院 UA10ST"
+        },
+        {
+            "serialNo": "UA10PB",
+            "packName": "鬼子学院 UA10PB"
+        },
+        {
             "serialNo": "UAPR",
             "packName": "PR"
         }
@@ -483,6 +531,120 @@
                     "name": "魔王"
                 }
             ]
+        },
+        {
+            "cardPacks": [
+                {
+                    "serialNo": "UA08BT",
+                    "packName": "死神 UA08BT"
+                },
+                {
+                    "serialNo": "UA08ST",
+                    "packName": "死神 UA08ST"
+                },
+                {
+                    "serialNo": "UA08PB",
+                    "packName": "死神 UA08PB"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "PR"
+                }
+            ],
+            "ipName": "死神",
+            "colors": [
+                {
+                    "jpName": "紫",
+                    "name": "紫"
+                }
+            ],
+            "serialNo": "BLC",
+            "attributes": [
+            ]
+        },
+        {
+            "cardPacks": [
+                {
+                    "serialNo": "UA09BT",
+                    "packName": "机器子 UA09BT"
+                },
+                {
+                    "serialNo": "UA09ST",
+                    "packName": "机器子 UA09ST"
+                },
+                {
+                    "serialNo": "UA09PB",
+                    "packName": "机器子 UA09PB"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "PR"
+                }
+            ],
+            "ipName": "机器子",
+            "colors": [
+                {
+                    "jpName": "紫",
+                    "name": "紫"
+                }
+            ],
+            "serialNo": "BTR",
+            "attributes": [
+                {
+                    "jpName": "我知家",
+                    "name": "我知家"
+                },
+                {
+                    "jpName": "動物",
+                    "name": "动物"
+                },
+                {
+                    "jpName": "食べ物",
+                    "name": "食物"
+                },
+                {
+                    "jpName": "バミュ4",
+                    "name": "百慕大4"
+                },
+                {
+                    "jpName": "ロボコの敵",
+                    "name": "机器子之敌"
+                }
+            ]
+        },
+        {
+            "cardPacks": [
+                {
+                    "serialNo": "UA10BT",
+                    "packName": "鬼子学院 UA10BT"
+                },
+                {
+                    "serialNo": "UA10ST",
+                    "packName": "鬼子学院 UA10ST"
+                },
+                {
+                    "serialNo": "UA10PB",
+                    "packName": "鬼子学院 UA10PB"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "PR"
+                }
+            ],
+            "ipName": "鬼子学院",
+            "colors": [
+                {
+                    "jpName": "紫",
+                    "name": "紫"
+                }
+            ],
+            "serialNo": "MHA",
+            "attributes": [
+                {
+                    "jpName": "死穢八斎會",
+                    "name": "死秽八斋会"
+                }
+            ]
         }
     ],
     "colors": [
@@ -635,6 +797,30 @@
         {
             "jpName": "魔王",
             "name": "魔王"
+        },
+        {
+            "jpName": "我知家",
+            "name": "我知家"
+        },
+        {
+            "jpName": "動物",
+            "name": "动物"
+        },
+        {
+            "jpName": "食べ物",
+            "name": "食物"
+        },
+        {
+            "jpName": "バミュ4",
+            "name": "百慕大4"
+        },
+        {
+            "jpName": "ロボコの敵",
+            "name": "机器子之敌"
+        },
+        {
+            "jpName": "死穢八斎會",
+            "name": "死秽八斋会"
         }
     ]
 }
