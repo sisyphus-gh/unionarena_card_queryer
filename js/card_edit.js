@@ -1,5 +1,5 @@
 
-let mode = "dev";
+let mode = "prd";
 
 let modal1;
 
