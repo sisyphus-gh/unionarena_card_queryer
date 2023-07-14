@@ -85,18 +85,6 @@
             "packName": "关于我转生变成史莱姆这档事 UA07PB"
         },
         {
-            "serialNo": "UA07BT",
-            "packName": "关于我转生变成史莱姆这档事 UA07BT"
-        },
-        {
-            "serialNo": "UA07ST",
-            "packName": "关于我转生变成史莱姆这档事 UA07ST"
-        },
-        {
-            "serialNo": "UA07PB",
-            "packName": "关于我转生变成史莱姆这档事 UA07PB"
-        },
-        {
             "serialNo": "UA08BT",
             "packName": "死神 UA08BT"
         },
@@ -131,6 +119,18 @@
         {
             "serialNo": "UA10PB",
             "packName": "鬼子学院 UA10PB"
+        },
+        {
+            "serialNo": "UA11BT",
+            "packName": "银魂 UA10BT"
+        },
+        {
+            "serialNo": "UA11ST",
+            "packName": "银魂 UA10ST"
+        },
+        {
+            "serialNo": "UA11PB",
+            "packName": "银魂 UA10PB"
         },
         {
             "serialNo": "UAPR",
@@ -661,6 +661,48 @@
                     "name": "死秽八斋会"
                 }
             ]
+        },
+        {
+            "cardPacks": [
+                {
+                    "serialNo": "UA11BT",
+                    "packName": "银魂 UA10BT"
+                },
+                {
+                    "serialNo": "UA11ST",
+                    "packName": "银魂 UA10ST"
+                },
+                {
+                    "serialNo": "UA11PB",
+                    "packName": "银魂 UA10PB"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "PR"
+                }
+            ],
+            "ipName": "银魂",
+            "colors": [
+                {
+                    "jpName": "紫",
+                    "name": "紫"
+                },
+                {
+                    "jpName": "緑",
+                    "name": "绿"
+                },
+                {
+                    "jpName": "赤",
+                    "name": "红"
+                }
+            ],
+            "serialNo": "GNT",
+            "attributes": [
+                {
+                    "jpName": "万事屋",
+                    "name": "万事屋"
+                }
+            ]
         }
     ],
     "colors": [
@@ -837,6 +879,10 @@
         {
             "jpName": "死穢八斎會",
             "name": "死秽八斋会"
+        },
+        {
+            "jpName": "万事屋",
+            "name": "万事屋"
         }
     ]
 }
