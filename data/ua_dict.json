@@ -110,15 +110,15 @@
         },
         {
             "serialNo": "UA10BT",
-            "packName": "鬼子学院 UA10BT"
+            "packName": "英雄学院 UA10BT"
         },
         {
             "serialNo": "UA10ST",
-            "packName": "鬼子学院 UA10ST"
+            "packName": "英雄学院 UA10ST"
         },
         {
             "serialNo": "UA10PB",
-            "packName": "鬼子学院 UA10PB"
+            "packName": "英雄学院 UA10PB"
         },
         {
             "serialNo": "UA11BT",
@@ -624,22 +624,22 @@
             "cardPacks": [
                 {
                     "serialNo": "UA10BT",
-                    "packName": "鬼子学院 UA10BT"
+                    "packName": "英雄学院 UA10BT"
                 },
                 {
                     "serialNo": "UA10ST",
-                    "packName": "鬼子学院 UA10ST"
+                    "packName": "英雄学院 UA10ST"
                 },
                 {
                     "serialNo": "UA10PB",
-                    "packName": "鬼子学院 UA10PB"
+                    "packName": "英雄学院 UA10PB"
                 },
                 {
                     "serialNo": "UAPR",
                     "packName": "PR"
                 }
             ],
-            "ipName": "鬼子学院",
+            "ipName": "英雄学院",
             "colors": [
                 {
                     "jpName": "紫",
