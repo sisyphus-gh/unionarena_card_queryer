@@ -2,12 +2,12 @@ let mode = "prd";
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  var elems = document.querySelectorAll(".materialboxed");
-  var instances = M.Materialbox.init(elems);
+  let elems = document.querySelectorAll(".materialboxed");
+  let instances = M.Materialbox.init(elems);
 
 
-  var elems = document.querySelectorAll('.sidenav');
-  var instances = M.Sidenav.init(elems, {});
+  elems = document.querySelectorAll('.sidenav');
+  instances = M.Sidenav.init(elems, {});
 });
 
 var datas;
@@ -25,7 +25,7 @@ request.onload = function () {
     /*返回状态为200，即为数据获取成功*/
     datas = JSON.parse(this.responseText);
     datas = datas.filter((data) => {
-      return data.ipData == ip && !data.rareData.includes("★");
+      return data.ipData == ip;
     });
 
     let cardDivHtml = "";
@@ -72,8 +72,8 @@ request.onload = function () {
 
     let sidenavIp = document.getElementById("sidenav-ip");
     response.ips.forEach((element) => {
-      var li = document.createElement('li');
-      var a = document.createElement('a');
+      let li = document.createElement('li');
+      let a = document.createElement('a');
       a.href = "?ip=" + element.serialNo;
       a.innerHTML = element.ipName;
       li.appendChild(a);
@@ -84,17 +84,17 @@ request.onload = function () {
 };
 
 function clickCard(e) {
-  var id = e.getAttribute("id");
+  let id = e.getAttribute("id");
 
-  var data;
-  for (var i = 0; i < datas.length; i++) {
+  let data;
+  for (let i = 0; i < datas.length; i++) {
     data = datas[i];
     if (data.id == id) {
       break;
     }
   }
 
-  var cardInfoDiv = document.getElementById("cardInfoArea");
+  let cardInfoDiv = document.getElementById("cardInfoArea");
   while (cardInfoDiv.hasChildNodes()) {
     cardInfoDiv.removeChild(cardInfoDiv.firstChild);
   }
