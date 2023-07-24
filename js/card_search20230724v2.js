@@ -169,7 +169,7 @@ function search() {
     if (parallelFlag != "" && data.rareData.includes("★")) {
       continue;
     }
-    if (rareData != "" && data.rareData != rareData) {
+    if (rareData != "" && !data.rareData.startsWith(rareData)) {
       continue;
     }
     if (triggerCnData != "" && !data.triggerCnData.startsWith(triggerCnData)) {
@@ -298,7 +298,7 @@ function search2() {
     if (parallelFlag != "" && data.rareData.includes("★")) {
       continue;
     }
-    if (rareData != "" && data.rareData != rareData) {
+    if (rareData != "" && !data.rareData.startsWith(rareData)) {
       continue;
     }
     if (triggerCnData != "" && !data.triggerCnData.startsWith(triggerCnData)) {
