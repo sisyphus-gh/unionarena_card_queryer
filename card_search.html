@@ -10,6 +10,7 @@
   <link href="https://www.unionarena-tcg.com/favicon.ico" rel="icon" sizes="any" />
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="./css/materialize.min.css" />
+  <link rel="stylesheet" href="./css/materialIcons.css" />
   <!-- Compiled and minified JavaScript -->
 
   <style>
@@ -63,8 +64,123 @@
       background-image: linear-gradient(#391922, #0c1b29);
       overflow: hidden;
     ">
+  <nav class="hide-on-large-only" style="background-color: #391922">
+    <div class="nav-wrapper container">
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"> 筛选 </a>
+      <a href="#" data-target="sidenav-ip" class="sidenav-trigger">出场作品</a>
+      <p style="font-size: 1.5rem; text-align: center; margin: 0 0 5px 0">
+        搜索结果:<span class="searchCount">0</span>
+      </p>
+    </div>
+  </nav>
+
+  <ul class="sidenav row"    id="mobile-demo" style="background-color: burlywood;">
+    
+    <li class="col s12">
+      编号 ：<input type="text" name="cardNumData" class="browser-default" oninput="search2()" />
+    </li>
+    <li class="col s12">
+      名称 ：<input type="text" name="cardCnName" class="browser-default" oninput="search2()" />
+    </li>
+    <li class="col s12">
+      效果（含特征） ：
+      <input type="text" name="effectData" class="browser-default" oninput="search2()" />
+    </li>
+    <li class="col s12">
+      触发效果 ：
+      <select name="triggerCnData" class="browser-default" onclick="search2()">
+        <option value="">全部</option>
+        <option value="【最终】">最终</option>
+        <option value="【特殊】">特殊</option>
+        <option value="【色彩】">色彩</option>
+        <option value="【获得】">获得</option>
+        <option value="【抽卡】">抽卡</option>
+        <option value="【激活】">激活</option>
+        <option value="【突进】">突进</option>
+      </select>
+    </li>
+    <li class="col s12">
+      颜色 ：
+      <select name="colorData" class="browser-default" onclick="search2()">
+        <option value="">全部</option>
+        <option value="紫">紫</option>
+        <option value="緑">绿</option>
+        <option value="赤">红</option>
+        <option value="青">蓝</option>
+        <option value="黄">黄</option>
+      </select>
+    </li>
+    <li class="col s12">
+      类型 ：
+      <select name="categoryData" class="browser-default" onclick="search2()">
+        <option value="">全部</option>
+        <option value="角色">角色</option>
+        <option value="场地">场地</option>
+        <option value="事件">事件</option>
+      </select>
+    </li>
+    <li class="col s12">
+      所需能量 ：
+      <select name="needEnergyData" class="browser-default" onclick="search2()">
+        <option value="">全部</option>
+        <option value="-">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+      </select>
+    </li>
+    <li class="col s12">
+      所属商品 ：
+      <select name="cardPackData" class="browser-default" onclick="search2()">
+        <option value="">全部</option>
+        <option value="BT">BT</option>
+        <option value="ST">ST</option>
+        <option value="PB">PB</option>
+        <option value="PR">PR</option>
+      </select>
+    </li>
+    <li class="col s12">
+      稀有度 ：
+      <select name="rareData" class="browser-default" onclick="search2()">
+        <option value="">全部</option>
+        <option value="C">C</option>
+        <option value="U">U</option>
+        <option value="R">R</option>
+        <option value="SR">SR</option>
+      </select>
+    </li>
+    <li class="col s12">
+      显示异画 ：
+      <select name="parallelFlag" class="browser-default" onclick="search2()">
+        <option value="no">过滤</option>
+        <option value="">全部</option>
+      </select>
+    </li>
+    <li class="col s12">
+      异画等级 ：
+      <select name="rareStarData" class="browser-default" onclick="search2()">
+        <option value="">全部</option>
+        <option value="★">★</option>
+        <option value="★★">★★</option>
+        <option value="★★★">★★★</option>
+      </select>
+    </li>
+    <!-- </form> -->
+
+
+
+  </ul>
+
+  <ul class="sidenav" id="sidenav-ip">
+  </ul>
+
   <div class="col m12 l8">
-    <div class="card" style="background-color: #bdb1b13b; color: white">
+    <div class="card hide-on-med-and-down"" style=" background-color: #bdb1b13b; color: white">
       <form id="search" style="width: 100%; margin-bottom: 0px" class="row">
         <div class="col s6 l3">
           编号 ：<input type="text" name="cardNumData" class="browser-default" oninput="search()" />
@@ -87,12 +203,6 @@
             <option value="【抽卡】">抽卡</option>
             <option value="【激活】">激活</option>
             <option value="【突进】">突进</option>
-          </select>
-        </div>
-        <div class="col s6 l3">
-          出场作品 ：
-          <select name="ipData" class="browser-default" onclick="search()">
-            <option value="">全部</option>
           </select>
         </div>
         <div class="col l3 hide-on-med-and-down">
@@ -176,8 +286,8 @@
           background-color: #bdb1b13b;
           color: white;
         ">
-      <p style="font-size: 1.5rem; text-align: center; margin: 0 0 5px 0">
-        搜索结果:<span id="searchCount">0</span>
+      <p class="hide-on-med-and-down" style="font-size: 1.5rem; text-align: center; margin: 0 0 5px 0">
+        搜索结果:<span class="searchCount">0</span>
       </p>
       <div id="cardListArea" class="row card-block hide-on-med-and-down"></div>
       <div class="show-on-medium-and-down" style="display: none">
