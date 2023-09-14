@@ -86,15 +86,15 @@
         },
         {
             "serialNo": "UA08BT",
-            "packName": "死神 UA08BT"
+            "packName": "境界 UA08BT"
         },
         {
             "serialNo": "UA08ST",
-            "packName": "死神 UA08ST"
+            "packName": "境界 UA08ST"
         },
         {
             "serialNo": "UA08PB",
-            "packName": "死神 UA08PB"
+            "packName": "境界 UA08PB"
         },
         {
             "serialNo": "UA09BT",
@@ -134,15 +134,15 @@
         },
         {
             "serialNo": "UA12BT",
-            "packName": "蓝色监狱 UA12BT"
+            "packName": "BLUE LOCK UA12BT"
         },
         {
             "serialNo": "UA12ST",
-            "packName": "蓝色监狱 UA12ST"
+            "packName": "BLUE LOCK UA12ST"
         },
         {
             "serialNo": "UA12PB",
-            "packName": "蓝色监狱 UA12PB"
+            "packName": "BLUE LOCK UA12PB"
         },
         {
             "serialNo": "UAPR",
@@ -548,22 +548,22 @@
             "cardPacks": [
                 {
                     "serialNo": "UA08BT",
-                    "packName": "死神 UA08BT"
+                    "packName": "境界 UA08BT"
                 },
                 {
                     "serialNo": "UA08ST",
-                    "packName": "死神 UA08ST"
+                    "packName": "境界 UA08ST"
                 },
                 {
                     "serialNo": "UA08PB",
-                    "packName": "死神 UA08PB"
+                    "packName": "境界 UA08PB"
                 },
                 {
                     "serialNo": "UAPR",
                     "packName": "PR"
                 }
             ],
-            "ipName": "死神",
+            "ipName": "境界",
             "colors": [
                 {
                     "jpName": "紫",
@@ -748,22 +748,22 @@
             "cardPacks": [
                 {
                     "serialNo": "UA12BT",
-                    "packName": "蓝色监狱 UA12BT"
+                    "packName": "BLUE LOCK UA12BT"
                 },
                 {
                     "serialNo": "UA12ST",
-                    "packName": "蓝色监狱 UA12ST"
+                    "packName": "BLUE LOCK UA12ST"
                 },
                 {
                     "serialNo": "UA12PB",
-                    "packName": "蓝色监狱 UA12PB"
+                    "packName": "BLUE LOCK UA12PB"
                 },
                 {
                     "serialNo": "UAPR",
                     "packName": "PR"
                 }
             ],
-            "ipName": "蓝色监狱",
+            "ipName": "BLUE LOCK",
             "colors": [
                 {
                     "jpName": "黄",
