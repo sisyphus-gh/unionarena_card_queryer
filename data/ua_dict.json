@@ -1,6 +1,10 @@
 {
     "cardPacks": [
         {
+            "serialNo": "UAPR",
+            "packName": "PR"
+        },
+        {
             "serialNo": "UA01BT",
             "packName": "反叛的鲁路修 UA01BT"
         },
@@ -38,27 +42,19 @@
         },
         {
             "serialNo": "UA04BT",
-            "packName": "偶像大师 UA03BT"
+            "packName": "偶像大师 闪耀色彩 UA04BT"
         },
         {
             "serialNo": "UA04ST",
-            "packName": "偶像大师 UA03ST"
-        },
-        {
-            "serialNo": "UA04PB",
-            "packName": "偶像大师 UA03PB"
+            "packName": "偶像大师 闪耀色彩 UA04ST"
         },
         {
             "serialNo": "UA05BT",
-            "packName": "鬼灭之刃 UA03BT"
+            "packName": "鬼灭之刃 UA05BT"
         },
         {
             "serialNo": "UA05ST",
-            "packName": "鬼灭之刃 UA03ST"
-        },
-        {
-            "serialNo": "UA05PB",
-            "packName": "鬼灭之刃 UA03PB"
+            "packName": "鬼灭之刃 UA05ST"
         },
         {
             "serialNo": "UA06BT",
@@ -69,10 +65,6 @@
             "packName": "破晓传说 UA06ST"
         },
         {
-            "serialNo": "UA06PB",
-            "packName": "破晓传说 UA06PB"
-        },
-        {
             "serialNo": "UA07BT",
             "packName": "关于我转生变成史莱姆这档事 UA07BT"
         },
@@ -81,20 +73,12 @@
             "packName": "关于我转生变成史莱姆这档事 UA07ST"
         },
         {
-            "serialNo": "UA07PB",
-            "packName": "关于我转生变成史莱姆这档事 UA07PB"
-        },
-        {
             "serialNo": "UA08BT",
-            "packName": "境界 UA08BT"
+            "packName": "BLEACH UA08BT"
         },
         {
             "serialNo": "UA08ST",
-            "packName": "境界 UA08ST"
-        },
-        {
-            "serialNo": "UA08PB",
-            "packName": "境界 UA08PB"
+            "packName": "BLEACH UA08ST"
         },
         {
             "serialNo": "UA09BT",
@@ -105,20 +89,12 @@
             "packName": "机器子 UA09ST"
         },
         {
-            "serialNo": "UA09PB",
-            "packName": "机器子 UA09PB"
-        },
-        {
             "serialNo": "UA10BT",
             "packName": "英雄学院 UA10BT"
         },
         {
             "serialNo": "UA10ST",
             "packName": "英雄学院 UA10ST"
-        },
-        {
-            "serialNo": "UA10PB",
-            "packName": "英雄学院 UA10PB"
         },
         {
             "serialNo": "UA11BT",
@@ -129,10 +105,6 @@
             "packName": "银魂 UA11ST"
         },
         {
-            "serialNo": "UA11PB",
-            "packName": "银魂 UA11PB"
-        },
-        {
             "serialNo": "UA12BT",
             "packName": "BLUE LOCK UA12BT"
         },
@@ -141,12 +113,20 @@
             "packName": "BLUE LOCK UA12ST"
         },
         {
-            "serialNo": "UA12PB",
-            "packName": "BLUE LOCK UA12PB"
+            "serialNo": "UA13BT",
+            "packName": "铁拳7 UA13BT"
         },
         {
-            "serialNo": "UAPR",
-            "packName": "PR"
+            "serialNo": "UA13ST",
+            "packName": "铁拳7 UA13ST"
+        },
+        {
+            "serialNo": "UA14BT",
+            "packName": "SYNDUALITY Noir UA14BT"
+        },
+        {
+            "serialNo": "UA14ST",
+            "packName": "SYNDUALITY Noir UA14ST"
         }
     ],
     "ips": [
@@ -167,6 +147,10 @@
                 {
                     "serialNo": "UAPR",
                     "packName": "PR"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "反叛的鲁路修 UAPR"
                 }
             ],
             "ipName": "反叛的鲁路修",
@@ -241,6 +225,10 @@
                 {
                     "serialNo": "UAPR",
                     "packName": "PR"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "咒术回战 UAPR"
                 }
             ],
             "ipName": "咒术回战",
@@ -299,6 +287,10 @@
                 {
                     "serialNo": "UAPR",
                     "packName": "PR"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "全职猎人 UAPR"
                 }
             ],
             "ipName": "全职猎人",
@@ -333,6 +325,10 @@
                 {
                     "jpName": "幻影旅団",
                     "name": "幻影旅团"
+                },
+                {
+                    "jpName": "レイザー攻略組",
+                    "name": "磊札攻略組"
                 }
             ]
         },
@@ -340,19 +336,19 @@
             "cardPacks": [
                 {
                     "serialNo": "UA04BT",
-                    "packName": "偶像大师 UA03BT"
+                    "packName": "偶像大师 闪耀色彩 UA04BT"
                 },
                 {
                     "serialNo": "UA04ST",
-                    "packName": "偶像大师 UA03ST"
-                },
-                {
-                    "serialNo": "UA04PB",
-                    "packName": "偶像大师 UA03PB"
+                    "packName": "偶像大师 闪耀色彩 UA04ST"
                 },
                 {
                     "serialNo": "UAPR",
                     "packName": "PR"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "偶像大师 闪耀色彩 UAPR"
                 }
             ],
             "ipName": "偶像大师 闪耀色彩",
@@ -406,19 +402,19 @@
             "cardPacks": [
                 {
                     "serialNo": "UA05BT",
-                    "packName": "鬼灭之刃 UA03BT"
+                    "packName": "鬼灭之刃 UA05BT"
                 },
                 {
                     "serialNo": "UA05ST",
-                    "packName": "鬼灭之刃 UA03ST"
-                },
-                {
-                    "serialNo": "UA05PB",
-                    "packName": "鬼灭之刃 UA03PB"
+                    "packName": "鬼灭之刃 UA05ST"
                 },
                 {
                     "serialNo": "UAPR",
                     "packName": "PR"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "鬼灭之刃 UAPR"
                 }
             ],
             "ipName": "鬼灭之刃",
@@ -471,12 +467,12 @@
                     "packName": "破晓传说 UA06ST"
                 },
                 {
-                    "serialNo": "UA06PB",
-                    "packName": "破晓传说 UA06PB"
+                    "serialNo": "UAPR",
+                    "packName": "PR"
                 },
                 {
                     "serialNo": "UAPR",
-                    "packName": "PR"
+                    "packName": "破晓传说 UAPR"
                 }
             ],
             "ipName": "破晓传说",
@@ -509,12 +505,12 @@
                     "packName": "关于我转生变成史莱姆这档事 UA07ST"
                 },
                 {
-                    "serialNo": "UA07PB",
-                    "packName": "关于我转生变成史莱姆这档事 UA07PB"
+                    "serialNo": "UAPR",
+                    "packName": "PR"
                 },
                 {
                     "serialNo": "UAPR",
-                    "packName": "PR"
+                    "packName": "关于我转生变成史莱姆这档事 UAPR"
                 }
             ],
             "ipName": "关于我转生变成史莱姆这档事",
@@ -548,22 +544,22 @@
             "cardPacks": [
                 {
                     "serialNo": "UA08BT",
-                    "packName": "境界 UA08BT"
+                    "packName": "BLEACH UA08BT"
                 },
                 {
                     "serialNo": "UA08ST",
-                    "packName": "境界 UA08ST"
-                },
-                {
-                    "serialNo": "UA08PB",
-                    "packName": "境界 UA08PB"
+                    "packName": "BLEACH UA08ST"
                 },
                 {
                     "serialNo": "UAPR",
                     "packName": "PR"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "BLEACH UAPR"
                 }
             ],
-            "ipName": "境界",
+            "ipName": "BLEACH",
             "colors": [
                 {
                     "jpName": "紫",
@@ -583,6 +579,14 @@
                 {
                     "jpName": "護廷十三隊",
                     "name": "护廷十三队"
+                },
+                {
+                    "jpName": "星十字騎士団",
+                    "name": "星十字骑士团"
+                },
+                {
+                    "jpName": "零番隊",
+                    "name": "零番队"
                 }
             ]
         },
@@ -597,12 +601,12 @@
                     "packName": "机器子 UA09ST"
                 },
                 {
-                    "serialNo": "UA09PB",
-                    "packName": "机器子 UA09PB"
+                    "serialNo": "UAPR",
+                    "packName": "PR"
                 },
                 {
                     "serialNo": "UAPR",
-                    "packName": "PR"
+                    "packName": "机器子 UAPR"
                 }
             ],
             "ipName": "机器子",
@@ -655,12 +659,12 @@
                     "packName": "英雄学院 UA10ST"
                 },
                 {
-                    "serialNo": "UA10PB",
-                    "packName": "英雄学院 UA10PB"
+                    "serialNo": "UAPR",
+                    "packName": "PR"
                 },
                 {
                     "serialNo": "UAPR",
-                    "packName": "PR"
+                    "packName": "英雄学院 UAPR"
                 }
             ],
             "ipName": "英雄学院",
@@ -697,12 +701,12 @@
                     "packName": "银魂 UA11ST"
                 },
                 {
-                    "serialNo": "UA11PB",
-                    "packName": "银魂 UA11PB"
+                    "serialNo": "UAPR",
+                    "packName": "PR"
                 },
                 {
                     "serialNo": "UAPR",
-                    "packName": "PR"
+                    "packName": "银魂 UAPR"
                 }
             ],
             "ipName": "银魂",
@@ -755,12 +759,12 @@
                     "packName": "BLUE LOCK UA12ST"
                 },
                 {
-                    "serialNo": "UA12PB",
-                    "packName": "BLUE LOCK UA12PB"
+                    "serialNo": "UAPR",
+                    "packName": "PR"
                 },
                 {
                     "serialNo": "UAPR",
-                    "packName": "PR"
+                    "packName": "BLUE LOCK UAPR"
                 }
             ],
             "ipName": "BLUE LOCK",
@@ -783,6 +787,94 @@
                 {
                     "jpName": "チームZ",
                     "name": "Team Z"
+                }
+            ]
+        },
+        {
+            "cardPacks": [
+                {
+                    "serialNo": "UA13BT",
+                    "packName": "铁拳7 UA13BT"
+                },
+                {
+                    "serialNo": "UA13ST",
+                    "packName": "铁拳7 UA13ST"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "PR"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "铁拳7 UAPR"
+                }
+            ],
+            "ipName": "铁拳7",
+            "colors": [
+                {
+                    "jpName": "黄",
+                    "name": "黄"
+                },
+                {
+                    "jpName": "青",
+                    "name": "蓝"
+                },
+                {
+                    "jpName": "赤",
+                    "name": "红"
+                }
+            ],
+            "serialNo": "TKN",
+            "attributes": [
+                {
+                    "jpName": "三島財閥",
+                    "name": "三岛财阀"
+                },
+                {
+                    "jpName": "G社",
+                    "name": "G社"
+                }
+            ]
+        },
+        {
+            "cardPacks": [
+                {
+                    "serialNo": "UA14BT",
+                    "packName": "SYNDUALITY Noir UA14BT"
+                },
+                {
+                    "serialNo": "UA14ST",
+                    "packName": "SYNDUALITY Noir UA14ST"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "PR"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "SYNDUALITY Noir UAPR"
+                }
+            ],
+            "ipName": "SYNDUALITY Noir",
+            "colors": [
+                {
+                    "jpName": "黄",
+                    "name": "黄"
+                },
+                {
+                    "jpName": "青",
+                    "name": "蓝"
+                },
+                {
+                    "jpName": "赤",
+                    "name": "红"
+                }
+            ],
+            "serialNo": "SYN",
+            "attributes": [
+                {
+                    "jpName": "メイガス",
+                    "name": "贤士"
                 }
             ]
         }
@@ -989,6 +1081,30 @@
         {
             "jpName": "チームZ",
             "name": "Team Z"
+        },
+        {
+            "jpName": "星十字騎士団",
+            "name": "星十字骑士团"
+        },
+        {
+            "jpName": "零番隊",
+            "name": "零番队"
+        },
+        {
+            "jpName": "レイザー攻略組",
+            "name": "磊札攻略組"
+        },
+        {
+            "jpName": "メイガス",
+            "name": "贤士"
+        },
+        {
+            "jpName": "三島財閥",
+            "name": "三岛财阀"
+        },
+        {
+            "jpName": "G社",
+            "name": "G社"
         }
     ]
 }
