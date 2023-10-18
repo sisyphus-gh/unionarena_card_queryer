@@ -114,11 +114,11 @@
         },
         {
             "serialNo": "UA13BT",
-            "packName": "铁拳7 UA13BT"
+            "packName": "tie quan7 UA13BT"
         },
         {
             "serialNo": "UA13ST",
-            "packName": "铁拳7 UA13ST"
+            "packName": "tie quan7 UA13ST"
         },
         {
             "serialNo": "UA14BT",
@@ -794,11 +794,11 @@
             "cardPacks": [
                 {
                     "serialNo": "UA13BT",
-                    "packName": "铁拳7 UA13BT"
+                    "packName": "tie quan7 UA13BT"
                 },
                 {
                     "serialNo": "UA13ST",
-                    "packName": "铁拳7 UA13ST"
+                    "packName": "tie quan7 UA13ST"
                 },
                 {
                     "serialNo": "UAPR",
@@ -806,10 +806,10 @@
                 },
                 {
                     "serialNo": "UAPR",
-                    "packName": "铁拳7 UAPR"
+                    "packName": "tie quan7 UAPR"
                 }
             ],
-            "ipName": "铁拳7",
+            "ipName": "tie quan7",
             "colors": [
                 {
                     "jpName": "黄",
@@ -874,7 +874,7 @@
             "attributes": [
                 {
                     "jpName": "メイガス",
-                    "name": "驭机超算"
+                    "name": "贤士"
                 }
             ]
         }
@@ -1096,7 +1096,7 @@
         },
         {
             "jpName": "メイガス",
-            "name": "驭机超算"
+            "name": "贤士"
         },
         {
             "jpName": "三島財閥",
