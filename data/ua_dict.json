@@ -35,7 +35,43 @@
                 }
             ],
             "serialNo": "CGH",
-            "attributes": [ 
+            "attributes": [
+                {
+                    "jpName": "黒の騎士団",
+                    "name": "黑色骑士团"
+                },
+                {
+                    "jpName": "四聖剣",
+                    "name": "四圣剑"
+                },
+                {
+                    "jpName": "KMF",
+                    "name": "KMF"
+                },
+                {
+                    "jpName": "神聖ブリタニア帝国",
+                    "name": "神圣布里塔尼亚帝国"
+                },
+                {
+                    "jpName": "純血派",
+                    "name": "纯血派"
+                },
+                {
+                    "jpName": "親衛隊",
+                    "name": "亲卫队"
+                },
+                {
+                    "jpName": "KGF",
+                    "name": "KGF"
+                },
+                {
+                    "jpName": "アッシュフォード学園",
+                    "name": "阿什福德学园"
+                },
+                {
+                    "jpName": "ピザ",
+                    "name": "披萨"
+                }
             ]
         },
         {
@@ -74,7 +110,26 @@
             ],
             "serialNo": "JJK",
             "attributes": [
-                
+                {
+                    "jpName": "式神",
+                    "name": "式神"
+                },
+                {
+                    "jpName": "京都校",
+                    "name": "京都校"
+                },
+                {
+                    "jpName": "呪具",
+                    "name": "咒具"
+                },
+                {
+                    "jpName": "改造人間",
+                    "name": "改造人间"
+                },
+                {
+                    "jpName": "呪霊",
+                    "name": "咒灵"
+                }
             ]
         },
         {
@@ -113,7 +168,26 @@
             ],
             "serialNo": "HTR",
             "attributes": [
-               
+                {
+                    "jpName": "指定ポケット",
+                    "name": "指定口袋"
+                },
+                {
+                    "jpName": "ゾルディック家",
+                    "name": "揍敌客家族"
+                },
+                {
+                    "jpName": "爆弾魔",
+                    "name": "爆弹魔"
+                },
+                {
+                    "jpName": "幻影旅団",
+                    "name": "幻影旅团"
+                },
+                {
+                    "jpName": "レイザー攻略組",
+                    "name": "磊札攻略組"
+                }
             ]
         },
         {
@@ -148,7 +222,34 @@
             ],
             "serialNo": "IMS",
             "attributes": [
-               
+                {
+                    "jpName": "ALSTROEMERIA",
+                    "name": "ALSTROEMERIA"
+                },
+                {
+                    "jpName": "illumination STARS",
+                    "name": "illumination STARS"
+                },
+                {
+                    "jpName": "SHHis",
+                    "name": "SHHis"
+                },
+                {
+                    "jpName": "L'Antica",
+                    "name": "L'Antica"
+                },
+                {
+                    "jpName": "noctchill",
+                    "name": "noctchill"
+                },
+                {
+                    "jpName": "Straylight",
+                    "name": "Straylight"
+                },
+                {
+                    "jpName": "放課後クライマックスガールズ",
+                    "name": "放学后的高潮少女"
+                }
             ]
         },
         {
@@ -183,7 +284,26 @@
             ],
             "serialNo": "KMY",
             "attributes": [
-              
+                {
+                    "jpName": "柱",
+                    "name": "柱"
+                },
+                {
+                    "jpName": "下弦の鬼",
+                    "name": "下弦鬼"
+                },
+                {
+                    "jpName": "上弦の鬼",
+                    "name": "上弦鬼"
+                },
+                {
+                    "jpName": "天元の嫁",
+                    "name": "天元之妻"
+                },
+                {
+                    "jpName": "変装",
+                    "name": "变装"
+                }
             ]
         },
         {
@@ -252,7 +372,14 @@
             ],
             "serialNo": "TSK",
             "attributes": [
-             
+                {
+                    "jpName": "鬼人",
+                    "name": "鬼人"
+                },
+                {
+                    "jpName": "魔王",
+                    "name": "魔王"
+                }
             ]
         },
         {
@@ -287,7 +414,14 @@
             ],
             "serialNo": "BLC",
             "attributes": [
-               
+                {
+                    "jpName": "護廷十三隊",
+                    "name": "护廷十三队"
+                },
+                {
+                    "jpName": "星十字騎士団",
+                    "name": "星十字骑士团"
+                } 
             ]
         },
         {
@@ -322,7 +456,26 @@
             ],
             "serialNo": "BTR",
             "attributes": [
-            
+                {
+                    "jpName": "我知家",
+                    "name": "我知家"
+                },
+                {
+                    "jpName": "動物",
+                    "name": "动物"
+                },
+                {
+                    "jpName": "食べ物",
+                    "name": "食物"
+                },
+                {
+                    "jpName": "バミュ4",
+                    "name": "百慕达4"
+                },
+                {
+                    "jpName": "ロボコの敵",
+                    "name": "机器子之敌"
+                }
             ]
         },
         {
@@ -357,7 +510,10 @@
             ],
             "serialNo": "MHA",
             "attributes": [
-             
+                {
+                    "jpName": "死穢八斎會",
+                    "name": "死秽八斋会"
+                }
             ]
         },
         {
@@ -392,7 +548,26 @@
             ],
             "serialNo": "GNT",
             "attributes": [
-               
+                {
+                    "jpName": "万事屋",
+                    "name": "万事屋"
+                },
+                {
+                    "jpName": "真選組",
+                    "name": "真选组"
+                },
+                {
+                    "jpName": "宇宙海賊春雨",
+                    "name": "宇宙海贼春雨"
+                },
+                {
+                    "jpName": "鬼兵隊",
+                    "name": "鬼兵队"
+                },
+                {
+                    "jpName": "松下村塾",
+                    "name": "松下村塾"
+                }
             ]
         },
         {
@@ -427,7 +602,10 @@
             ],
             "serialNo": "BLK",
             "attributes": [
-                
+                {
+                    "jpName": "チームZ",
+                    "name": "Team Z"
+                }
             ]
         },
         {
@@ -462,7 +640,14 @@
             ],
             "serialNo": "TKN",
             "attributes": [
-                
+                {
+                    "jpName": "三島財閥",
+                    "name": "三岛财阀"
+                },
+                {
+                    "jpName": "G社",
+                    "name": "G社"
+                }
             ]
         },
         {
@@ -497,7 +682,10 @@
             ],
             "serialNo": "SYN",
             "attributes": [
-               
+                {
+                    "jpName": "メイガス",
+                    "name": "驭机超算"
+                }
             ]
         }
     ]
