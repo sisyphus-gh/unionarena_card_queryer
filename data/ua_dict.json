@@ -114,11 +114,11 @@
         },
         {
             "serialNo": "UA13BT",
-            "packName": "tie quan7 UA13BT"
+            "packName": "铁拳7 UA13BT"
         },
         {
             "serialNo": "UA13ST",
-            "packName": "tie quan7 UA13ST"
+            "packName": "铁拳7 UA13ST"
         },
         {
             "serialNo": "UA14BT",
@@ -586,7 +586,7 @@
                 },
                 {
                     "jpName": "零番隊",
-                    "name": "零fan队"
+                    "name": "零番队"
                 }
             ]
         },
@@ -794,11 +794,11 @@
             "cardPacks": [
                 {
                     "serialNo": "UA13BT",
-                    "packName": "tie quan7 UA13BT"
+                    "packName": "铁拳7 UA13BT"
                 },
                 {
                     "serialNo": "UA13ST",
-                    "packName": "tie quan7 UA13ST"
+                    "packName": "铁拳7 UA13ST"
                 },
                 {
                     "serialNo": "UAPR",
@@ -806,10 +806,10 @@
                 },
                 {
                     "serialNo": "UAPR",
-                    "packName": "tie quan7 UAPR"
+                    "packName": "铁拳7 UAPR"
                 }
             ],
-            "ipName": "tie quan7",
+            "ipName": "铁拳7",
             "colors": [
                 {
                     "jpName": "黄",
@@ -874,7 +874,7 @@
             "attributes": [
                 {
                     "jpName": "メイガス",
-                    "name": "贤士"
+                    "name": "驭机超算"
                 }
             ]
         }
@@ -1088,7 +1088,7 @@
         },
         {
             "jpName": "零番隊",
-            "name": "零fan队"
+            "name": "零番队"
         },
         {
             "jpName": "レイザー攻略組",
@@ -1096,7 +1096,7 @@
         },
         {
             "jpName": "メイガス",
-            "name": "贤士"
+            "name": "驭机超算"
         },
         {
             "jpName": "三島財閥",
