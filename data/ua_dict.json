@@ -414,18 +414,7 @@
             ],
             "serialNo": "BLC",
             "attributes": [
-                {
-                    "jpName": "護廷十三隊",
-                    "name": "护廷十三队"
-                },
-                {
-                    "jpName": "星十字騎士団",
-                    "name": "星十字骑士团"
-                },
-                {
-                    "jpName": "零番隊",
-                    "name": "零番队"
-                }
+             
             ]
         },
         {
@@ -611,7 +600,42 @@
                     "name": "Team Z"
                 }
             ]
-        } ,
+        },
+        {
+            "cardPacks": [
+                {
+                    "serialNo": "UA13BT",
+                    "packName": "铁拳7 UA13BT"
+                },
+                {
+                    "serialNo": "UA13ST",
+                    "packName": "铁拳7 UA13ST"
+                },
+                {
+                    "serialNo": "UAPR",
+                    "packName": "PR"
+                }
+            ],
+            "ipName": "铁拳7",
+            "colors": [
+                {
+                    "jpName": "黄",
+                    "name": "黄"
+                },
+                {
+                    "jpName": "青",
+                    "name": "蓝"
+                },
+                {
+                    "jpName": "赤",
+                    "name": "红"
+                }
+            ],
+            "serialNo": "TKN",
+            "attributes": [
+                
+            ]
+        },
         {
             "cardPacks": [
                 {
